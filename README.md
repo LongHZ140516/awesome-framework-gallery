@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🖼️ awesome-framework-gallery
 In an article, a project homepage or a github repository, a good-looking framework diagram often attracts more people to pay attention to the project work. But in scientific research, we often worry about how to make a good-looking framework diagram, so we always check other people's paper framework diagrams for reference and learning. But it is undeniable that although framework diagrams are not in the same field, there are often things worth learning from, such as color matching, process representation, etc.
 When I was drawing pictures for the paper with my classmates at the beginning of the year, I tried to find out if anyone had sorted out good-looking framework diagrams, so that I could refer to and learn how to make good-looking pictures, but it seemed that I didn't find any. Inspired by this incident, I wondered if I could set up a github repository to store good-looking framework diagrams🤔? So there was this repository.
@@ -1053,5 +1054,3 @@ Neural Radiance Fields (NeRF) have demonstrated impressive potential in synthesi
 [📄 Paper](https://arxiv.org/pdf/2312.09095) | [💻 Code](https://github.com/eezkni/ColNeRF) 
 
 ![ColNeRF](images/NeRF/ColNeRF.jpg)
-
-
