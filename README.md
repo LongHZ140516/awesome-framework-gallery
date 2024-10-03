@@ -33,7 +33,6 @@
 <summary><b>LLM content</b></summary>
 
 ### 1. MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI
-
 **Authors:** Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, Botao Yu, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen
 <details span>
 <summary><b>Abstract</b></summary>
@@ -287,8 +286,7 @@ Diffusion models (DMs) have exhibited superior performance in generating high-qu
 <summary><b>Abstract</b></summary>
 We present AutoDIR, an innovative all-in-one image restoration system incorporating latent diffusion. AutoDIR excels in its ability to automatically identify and restore images suffering from a range of unknown degradations. AutoDIR offers intuitive open-vocabulary image editing, empowering users to customize and enhance images according to their preferences. Specifically, AutoDIR consists of two key stages: a Blind Image Quality Assessment (BIQA) stage based on a semantic-agnostic vision-language model which automatically detects unknown image degradations for input images, an All-in-One Image Restoration (AIR) stage utilizes structural-corrected latent diffusion which handles multiple types of image degradations. Extensive experimental evaluation demonstrates that AutoDIR outperforms state-of-the-art approaches for a wider range of image restoration tasks. The design of AutoDIR also enables flexible user control (via text prompt) and generalization to new tasks as a foundation model of image restoration.
 </details>
-
-[📄 Paper](https://arxiv.org/abs/2310.10123) | [🌐 Project Page](https://atedm.github.io/) | [💻 Code](https://github.com/jiangyitong/AutoDIR)
+[📄 Paper](https://arxiv.org/abs/2310.10123) | [🌐 Project Page](https://atedm.github.io/) | [💻 Code](https://github.com/jiangyitong/AutoDIR) 
 
 ![AutoDIR](images/Diffusion/AutoDIR.jpg)
 
@@ -428,8 +426,7 @@ This paper presents a novel approach to multi-view graph learning that combines 
 <summary><b>Abstract</b></summary>
 Generative models, e.g., Stable Diffusion, have enabled the creation of photorealistic images from text prompts. Yet, the generation of 360-degree panorama images from text remains a challenge, particularly due to the dearth of paired text-panorama data and the domain gap between panorama and perspective images. In this paper, we introduce a novel dual-branch diffusion model named PanFusion to generate a 360-degree image from a text prompt. We leverage the stable diffusion model as one branch to provide prior knowledge in natural image generation and register it to another panorama branch for holistic image generation. We propose a unique cross-attention mechanism with projection awareness to minimize distortion during the collaborative denoising process. Our experiments validate that PanFusion surpasses existing methods and, thanks to its dual-branch structure, can integrate additional constraints like room layout for customized panorama outputs.
 </details>
-
-[📄 Paper](https://arxiv.org/abs/2404.07949) | [🌐 Project Page](https://chengzhag.github.io/publication/panfusion/) | [💻 Code](https://github.com/chengzhag/PanFusion)
+[📄 Paper](https://arxiv.org/abs/2404.07949) | [🌐 Project Page](https://chengzhag.github.io/publication/panfusion/) | [💻 Code](https://github.com/chengzhag/PanFusion) 
 
 ![PanFusion](images/Diffusion/PanFusion_CVPR_2024.png)
 
@@ -497,8 +494,7 @@ Infrared small-dim target detection (ISDTD) plays a pivotal role in missions inv
 <summary><b>Abstract</b></summary>
 We have recently seen tremendous progress in diffusion advances for generating realistic human motions. Yet, they largely disregard the multi-human interactions. In this paper, we present InterGen, an effective diffusion-based approach that incorporates human-to-human interactions into the motion diffusion process, which enables layman users to customize high-quality two-person interaction motions, with only text guidance. We first contribute a multimodal dataset, named InterHuman. It consists of about 107M frames for diverse two-person interactions, with accurate skeletal motions and 23,337 natural language descriptions. For the algorithm side, we carefully tailor the motion diffusion model to our two-person interaction setting. To handle the symmetry of human identities during interactions, we propose two cooperative transformer-based denoisers that explicitly share weights, with a mutual attention mechanism to further connect the two denoising processes. Then, we propose a novel representation for motion input in our interaction diffusion model, which explicitly formulates the global relations between the two performers in the world frame. We further introduce two novel regularization terms to encode spatial relations, equipped with a corresponding damping scheme during the training of our interaction diffusion model. Extensive experiments validate the effectiveness and generalizability of InterGen. Notably, it can generate more diverse and compelling two-person motions than previous methods and enables various downstream applications for human interactions.
 </details>
-
-[📄 Paper](https://arxiv.org/abs/2304.05684) | [🌐 Project Page](https://tr3e.github.io/intergen-page/) | [💻 Code](https://github.com/tr3e/InterGen)
+[📄 Paper](https://arxiv.org/abs/2304.05684) | [🌐 Project Page](https://tr3e.github.io/intergen-page/) | [💻 Code](https://github.com/tr3e/InterGen) 
 
 ![InterGen](images/Diffusion/InterGen_IJCV_2024.png)
 
@@ -539,8 +535,7 @@ Recent approaches such as ControlNet offer users fine-grained spatial control ov
 <summary><b>Abstract</b></summary>
 Generative artificial intelligence (GAI) has emerged as a rapidly burgeoning field demonstrating significant potential in creating diverse content intelligently and automatically. To support such artificial intelligence-generated content (AIGC) services, future communication systems must fulfill stringent requirements, including high data rates, throughput, and low latency, while efficiently utilizing limited spectrum resources. Semantic communication (SemCom) has been deemed as a revolutionary communication scheme to tackle this challenge by conveying the meaning of messages instead of bit reproduction. GAI algorithms serve as the foundation for enabling intelligent and efficient SemCom systems in terms of model pre-training and fine-tuning, knowledge base construction, and resource allocation. Conversely, SemCom can provide AIGC services with low latency and high reliability due to its ability to perform semantic-aware encoding and compression of data, as well as knowledge-and context-based reasoning. In this survey, we break new ground by investigating the architecture, wireless communication schemes, and network management of GAI-driven SemCom networks. We first introduce a novel architecture for GAI-driven SemCom networks, comprising the data plane, physical infrastructure, and network control plane. In turn, we provide an in-depth analysis of the transceiver design and semantic effectiveness calculation of end-to-end GAI-driven SemCom systems. Subsequently, we present innovative generation level and knowledge management strategies in the proposed networks, including knowledge construction, update, and sharing, ensuring accurate and timely knowledge-based reasoning. Finally, we explore several promising use cases, i.e., autonomous driving, smart cities, and the Metaverse, to provide a comprehensive understanding and future direction of GAI-driven SemCom networks.
 </details>
-
-[📄 Paper](https://arxiv.org/abs/2401.00124)
+[📄 Paper](https://arxiv.org/abs/2401.00124) 
 
 ![GAI-driven](images/Diffusion/GAI-driven_TCCN2024.png)
 
@@ -1006,7 +1001,7 @@ Additionally, TIP-Editor utilizes explicit and flexible 3D Gaussian splatting
 (GS) as the 3D representation to facilitate local editing while keeping the
 background unchanged. Extensive experiments have demonstrated that TIPEditor conducts accurate editing following the text and image prompts in
 the specified bounding box region, consistently outperforming the baselines in editing quality, and the alignment to the prompts, qualitatively and
-quantitatively.
+quantitatively. 
 </details>
 
 [📄 Paper](https://arxiv.org/pdf/2401.14828) | [🌐 Project Page](https://zjy526223908.github.io/TIP-Editor/)
@@ -1048,7 +1043,6 @@ We have recently seen tremendous progress in photo-real human modeling and rende
 <summary><b>NeRF content</b></summary>
 
 ### 1. [TPAMI' 24]PERF: Panoramic Neural Radiance Field from a Single Panorama
-
 **Authors:** Guangcong Wang, Peng Wang, Zhaoxi Chen, Wenping Wang, Chen Change Loy, Ziwei Liu
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1104,7 +1098,6 @@ upon acceptance.
 ![G-NeLF](images/NeRF/G-NeLF.jpg)
 
 ### 3. GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding
-
 **Authors:** Hao Li, Dingwen Zhang, Yalun Dai, Nian Liu, Lechao Cheng, Jingfeng Li, Jingdong Wang, Junwei Han
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1164,7 +1157,6 @@ Creating high-quality 3D models of clothed humans from single images for real-wo
 ![SIFU](images/NeRF/SIFU.jpg)
 
 ### 8. ColNeRF: Collaboration for Generalizable Sparse Input Neural Radiance Field
-
 **Authors:** Zhangkai Ni, Peiqi Yang, Wenhan Yang, Hanli Wang, Lin Ma, Sam Kwong
 <details span>
 <summary><b>Abstract</b></summary>
