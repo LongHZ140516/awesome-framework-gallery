@@ -8,11 +8,11 @@
 🚀🚀🚀 This repository will be continuously updated🔥, and more images from various fields will be collected📦.
 
 ## 📢 Latest Updates
-- **Nov-30-2024**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ <img style="height: 15px;" src="images/icon/NeRF.png"> NeRF/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ 📑 Others** framework images (number:*50*) & Add **🔨 Tools** module to help better designing.
+- **Dec-01-2024**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ <img style="height: 15px;" src="images/icon/NeRF.png"> NeRF/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ 📑 Others** framework images (number:*50*) & Add **🔨 Tools** module to help better designing.
 - **Oct-03-2024**: Add 🛰️ **Remote Sensing** framework images (number:*20*)
 - **Sep-23-2024**: 🎉 ${\color{red} First\ gallery\ update!}$ Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ <img style="height: 15px;" src="images/icon/NeRF.png"> NeRF** framework images (number:*73*)
 
-## Please share a $\color{orange} STAR ⭐$ if this project does help
+## Please share a $\color{orange} STAR$ ⭐ if this project does help
 
 ## 📄 Table of contents
 - 🔨 [Tools](#tools)
