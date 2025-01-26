@@ -8,6 +8,7 @@
 🚀🚀🚀 This repository will be continuously updated🔥, and more images from various fields will be collected📦.
 
 ## 📢 Latest Updates
+- **Jan-25-2025**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ <img style="height: 15px;" src="images/icon/Agent.png"> Agent/ 📑 Others** framework images (number:*38*)
 - **Dec-01-2024**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ <img style="height: 15px;" src="images/icon/NeRF.png"> NeRF/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ 📑 Others** framework images (number:*50*) & Add **🔨 Tools** module to help better designing.
 - **Oct-03-2024**: Add 🛰️ **Remote Sensing** framework images (number:*20*)
 - **Sep-23-2024**: 🎉 ${\color{red} First\ gallery\ update!}$ Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ <img style="height: 15px;" src="images/icon/NeRF.png"> NeRF** framework images (number:*73*)
@@ -272,7 +273,7 @@ The rapid advancement of deepfake technologies has sparked widespread public con
 
 [📄 Paper](https://arxiv.org/pdf/2408.10072) | [🌐 Project Page](https://ffaa-vl.github.io/) | [💻 Code](https://github.com/thu-huangzc/FFAA)
 
-![FFAA](/images/LLM/FFAA.jpg)
+![FFAA](images/LLM/FFAA.jpg)
 
 ### 19. Personalized Visual Instruction Tuning
 **Authors:** Renjie Pi, Jianshu Zhang, Tianyang Han, Jipeng Zhang, Rui Pan, Tong Zhang
@@ -284,7 +285,7 @@ Recent advancements in multimodal large language models (MLLMs) have demonstrate
 
 [📄 Paper](https://arxiv.org/pdf/2410.07113)
 
-![PVIT](/images/LLM/PVIT.jpg)
+![PVIT](images/LLM/PVIT.jpg)
 
 ### 20. Multimodal Situational Safety
 **Authors:** Kaiwen Zhou, Chengzhi Liu, Xuandong Zhao, Anderson Compalas, Dawn Song, Xin Eric Wang
@@ -296,7 +297,7 @@ Multimodal Large Language Models (MLLMs) are rapidly evolving, demonstrating imp
 
 [📄 Paper](https://arxiv.org/pdf/2410.06172) | [🌐 Project Page](https://mssbench.github.io/) | [💻 Code](https://github.com/eric-ai-lab/MSSBench)
 
-![MSSBench](/images/LLM/MSSBench.jpg)
+![MSSBench](images/LLM/MSSBench.jpg)
 
 ### 21. Baichuan-Omni Technical Report
 **Authors:** Yadong Li, Haoze Sun, Mingan Lin, Tianpeng Li, Guosheng Dong, Tao Zhang, Bowen Ding, Wei Song, Zhenglin Cheng, Yuqi Huo, Song Chen, Xu Li, Da Pan, Shusen Zhang, Xin Wu, Zheng Liang, Jun Liu, Tao Zhang, Keer Lu, Yaqi Zhao, Yanjun Shen, Fan Yang, Kaicheng Yu, Tao Lin, Jianhua Xu, Zenan Zhou, Weipeng Chen
@@ -308,7 +309,7 @@ The salient multimodal capabilities and interactive experience of GPT-4o highlig
 
 [📄 Paper](https://arxiv.org/pdf/2410.08565) | [💻 Code](https://github.com/westlake-baichuan-mllm/bc-omni)
 
-![Baichuan-Omni](/images/LLM/BaiChuan-Omni.jpg)
+![Baichuan-Omni](images/LLM/BaiChuan-Omni.jpg)
 
 ### 22. VITRON: A Unified Pixel-level Vision LLM for Understanding, Generating, Segmenting, Editing
 **Authors:** Hao Fei, Shengqiong Wu, Hanwang Zhang, Tat-Seng Chua, Shuicheng Yan
@@ -334,9 +335,9 @@ developing a more unified multimodal generalist.
 
 [📄 Paper](https://haofei.vip/downloads/papers/Skywork_Vitron_2024.pdf) | [🌐 Project Page](https://vitron-llm.github.io/) | [💻 Code](https://github.com/SkyworkAI/Vitron?tab=readme-ov-file)
 
-![VITRON-task](/images/LLM/NeurlPS24_VITRON_task.jpg)
+![VITRON-task](images/LLM/NeurlPS24_VITRON_task.jpg)
 
-![VITRON](/images/LLM/NeurlPS24_VITRON.jpg)
+![VITRON](images/LLM/NeurlPS24_VITRON.jpg)
 
 ### 23. TeamLoRA: Boosting Low-Rank Adaptation with Expert Collaboration and Competition
 **Authors:** Tianwei Lin, Jiang Liu, Wenqiao Zhang, Zhaocheng Li, Yang Dai, Haoyuan Li, Zhelun Yu, Wanggui He, Juncheng Li, Hao Jiang, Siliang Tang, Yueting Zhuang
@@ -348,7 +349,7 @@ While Parameter-Efficient Fine-Tuning (PEFT) methods like LoRA have effectively 
 
 [📄 Paper](https://arxiv.org/pdf/2408.09856) | [💻 Code](https://github.com/Lin-Tianwei/TeamLoRA)
 
-![TeamLoRA](/images/LLM/TeamLoRA.jpg)
+![TeamLoRA](images/LLM/TeamLoRA.jpg)
 
 ### 24. DPLM-2: A Multimodal Diffusion Protein Language Model
 **Authors:** Xinyou Wang, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, Quanquan Gu
@@ -360,7 +361,7 @@ Proteins are essential macromolecules defined by their amino acid sequences, whi
 
 [📄 Paper](https://arxiv.org/pdf/2410.13782)
 
-![DPLM-2](/images/LLM/DPLM-2.jpg)
+![DPLM-2](images/LLM/DPLM-2.jpg)
 
 
 ### 25. [CVPR' 24] LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning
@@ -375,6 +376,34 @@ Recent advances in Large Multimodal Models (LMM) have made it possible for vario
 ![LL3DA](images/LLM/CVPR2024_LL3DA.jpg)
 
 </details>
+
+
+### 26. UrbanGPT: Spatio-Temporal Large Language Models
+
+**Authors:** Zhonghang Li, Lianghao Xia, Jiabin Tang, Yong Xu, Lei Shi, Long Xia, Dawei Yin, Chao Huang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Spatio-temporal prediction aims to forecast and gain insights into the ever-changing dynamics of urban environments across both time and space. Its purpose is to anticipate future patterns, trends, and events in diverse facets of urban life, including transportation, population movement, and crime rates. Although numerous efforts have been dedicated to developing neural network techniques for accurate predictions on spatio-temporal data, it is important to note that many of these methods heavily depend on having sufficient labeled data to generate precise spatio-temporal representations. Unfortunately, the issue of data scarcity is pervasive in practical urban sensing scenarios. Consequently, it becomes necessary to build a spatio-temporal model with strong generalization capabilities across diverse spatio-temporal learning scenarios. Taking inspiration from the remarkable achievements of large language models (LLMs), our objective is to create a spatio-temporal LLM that can exhibit exceptional generalization capabilities across a wide range of downstream urban tasks. To achieve this objective, we present the UrbanGPT, which seamlessly integrates a spatio-temporal dependency encoder with the instruction-tuning paradigm. This integration enables LLMs to comprehend the complex inter-dependencies across time and space, facilitating more comprehensive and accurate predictions under data scarcity. To validate the effectiveness of our approach, we conduct extensive experiments on various public datasets, covering different spatio-temporal prediction tasks. The results consistently demonstrate that our UrbanGPT, with its carefully designed architecture, consistently outperforms state-of-the-art baselines. These findings highlight the potential of building large language models for spatio-temporal learning, particularly in zero-shot scenarios where labeled data is scarce.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2403.00813) | [🌐 Project Page](https://urban-gpt.github.io/) | [💻 Code](https://github.com/HKUDS/UrbanGPT?tab=readme-ov-file)
+
+![UrbanGPT](images/LLM/UrbanGPT.jpg)
+
+### 27. SOLAMI: Social Vision-Language-Action Modeling for Immersive Interaction with 3D Autonomous Characters
+
+**Authors:** Jianping Jiang, Weiye Xiao, Zhengyu Lin, Huaizhong Zhang, Tianxiang Ren, Yang Gao, Zhiqian Lin, Zhongang Cai, Lei Yang, Ziwei Liu
+
+<details span>
+<summary><b>Abstract</b></summary>
+Human beings are social animals. How to equip 3D autonomous characters with similar social intelligence that can perceive, understand and interact with humans remains an open yet foundamental problem. In this paper, we introduce SOLAMI, the first end-to-end Social vision-Language-Action (VLA) Modeling framework for Immersive interaction with 3D autonomous characters. Specifically, SOLAMI builds 3D autonomous characters from three aspects: (1) Social VLA Architecture: We propose a unified social VLA framework to generate multimodal response (speech and motion) based on the user's multimodal input to drive the character for social interaction. (2) Interactive Multimodal Data: We present SynMSI, a synthetic multimodal social interaction dataset generated by an automatic pipeline using only existing motion datasets to address the issue of data scarcity. (3) Immersive VR Interface: We develop a VR interface that enables users to immersively interact with these characters driven by various architectures. Extensive quantitative experiments and user studies demonstrate that our framework leads to more precise and natural character responses (in both speech and motion) that align with user expectations with lower latency.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.00174) | [🌐 Project Page](https://solami-ai.github.io/)
+
+![SOLAMI-flag](images/LLM/SOLAMI_flag.jpg)
+![SOLAMI-pipeline](images/LLM/SOLAMI_pipeline.jpg)
 
 
 ## Diffusion
@@ -716,7 +745,7 @@ In the field of digital content creation, generating high-quality 3D characters 
 
 [📄 Paper](https://arxiv.org/pdf/2402.17214) | [🌐 Project Page](https://charactergen.github.io/) | [💻 Code](https://github.com/zjp-shadow/CharacterGen?tab=readme-ov-file)
 
-![CharacterGen](/images/Diffusion/Siggraph24_CharacterGen.jpg)
+![CharacterGen](images/Diffusion/Siggraph24_CharacterGen.jpg)
 
 ### 26. Face Adapter for Pre-Trained Diffusion Models with Fine-Grained ID and Attribute Control
 **Authors:** Yue Han, Junwei Zhu, Keke He, Xu Chen, Yanhao Ge, Wei Li, Xiangtai Li, Jiangning Zhang, Chengjie Wang, Yong Liu
@@ -728,7 +757,7 @@ Current face reenactment and swapping methods mainly rely on GAN frameworks, but
 
 [📄 Paper](https://arxiv.org/pdf/2405.12970) | [🌐 Project Page](https://faceadapter.github.io/face-adapter.github.io/) | [💻 Code](https://github.com/FaceAdapter/Face-Adapter?tab=readme-ov-file)
 
-![VITRON-task](/images/Diffusion/FaceAdapter.jpg)
+![VITRON-task](images/Diffusion/FaceAdapter.jpg)
 
 ### 27. [CVPR' 24 HighLight] XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies
 **Authors:** Xuanchi Ren, Jiahui Huang, Xiaohui Zeng, Ken Museth, Sanja Fidler, Francis Williams
@@ -740,7 +769,7 @@ We present XCube (abbreviated as X^3), a novel generative model for high-resolut
 
 [📄 Paper](https://arxiv.org/pdf/2312.03806) | [🌐 Project Page](https://research.nvidia.com/labs/toronto-ai/xcube/) | [💻 Code](https://github.com/nv-tlabs/XCube)
 
-![XCube](/images/Diffusion/XCube.jpg)
+![XCube](images/Diffusion/XCube.jpg)
 
 ### 28. DynamicCity: Large-Scale LiDAR Generation from Dynamic Scenes
 **Authors:** Hengwei Bian, Lingdong Kong, Haozhe Xie, Liang Pan, Yu Qiao, Ziwei Liu
@@ -752,9 +781,9 @@ LiDAR scene generation has been developing rapidly recently. However, existing m
 
 [📄 Paper](https://arxiv.org/pdf/2410.18084) | [🌐 Project Page](https://dynamic-city.github.io)
 
-![DynamicCity-cover](/images/Diffusion/DynamicCity_cover.jpg)
+![DynamicCity-cover](images/Diffusion/DynamicCity_cover.jpg)
 
-![DynamicCity](/images/Diffusion/DynamicCity.jpg)
+![DynamicCity](images/Diffusion/DynamicCity.jpg)
 
 ### 29. MVPaint: Synchronized Multi-View Diffusion for Painting Anything 3D
 
@@ -794,6 +823,58 @@ We present MoGe, a powerful model for recovering 3D geometry from monocular open
 ![MoGe](images/Diffusion/MoGe.jpg)
 
 </details>
+
+### 32. LeviTor: 3D Trajectory Oriented Image-to-Video Synthesis
+
+**Authors:** Hanlin Wang, Hao Ouyang, Qiuyu Wang, Wen Wang, Ka Leong Cheng, Qifeng Chen, Yujun Shen, Limin Wang
+
+<details span>
+<summary><b>Abstract</b></summary>
+The intuitive nature of drag-based interaction has led to its growing adoption for controlling object trajectories in image-to-video synthesis. Still, existing methods that perform dragging in the 2D space usually face ambiguity when handling out-of-plane movements. In this work, we augment the interaction with a new dimension, i.e., the depth dimension, such that users are allowed to assign a relative depth for each point on the trajectory. That way, our new interaction paradigm not only inherits the convenience from 2D dragging, but facilitates trajectory control in the 3D space, broadening the scope of creativity. We propose a pioneering method for 3D trajectory control in image-to-video synthesis by abstracting object masks into a few cluster points. These points, accompanied by the depth information and the instance information, are finally fed into a video diffusion model as the control signal. Extensive experiments validate the effectiveness of our approach, dubbed LeviTor, in precisely manipulating the object movements when producing photo-realistic videos from static images. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.15214) | [🌐 Project Page](https://ppetrichor.github.io/levitor.github.io/) | [💻 Code](https://github.com/qiuyu96/LeviTor)
+
+![LeviTor](images/Diffusion/LeviTor.png)
+
+### 33. IDArb: Intrinsic Decomposition for Arbitrary Number of Input Views and Illuminations
+
+**Authors:** Zhibing Li, Tong Wu, Jing Tan, Mengchen Zhang, Jiaqi Wang, Dahua Lin
+
+<details span>
+<summary><b>Abstract</b></summary>
+Capturing geometric and material information from images remains a fundamental challenge in computer vision and graphics. Traditional optimization-based methods often require hours of computational time to reconstruct geometry, material properties, and environmental lighting from dense multi-view inputs, while still struggling with inherent ambiguities between lighting and material. On the other hand, learning-based approaches leverage rich material priors from existing 3D object datasets but face challenges with maintaining multi-view consistency. In this paper, we introduce IDArb, a diffusion-based model designed to perform intrinsic decomposition on an arbitrary number of images under varying illuminations. Our method achieves accurate and multi-view consistent estimation on surface normals and material properties. This is made possible through a novel cross-view, cross-domain attention module and an illumination-augmented, view-adaptive training strategy. Additionally, we introduce ARB-Objaverse, a new dataset that provides large-scale multi-view intrinsic data and renderings under diverse lighting conditions, supporting robust training. Extensive experiments demonstrate that IDArb outperforms state-of-the-art methods both qualitatively and quantitatively. Moreover, our approach facilitates a range of downstream tasks, including single-image relighting, photometric stereo, and 3D reconstruction, highlighting its broad applications in realistic 3D content creation.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.12083) | [🌐 Project Page](https://lizb6626.github.io/IDArb/) | [💻 Code](https://github.com/Lizb6626/IDArb)
+
+![IDArb](images/Diffusion/IDARB.jpg)
+
+### 34. CityDreamer4D: Compositional Generative Model of Unbounded 4D Cities
+
+**Authors:** Haozhe Xie, Zhaoxi Chen, Fangzhou Hong, Ziwei Liu
+
+<details span>
+<summary><b>Abstract</b></summary>
+3D scene generation has garnered growing attention in recent years and has made significant progress. Generating 4D cities is more challenging than 3D scenes due to the presence of structurally complex, visually diverse objects like buildings and vehicles, and heightened human sensitivity to distortions in urban environments. To tackle these issues, we propose CityDreamer4D, a compositional generative model specifically tailored for generating unbounded 4D cities. Our main insights are 1) 4D city generation should separate dynamic objects (e.g., vehicles) from static scenes (e.g., buildings and roads), and 2) all objects in the 4D scene should be composed of different types of neural fields for buildings, vehicles, and background stuff. Specifically, we propose Traffic Scenario Generator and Unbounded Layout Generator to produce dynamic traffic scenarios and static city layouts using a highly compact BEV representation. Objects in 4D cities are generated by combining stuff-oriented and instance-oriented neural fields for background stuff, buildings, and vehicles. To suit the distinct characteristics of background stuff and instances, the neural fields employ customized generative hash grids and periodic positional embeddings as scene parameterizations. Furthermore, we offer a comprehensive suite of datasets for city generation, including OSM, GoogleEarth, and CityTopia. The OSM dataset provides a variety of real-world city layouts, while the Google Earth and CityTopia datasets deliver large-scale, high-quality city imagery complete with 3D instance annotations. Leveraging its compositional design, CityDreamer4D supports a range of downstream applications, such as instance editing, city stylization, and urban simulation, while delivering state-of-the-art performance in generating realistic 4D cities.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.08983) | [🌐 Project Page](https://www.infinitescript.com/project/city-dreamer-4d) | [💻 Code](https://github.com/hzxie/CityDreamer4D/)
+
+![CityDreamer4D](images/Diffusion/CityDreamer4D.jpg)
+
+### 35. [NeurIPS' 24] EEG2Video: Towards Decoding Dynamic Visual Perception from EEG Signals
+
+**Authors:** Xuan-Hao Liu, Yan-Kai Liu, Yansen Wang, Kan Ren, Hanwen Shi, Zilong Wang, Dongsheng Li, Bao-Liang Lu, Wei-Long Zheng
+
+<details span>
+<summary><b>Abstract</b></summary>
+Our visual experience in daily life are dominated by dynamic change. Decoding such dynamic information from brain activity can enhance the understanding of the brain’s visual processing system. However, previous studies predominately focus on reconstructing static visual stimuli. In this paper, we explore to decode dynamic visual perception from electroencephalography (EEG), a neuroimaging technique able to record brain activity with high temporal resolution (1000 Hz) for capturing rapid changes in brains. Our contributions are threefold: Firstly, we develop a large dataset recording signals from 20 subjects while they were watching 1400 dynamic video clips of 40 concepts. This dataset fills the gap in the lack of EEG-video pairs. Secondly, we annotate each video clips to investigate the potential for decoding some specific meta information (e.g., color, dynamic, human or not) from EEG. Thirdly, we propose a novel baseline EEG2Video for video reconstruction from EEG signals that better aligns dynamic movements with high temporal resolution brain signals by Seq2Seq architecture. EEG2Video achieves a 2-way accuracy of 79.8% in semantic classification tasks and 0.256 in structural similarity index (SSIM). Overall, our works takes an important step towards decoding dynamic visual perception from EEG signals. Our dataset and code will be released soon.
+</details>
+
+[📄 Paper](https://nips.cc/virtual/2024/poster/95156) | [🌐 Project Page](https://bcmi.sjtu.edu.cn/home/eeg2video/) | [💻 Code](https://github.com/XuanhaoLiu/EEG2Video)
+
+![EEG2Video](images/Diffusion/EEG2Video.jpg)
 
 
 ## 3DGS
@@ -1277,9 +1358,62 @@ We propose TextToon, a method to generate a drivable toonified avatar. Given a s
 
 [📄 Paper](https://arxiv.org/pdf/2410.07160) | [🌐 Project Page](https://songluchuan.github.io/TextToon/)
 
-![TextToon](/images/3DGS/SiggraphAsia2024_TextToon.jpg)
+![TextToon](images/3DGS/SiggraphAsia2024_TextToon.jpg)
 
 </details>
+
+
+### 32. CoSurfGS:Collaborative 3D Surface Gaussian Splatting with Distributed Learning for Large Scene Reconstruction
+
+**Authors:** Yuanyuan Gao, Yalun Dai, Hao Li, Weicai Ye, Junyi Chen, Danpeng Chen, Dingwen Zhang, Tong He, Guofeng Zhang, Junwei Han
+
+<details span>
+<summary><b>Abstract</b></summary>
+3D Gaussian Splatting (3DGS) has demonstrated impressive performance in scene reconstruction. However, most existing GS-based surface reconstruction methods focus on 3D objects or limited scenes. Directly applying these methods to large-scale scene reconstruction will pose challenges such as high memory costs, excessive time consumption, and lack of geometric detail, which makes it difficult to implement in practical applications. To address these issues, we propose a multi-agent collaborative fast 3DGS surface reconstruction framework based on distributed learning for large-scale surface reconstruction. Specifically, we develop local model compression (LMC) and model aggregation schemes (MAS) to achieve high-quality surface representation of large scenes while reducing GPU memory consumption. Extensive experiments on Urban3d, MegaNeRF, and BlendedMVS demonstrate that our proposed method can achieve fast and scalable high-fidelity surface reconstruction and photorealistic rendering.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.17612) | [🌐 Project Page](https://gyy456.github.io/CoSurfGS/) | [💻 Code](https://github.com/zju3dv/CoSurfGS)
+
+![CoSurfGS](images/3DGS/CoSurfGS.jpg)
+
+### 33. VINGS-Mono: Visual-Inertial Gaussian Splatting Monocular SLAM in Large Scenes
+
+**Authors:** Ke Wu, Zicheng Zhang, Muer Tie, Ziqing Ai, Zhongxue Gan, Wenchao Ding
+
+<details span>
+<summary><b>Abstract</b></summary>
+VINGS-Mono is a monocular (inertial) Gaussian Splatting (GS) SLAM framework designed for large scenes. The framework comprises four main components: VIO Front End, 2D Gaussian Map, NVS Loop Closure, and Dynamic Eraser. In the VIO Front End, RGB frames are processed through dense bundle adjustment and uncertainty estimation to extract scene geometry and poses. Based on this output, the mapping module incrementally constructs and maintains a 2D Gaussian map. Key components of the 2D Gaussian Map include a Sample-based Rasterizer, Score Manager, and Pose Refinement, which collectively improve mapping speed and localization accuracy. This enables the SLAM system to handle large-scale urban environments with up to 50 million Gaussian ellipsoids. To ensure global consistency in large-scale scenes, we design a Loop Closure module, which innovatively leverages the Novel View Synthesis (NVS) capabilities of Gaussian Splatting for loop closure detection and correction of the Gaussian map. Additionally, we propose a Dynamic Eraser to address the inevitable presence of dynamic objects in real-world outdoor scenes. Extensive evaluations in indoor and outdoor environments demonstrate that our approach achieves localization performance on par with Visual-Inertial Odometry while surpassing recent GS/NeRF SLAM methods. It also significantly outperforms all existing methods in terms of mapping and rendering quality. Furthermore, we developed a mobile app and verified that our framework can generate high-quality Gaussian maps in real time using only a smartphone camera and a low-frequency IMU sensor. To the best of our knowledge, VINGS-Mono is the first monocular Gaussian SLAM method capable of operating in outdoor environments and supporting kilometer-scale large scenes.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.08286v1)
+
+![VINGS-Mono](images/3DGS/VINGS-Mono.jpg)
+
+### 34. DGTR: Distributed Gaussian Turbo-Reconstruction for Sparse-View Vast Scenes
+
+**Authors:** Hao Li, Yuanyuan Gao, Haosong Peng, Chenming Wu, Weicai Ye, Yufeng Zhan, Chen Zhao, Dingwen Zhang, Jingdong Wang, Junwei Han
+
+<details span>
+<summary><b>Abstract</b></summary>
+Novel-view synthesis (NVS) approaches play a critical role in vast scene reconstruction. However, these methods rely heavily on dense image inputs and prolonged training times, making them unsuitable where computational resources are limited. Additionally, few-shot methods often struggle with poor reconstruction quality in vast environments. This paper presents DGTR, a novel distributed framework for efficient Gaussian reconstruction for sparse-view vast scenes. Our approach divides the scene into regions, processed independently by drones with sparse image inputs. Using a feed-forward Gaussian model, we predict high-quality Gaussian primitives, followed by a global alignment algorithm to ensure geometric consistency. Synthetic views and depth priors are incorporated to further enhance training, while a distillation-based model aggregation mechanism enables efficient reconstruction. Our method achieves high-quality large-scale scene reconstruction and novel-view synthesis in significantly reduced training times, outperforming existing approaches in both speed and scalability. We demonstrate the effectiveness of our framework on vast aerial scenes, achieving high-quality results within minutes.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2411.12309) | [🌐 Project Page](https://3d-aigc.github.io/DGTR/)
+
+![DGTR](images/3DGS/DGTR.jpg)
+
+### 35. Structured 3D Latents for Scalable and Versatile 3D Generation
+
+**Authors:** Jianfeng Xiang, Zelong Lv, Sicheng Xu, Yu Deng, Ruicheng Wang, Bowen Zhang, Dong Chen, Xin Tong, Jiaolong Yang
+
+<details span>
+<summary><b>Abstract</b></summary>
+We introduce a novel 3D generation method for versatile and high-quality 3D asset creation. The cornerstone is a unified Structured LATent (SLAT) representation which allows decoding to different output formats, such as Radiance Fields, 3D Gaussians, and meshes. This is achieved by integrating a sparsely-populated 3D grid with dense multiview visual features extracted from a powerful vision foundation model, comprehensively capturing both structural (geometry) and textural (appearance) information while maintaining flexibility during decoding. We employ rectified flow transformers tailored for SLAT as our 3D generation models and train models with up to 2 billion parameters on a large 3D asset dataset of 500K diverse objects. Our model generates high-quality results with text or image conditions, significantly surpassing existing methods, including recent ones at similar scales. We showcase flexible output format selection and local 3D editing capabilities which were not offered by previous models. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.01506) | [🌐 Project Page](https://trellis3d.github.io) | [💻 Code](https://github.com/Microsoft/TRELLIS)
+
+![Trellis](images/3DGS/Trellis.jpg)
 
 
 ## NeRF
@@ -1427,7 +1561,7 @@ We develop an effective point cloud rendering pipeline for novel view synthesis,
 
 [📄 Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Frequency-Modulated_Point_Cloud_Rendering_With_Easy_Editing_CVPR_2023_paper.pdf) | [💻 Code](https://github.com/yizhangphd/FreqPCR)
 
-![FreqPCR](/images/NeRF/FreqPCR.jpg)
+![FreqPCR](images/NeRF/FreqPCR.jpg)
 
 ### 11. [CVPR'23] SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field**Authors:** Chong Bao, Yinda Zhang, Bangbang Yang, Tianxing Fan, Zesong Yang, Hujun Bao, Guofeng Zhang, Zhaopeng Cui
 <details span>
@@ -1835,6 +1969,133 @@ The coordination of development efforts and ecological conservation in China's b
 
 ![SustainableDevelopment](images/Remote%20Sensing/Index4Ecological_Security_Assessment.jpg)
 
+### 33. [AFM'25] The role of phenology in crop yield prediction: Comparison of ground-based phenology and remotely sensed phenology
+**Authors:**  Jie Pei, Shaofeng Tan, Yaopeng Zou, Chunhua Liao, Yinan He, Jian Wang, Huabing Huang, Tianxing Wang, Haifeng Tian, Huajun Fang, Li Wang, Jianxi Huang
+<details span>
+<summary><b>Abstract</b></summary>
+Precise and timely crop yield predictions at large scales are crucial for safeguarding global food security. A key factor in accurate yield forecasting is the integration of multi-source environmental data, where the choice of time windows for aggregating these variables plays a pivotal role. Segmenting time windows by phenological stages allows for more precise extraction of environmental variables, capturing the complex interactions between crop development and external factors. However, the effectiveness of this approach in improving yield prediction accuracy, especially when comparing ground-based and remote sensing-derived land surface phenology data, remains largely unexplored. In this study, we investigate how phenology-based time windows affect corn yield predictions, using machine learning algorithms and multi-source environmental data from the U.S. Corn Belt. We systematically analyzed and compared models incorporating either ground-based or land surface phenology. By segmenting the growing season into six crucial stages (BBCH 00-99) and formulating specific yield forecasting models for each stage, we determined the optimal lead times for predictions utilizing both sources of phenological data. Our findings suggested that the incorporation of phenology-derived crop growth windows significantly enhances the accuracy of yield prediction by approximately 10 % compared to the fixed-season method. Ground-based phenology data from the USDA crop progress report slightly outperformed MODIS-based land surface phenology data, achieved the highest accuracy with the XGBoost model (R2 = 0.668, RMSE = 1.09 t/ha, MAE = 0.84 t/ha). Furthermore, this study demonstrated that reliable corn yield predictions could be made as early as the second phenological stage (Emerged-Silking for ground phenology, MidGreenup-Maturity for MODIS phenology). In regions where ground observations are limited or unavailable, land surface phenology emerges as a promising alternative. This study presents a robust framework for precise and extensive crop yield modeling and early prediction, which is crucial for making informed agricultural decisions and ensuring food security.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.agrformet.2024.110340)
+
+![The-role-of-phenology](images/Remote%20Sensing/The_role_of_phenology_in_crop_yield_prediction.jpg)
+
+### 34. [ISPRS'24] A new methodology for establishing an SOC content prediction model that is spatiotemporally transferable at multidecadal and intercontinental scales
+**Authors:**  Xiangtian Meng , Yilin Bao, Chong Luo, Xinle Zhang, Huanjun Liu
+<details span>
+<summary><b>Abstract</b></summary>
+Quantifying and tracking the soil organic carbon (SOC) content is a key step toward long-term terrestrial ecosystem monitoring. Over the past decade, numerous models have been proposed and have achieved promising results for predicting SOC content. However, many of these studies are confined to specific temporal or spatial contexts, neglecting model transferability. Temporal transferability refers to a model’s ability to be applied across different periods, while spatial transferability relates to its applicability across diverse geographic locations for prediction. Therefore, developing a new methodology to establish a prediction model with high spatiotemporal transferability for SOC content is critically important. In this study, two large intercontinental study areas were selected, and measured topsoil (0–20 cm) sample data, 27,059 cloudless Landsat 5/8 images, digital elevation models, and climate data were acquired for 3 periods. Based on these data, monthly average climate data, monthly average data reflecting soil properties, and topography data were calculated as original input (OI) variables. We established an innovative multivariate deep learning model with high spatiotemporal transferability, combining the advantages of attention mechanism, graph neural network, and long short-term memory network model (A-GNN-LSTM). Additionally, the spatiotemporal transferability of A-GNN-LSTM and commonly used prediction models were compared. Finally, the abilities of the OI variables and the OI variables processed by feature engineering (FEI) for different SOC prediction models were explored. The results show that 1) the A-GNN-LSTM that used OI as the input variable was the optimal prediction model (RMSE = 4.86 g kg−1, R2 = 0.81, RPIQ = 2.46, and MAE = 3.78 g kg−1) with the highest spatiotemporal transferability. 2) Compared to the temporal transferability of the GNN, the A-GNN-LSTM demonstrates superior temporal transferability (ΔR2T = −0.10 vs. −0.07). Furthermore, compared to the spatial transferability of LSTM, the A-GNN-LSTM shows enhanced spatial transferability (ΔR2S = −0.16 vs. −0.09). These findings strongly suggest that the fusion of geospatial context and temporally dependent information, extracted through the integration of GNN and LSTM models, effectively enhances the spatiotemporal transferability of the models. 3) By introducing the attention mechanism, the weights of different input variables could be calculated, increasing the physical interpretability of the deep learning model. The largest weight was assigned to climate data (39.55 %), and the smallest weight was assigned to vegetation (19.96 %). 4) Among the commonly used prediction models, the deep learning model had higher prediction accuracy (RMSE = 6.64 g kg−1, R2 = 0.64, RPIQ = 1.78, and MAE = 4.78 g kg−1) and spatial transferability (ΔRMSES = 1.43 g kg−1, ΔR2S = −0.13, ΔRPIQS = −0.50, and ΔMAES = 1.09 g kg−1), and the linear model had the higher temporal transferability (ΔRMSET = 1.46 g kg−1, ΔR2T = −0.14, ΔRPIQT = −0.45, and ΔMAET = 1.29 g kg−1). 5) The deep learning models necessitated the OI, whereas the linear and traditional machine learning models necessitated FEI to achieve higher prediction accuracy. This study presents an important step forward in integrating multiple deep learning models to build a highly spatiotemporal transferability SOC prediction model.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.isprsjprs.2024.09.038)
+
+![flood-inundation](images/Remote%20Sensing/A-GNN-LSTM%20prediction%20model.jpg)
+
+### 35. [STOTEN'23] Impacts of the Three Gorges Dam on riparian vegetation in the Yangtze River Basin under climate change
+**Authors:**  Yang Yang, Yihang Wang, Nan Cong, Nan Wang, Weiwei Yao
+<details span>
+<summary><b>Abstract</b></summary>
+As the largest hydroelectric project in the world, the Three Gorges Dam (TGD) is expected to have significant environmental and ecological impacts on riparian vegetation in the Yangtze River Basin (YRB). However, existing studies have mainly focused on small segments of the YRB. In addition, few studies have quantified the responses of riparian vegetation to both climatic factors and dam construction. In this study, we investigated riparian vegetation dynamics over the entire YRB before, during, and after the construction of TGD from 1982 to 2015 using the normalized difference vegetation index (NDVI). Furthermore, the effects of climatic factors and dam construction on riparian vegetation were quantitatively analyzed using path analysis. The results demonstrate that the YRB has experienced a generally greening trend after TGD construction. The impacts of climate change on riparian vegetation have exhibited notable spatial heterogeneity and temperature is the main climatic factor that affects riparian vegetation growth. Moreover, TGD becomes the major contributor to riparian vegetation dynamics in the YRB after TGD construction. TGD has not only directly enhanced riparian vegetation but also indirectly affected riparian vegetation by regulating the microclimate. This study highlights the significance of anthropogenic interference when evaluating the relationships between riparian vegetation and climatic factors, providing useful insights for the effective management and conservation of large-scale riparian ecosystems.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.scitotenv.2023.169415)
+
+![Three Gorges Dam](images/Remote%20Sensing/Impacts%20of%20the%20Three%20Gorges%20Dam%20on%20riparian%20vegetation.jpg)
+
+### 36. [Nature_City'24] War city profiles drawn from satellite images
+**Authors:**  Zhengyang Hou, Ying Qu, Liqiang Zhang, Jun Liu, Faqiang Wang, Qiwei Yu, An Zeng, Ziyue Chen, Yuanyuan Zhao, Hong Tang, Yuebin Wang, Xingang Li, Yang Li, Shuwen Peng, Jing Ran, Xin Yao, Xichen Meng, Suhong Liu & Chenghu Zhou 
+<details span>
+<summary><b>Abstract</b></summary>
+The extent of war-induced destruction in urban areas is critical information for international relief efforts, impact assessments and restoration decisions. However, precise geotargeting of zones with severe destruction is still a great challenge. Here we present a novel temporal-knowledge-guided detection scheme (TKDS) with a pixel-based transformer network (PtNet) for monitoring urban destruction using satellite imagery, applied to conflict zones in the Syrian civil war and the Russia–Ukraine conflict. Compared with state-of-the-art methods, the TKDS-PtNet model enhances war damage identification by 44.0 (72.5 versus 28.5) in the F1 score for six Syrian cities and 34.2 (83.5 versus 49.3) for four Ukrainian cities. The identified damaged buildings are further utilized to estimate the affected population and damage to critical infrastructures such as hospitals and schools in these areas. Our results demonstrate the high potential of a repeatable and relatively low-cost scheme for the near real-time monitoring of damage in urban areas resulting from wars, earthquakes or extreme weather events. Our findings underscore the crucial importance of taking action to stop the conflict and developing mechanisms to prevent present and future urban-related damage from military actions.
+</details>
+
+[📄 Paper](https://doi.org/10.1038/s44284-024-00060-6)
+
+![War-city](images/Remote%20Sensing/War%20city%20profiles%20drawn%20from%20satellite.jpg)
+
+### 37. [RSE'21] Production of global daily seamless data cubes and quantification of global land cover change from 1985 to 2020 - iMap World 1.0
+**Authors:**  Han Liu, Peng Gong, Jie Wang, Xi Wang, Grant Ning, Bing Xu
+
+<details span>
+<summary><b>Abstract</b></summary>
+Longer time high-resolution, high-frequency, consistent, and more detailed land cover data are urgently needed in order to achieve sustainable development goals on food security, high-quality habitat construction, biodiversity conservation and planetary health, and for the understanding, simulation and management of the Earth system. However, due to technological constraints, it is difficult to provide simultaneously high spatial resolution, high temporal frequency, and high quality observation data. Existing mapping solutions are limited by traditional remotely sensed data, that have shorter observation periods, poor spatio-temporal consistency and comparability. Therefore, a new mapping paradigm is needed. This paper develops a framework for intelligent mapping (iMap) of land cover based on state-of-the-art technologies such as cloud computing, artificial intelligence, virtual constellations, and spatio-temporal reconstruction and fusion. Under this framework, we built an automated, serverless, end-to-end data production chain and parallel mapping system based on Amazon Web Services (AWS) and produced the first 30 m global daily seamless data cubes (SDC), and annual to seasonal land cover maps for 1985–2020. The SDC was produced through a multi-source spatio-temporal data reconstruction and fusion workflow based on Landsat, MODIS, and AVHRR virtual constellations. Independent validation results show that the relative mean error of the SDC is less than 2.14%. As analysis ready data (ARD), it can lay a foundation for high-precision quantitative remote sensing information extraction. From this SDC, we produced 36-year long, 30 m resolution global land cover map data set by combining strategies of sample migration, machine learning, and spatio-temporal adjustment. The average overall accuracy of our annual land cover maps over multiple periods of time is 80% for level 1 classification and over 73% for level 2 classification (29 and 33 classes). Based on an objective validation sample consisting of FLUXNET sites, our map accuracy is 10% higher than that of existing global land cover datasets including Globeland30. Our results show that the average global land cover change rate is 0.36%/yr. Global forest decreased by 1.47 million km2 from 38.44 million km2, cropland increased by 0.84 million km2 from 12.49 million km2 and impervious surface increased by 0.48 million km2 from 0.57 million km2 during 1985–2020.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.rse.2021.112364)
+
+![Production-of-global-daily-seamless-data](images/Remote%20Sensing/Production%20of%20global%20daily%20seamless%20data%20cubes.jpg)
+
+### 38. [TGRS'24] RingMoGPT: A Unified Remote Sensing Foundation Model for Vision, Language, and grounded tasks
+**Authors:**  Peijin Wang, Huiyang Hu, Boyuan Tong, Ziqi Zhang, Fanglong Yao, Yingchao Feng
+<details span>
+<summary><b>Abstract</b></summary>
+Recently, multi-modal large language models (MLLMs) have shown excellent reasoning capabilities in various fields. Most of the existing remote sensing MLLMs solve image-level text generation problems (e.g., image captioning), but ignore the core issues of object-level recognition, location and multi-temporal changes in the field of remote sensing. In this paper, we propose RingMoGPT, a multi-modal foundation model that unifies vision, language, and localization. Based on the idea of domain adaption, RingMoGPT can complete training by fine-tuning only a few parameters. To make the model capable of object detection and change captioning, we further propose a Location- and Instruction-aware Q-Former and a change detection module, respectively. To improve the performance of RingMoGPT, we carefully design the pre-training dataset and the instruction-tuning dataset. The pre-training dataset contains over a half million high-quality image and text pairs, which are generated through a low-cost and efficient data generation paradigm. The instruction-tuning dataset contains more than 1.6 million question-answer pairs, including 6 downstream tasks: scene classification, object detection, visual question answering, image captioning, grounded image captioning, and change captioning. Our experiments show that RingMoGPT performs well on 6 tasks, especially its ability to analyze multi-temporal data changes and identify dense objects. We also verified the model under zero-shot setting, and the results show that the proposed RingMoGPT also has good generalization ability in the face of new data.
+</details>
+
+[📄 Paper](https://doi.org/10.1109/TGRS.2024.3510833)
+
+![RingMoGPT](images/Remote%20Sensing/RingMoGPT.png)
+
+### 39. [Journal_of_Environmental_Management'24] Towards a Green Equal City: Measuring and matching the supply-demand of green exposure in urban center
+**Authors:**  Chaoyang Zhu, Shanwen Zheng, Shengjie Yang, Jun Dong, Moheng Ma, Shanshan Zhang, Shengnan Liu, Xinyu Liu, Yifeng Yao, Baolong Han
+<details span>
+<summary><b>Abstract</b></summary>
+Exposure to green environments is crucial for human health. However, urbanization has reduced the contact of urban residents with natural environments, causing a mismatch between the supply and demand for green exposure. Research in this field is hindered by the lack of long-term, reliable data sources and methodologies, leading to insufficient consideration of temporal variations in green exposure. This study presented a comprehensive methodology for assessing green exposure at a fine scale utilizing satellite images for urban tree canopy identification. We conducted a case study in the core area of Beijing from 2010 to 2020 and examined the effects of urban renewal and alleviation efforts. The results revealed a slight decrease in green exposure for the elderly over the decade, with minimal changes in equity. In contrast, green exposure for children has increased, with increasing inequality. Moreover, urban renewal has improved green exposure for nearly half of the low-supply blocks. However, a significant mismatch was observed between supply and demand for blocks with increased demand but limited supply. This study enhances the assessment of green exposure and provides guidance for planning and constructing a “Green Equal City”.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.jenvman.2024.121510)
+
+![Towards-Green-Equal-City](images/Remote%20Sensing/Towards%20a%20Green%20Equal%20City%20Abstract.jpg)
+
+![Towards-Green-Equal-City](images/Remote%20Sensing/Towards%20a%20Green%20Equal%20City%20workflow.jpg)
+
+### 40. [Arxiv'24] Modality Decoupling is All You Need: A Simple Solution for Unsupervised Hyperspectral Image Fusion
+**Authors:**  Songcheng Du†, Yang Zou†, Zixu Wang, Xingyuan Li, Ying Li, Qiang Shen
+<details span>
+<summary><b>Abstract</b></summary>
+ Hyperspectral Image Fusion (HIF) aims to fuse lowresolution hyperspectral images (LR-HSIs) and highresolution multispectral images (HR-MSIs) to reconstruct high spatial and high spectral resolution images. Current methods typically apply direct fusion from the two modalities without valid supervision, failing to fully perceive the deep modality-complementary information and hence, resulting in a superficial understanding of inter-modality connections. To bridge this gap, we propose a simple and effective solution for unsupervised HIF with an assumption that modality decoupling is essential for HIF. We introduce the modality clustering loss that ensures clear guidance of the modality, decoupling towards modality-shared features while steering clear of modality-complementary ones. Also, we propose an end-to-end Modality-Decoupled SpatialSpectral Fusion (MossFuse) framework that decouples shared and complementary information across modalities and aggregates a concise representation of the LR-HSI and HR-MSI to reduce the modality redundancy. Systematic experiments over multiple datasets demonstrate that our simple and effective approach consistently outperforms the existing HIF methods while requiring considerably fewer parameters with reduced inference time.
+ </details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.04802)
+
+![flood-inundation](images/Remote%20Sensing/Modality%20Decoupling%20is%20All%20You%20Need.png)
+
+### 41. [Front._Plant_Sci.'24] MaxEnt and Marxan modeling to predict the potential habitat and priority planting areas of Coffea arabica in Yunnan, China under climate change scenario
+**Authors:**  Xia Li1, Zihao Wang, Shaoqiang Wang, Zhaohui Qian
+<details span>
+<summary><b>Abstract</b></summary>
+ Introduction: Coffea arabica (Arabica coffee) is an important cash crop in Yunnan, China. Ongoing climate change has made coffee production more difficult to sustain, posing challenges for the region’s coffee industry. Predictions of the distribution of potentially suitable habitats for Arabica coffee in Yunnan could provide a theoretical basis for the cultivation and rational management of this species.
+Methods: In this study, the MaxEnt model was used to predict the potential distribution of suitable habitat for Arabica coffee in Yunnan under current and future (2021-2100) climate scenarios (SSP2-4.5, SSP3-7.0, and SSP5-8.5) using 56 distributional records and 17 environmental variables and to analyze the important environmental factors. Marxan model was used to plan the priority planting areas for this species at last.
+Results: The predicted suitable and sub-suitable areas were about 4.21×104 km2 and 13.87×104 km2, respectively, accounting for 47.15% of the total area of the province. The suitable areas were mainly concentrated in western and southern Yunnan. The minimum temperature of the coldest month, altitude, mean temperature of the wettest quarter, slope, and aluminum saturation were the main environmental variables affecting the distribution of Arabica coffee in Yunnan Province. Changes in habitat suitability for Arabica coffee were most significant and contracted under the SSP3-7.0 climate scenario, while expansion was highest under the SSP5-8.5 climate scenario. Priority areas for Arabica coffee cultivation in Yunnan Province under the 30% and 50% targets were Pu’er, Xishuangbanna, Honghe, Dehong, and Kunming.
+Discussion: Climate, soil, and topography combine to influence the potential geographic distribution of Arabica coffee. Future changes in suitable habitat areas under different climate scenarios should lead to the delineation of coffee-growing areas based on appropriate environmental conditions and active policy measures to address climate change. 
+</details>
+
+[📄 Paper](https://doi.org/10.3389/fpls.2024.1471653)
+
+![flood-inundation](images/Remote%20Sensing/MaxEnt%20and%20Marxan%20modeling.jpg)
+
+### 42. [Jstar'24] Mapping of Local Climate Zones and Heat Hazard Assessment from a Historical-Future Perspective
+**Authors:**  Jiayi Ren, Jun Yang, Wenbo Yu, Nan Cong, Xiangming Xiao, Jianhong Xia
+
+<details span>
+<summary><b>Abstract</b></summary>
+ Achieving the sustainable development goals puts new demands on land use/land cover (LULC) forecasting and thermal environment improvement. Local climate zone (LCZ) characterization reduces LULC uncertainty in climate research. This study designed a future multiscenario LCZ thermal environment assessment framework that integrates remote sensing images, a patch-level land use simulation model, and a contribution algorithm. An urban heat island (UHI) classification was used to represent the degree of heat hazard. We sought to quantitatively evaluate the spatiotemporal distribution of LCZ and its heat hazard and explore the coordination mode of LULC patterns and the thermal environment. We considered four future scenarios: a natural development scenario (NDS), urban development scenario (UDS), food security scenario, and ecological protection scenario. The results show that the Shenyang metropolitan area has experienced large-scale land urbanization, forming the main UHI areas with Shenyang–Fushun, Liaoyang–Anshan, and Fuxin as the core. This is expected to become the first area for heat hazard management in the future. The areas that produce heat hazards are mainly distributed as LCZ D and building-LCZs. By 2060, the average heat hazard in the UDS is expected to increase by 1.035 °C and that in the NDS by 0.286 °C compared to that in 2020. From the perspective of the “historical future,” the study results provide a theoretical reference for the continuous improvement of environmental quality in the new era, promoting the coordinated development of metropolitan areas and actively responding to climate change.
+ </details>
+
+[📄 Paper](https://doi.org/10.1109/JSTARS.2024.3424542)
+
+![Local-Climate-Zones](images/Remote%20Sensing/Mapping%20of%20Local%20Climate%20Zones.jpg)
+
+### 43. [CellPress'24] Shared insights for heat health risk adaptation in metropolitan areas of developing countries
+<details span>
+<summary><b>Abstract</b></summary>
+Global warming has led to a surge in heat health risks (HHRs), the impacts of which are particularly pronounced in metropolitan areas of developing countries. In the current study, six metropolitan areas - Beijing, China; Cairo, Egypt; Jakarta, Indonesia; Mumbai, India; Rio de Janeiro, Brazil; and Tehran, Iran - were selected as the study area to further differentiate the built-up landscapes by utilizing the concept of local climate zones. Moreover, we assessed the similarities and differences in HHR associated with the landscape. Results revealed a 30.67% higher HHR in compact built-up landscapes than in the open built-up type. Urban green spaces played an effective but differentiated role in mitigating HHR. That is, low vegetation in urbanized areas and trees in suburban areas significantly mitigated HHR. Collectively, our findings emphasize the role of effective planning and management in addressing HHR and provide empirical support for implementing HHR mitigation and adaptation strategies.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.isci.2024.109728)
+
+![health-risk](images/Remote%20Sensing/Shared%20insights%20for%20heat%20health%20risk.jpg)
+
 </details>
 
 
@@ -1889,9 +2150,23 @@ Interactive segmentation has an important role in facilitating the annotation pr
 
 [📄 Paper](https://arxiv.org/pdf/2410.08206) | [🌐 Project Page](https://ilya-fradlin.github.io/Interactive4D/) | [💻 Code](https://github.com/Ilya-Fradlin/Interactive4D)
 
-![Interactive4D](/images/pointcloud/Interactive4D.jpg)
+![Interactive4D](images/pointcloud/Interactive4D.jpg)
 
 </details>
+
+
+### 5. OpenIN: Open-Vocabulary Instance-Oriented Navigation in Dynamic Domestic Environments
+
+**Authors:** Yujie Tang, Meiling Wang, Yinan Deng, Zibo Zheng, Jingchuan Deng, Yufeng Yue
+
+<details span>
+<summary><b>Abstract</b></summary>
+In daily domestic settings, frequently used objects like cups often have unfixed positions and multiple instances within the same category, and their carriers frequently change as well. As a result, it becomes challenging for a robot to efficiently navigate to a specific instance. To tackle this challenge, the robot must capture and update scene changes and plans continuously. However, current object navigation approaches primarily focus on the semantic level and lack the ability to dynamically update scene representation. In contrast, this paper captures the relationships between frequently used objects and their static carriers. It constructs an open-vocabulary Carrier-Relationship Scene Graph (CRSG) and updates the carrying status during robot navigation to reflect the dynamic changes of the scene. Based on the CRSG, we further propose an instance navigation strategy that models the navigation process as a Markov Decision Process. At each step, decisions are informed by the Large Language Model's commonsense knowledge and visual-language feature similarity. We designed a series of long-sequence navigation tasks for frequently used everyday items in the Habitat simulator. The results demonstrate that by updating the CRSG, the robot can efficiently navigate to moved targets. Additionally, we deployed our algorithm on a real robot and validated its practical effectiveness.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.04279v1) | [🌐 Project Page](https://openin-nav.github.io/)
+
+![OpenIN](images/pointcloud/OpenIN.jpg)
 
 
 ## Dataset
@@ -1909,7 +2184,7 @@ With the rapid development of AI-generated content, the future internet may be i
 
 [📄 Paper](https://arxiv.org/pdf/2410.09732) | [🌐 Project Page](https://opendatalab.github.io/LOKI/) | [💻 Code](https://github.com/opendatalab/LOKI)
 
-![LOKI](/images/dataset/LOKI.jpg)
+![LOKI](images/dataset/LOKI.jpg)
 
 ### 2. MMIE: Massive Multimodal Interleaved Comprehension Benchmark for Large Vision-Language Models
 **Authors:** Peng Xia, Siwei Han, Shi Qiu, Yiyang Zhou, Zhaoyang Wang, Wenhao Zheng, Zhaorun Chen, Chenhang Cui, Mingyu Ding, Linjie Li, Lijuan Wang, Huaxiu Yao
@@ -1921,7 +2196,7 @@ Interleaved multimodal comprehension and generation, enabling models to produce 
 
 [📄 Paper](https://arxiv.org/pdf/2410.10139) | [🌐 Project Page](https://mmie-bench.github.io/) | [💻 Code](https://github.com/Lillianwei-h/MMIE)
 
-![MMIE](/images/dataset/MMIE.jpg)
+![MMIE](images/dataset/MMIE.jpg)
 
 ### 3. MEGA-Bench: Scaling Multimodal Evaluation to over 500 Real-World Tasks
 **Authors:** Jiacheng Chen, Tianhao Liang, Sherman Siu, Zhengqing Wang, Kai Wang, Yubo Wang, Yuansheng Ni, Wang Zhu, Ziyan Jiang, Bohan Lyu, Dongfu Jiang, Xuan He, Yuan Liu, Hexiang Hu, Xiang Yue, Wenhu Chen
@@ -1933,10 +2208,49 @@ We present MEGA-Bench, an evaluation suite that scales multimodal evaluation to 
 
 [📄 Paper](https://arxiv.org/pdf/2410.10563) | [🌐 Project Page](https://tiger-ai-lab.github.io/MEGA-Bench/) | [💻 Code](https://github.com/TIGER-AI-Lab/MEGA-Bench)
 
-![MEGA-BENCH](/images/dataset/MEGA-BENCH.jpg)
+![MEGA-BENCH](images/dataset/MEGA-BENCH.jpg)
 
 </details>
 
+
+### 4. Are VLMs Ready for Autonomous Driving? An Empirical Study from the Reliability, Data, and Metric Perspectives
+
+**Authors:** Shaoyuan Xie, Lingdong Kong, Yuhao Dong, Chonghao Sima, Wenwei Zhang, Qi Alfred Chen, Ziwei Liu, Liang Pan
+
+<details span>
+<summary><b>Abstract</b></summary>
+Recent advancements in Vision-Language Models (VLMs) have sparked interest in their use for autonomous driving, particularly in generating interpretable driving decisions through natural language. However, the assumption that VLMs inherently provide visually grounded, reliable, and interpretable explanations for driving remains largely unexamined. To address this gap, we introduce DriveBench, a benchmark dataset designed to evaluate VLM reliability across 17 settings (clean, corrupted, and text-only inputs), encompassing 19,200 frames, 20,498 question-answer pairs, three question types, four mainstream driving tasks, and a total of 12 popular VLMs. Our findings reveal that VLMs often generate plausible responses derived from general knowledge or textual cues rather than true visual grounding, especially under degraded or missing visual inputs. This behavior, concealed by dataset imbalances and insufficient evaluation metrics, poses significant risks in safety-critical scenarios like autonomous driving. We further observe that VLMs struggle with multi-modal reasoning and display heightened sensitivity to input corruptions, leading to inconsistencies in performance. To address these challenges, we propose refined evaluation metrics that prioritize robust visual grounding and multi-modal understanding. Additionally, we highlight the potential of leveraging VLMs' awareness of corruptions to enhance their reliability, offering a roadmap for developing more trustworthy and interpretable decision-making systems in real-world autonomous driving contexts. The benchmark toolkit is publicly accessible.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.04003)
+
+![DriveBench](images/dataset/DriveBench.jpg)
+
+### 5. GATE OpenING: A Comprehensive Benchmark for Judging Open-ended Interleaved Image-Text Generation
+
+**Authors:** Pengfei Zhou, Xiaopeng Peng, Jiajun Song, Chuanhao Li, Zhaopan Xu, Yue Yang, Ziyao Guo, Hao Zhang, Yuqi Lin, Yefei He, Lirui Zhao, Shuo Liu, Tianhua Li, Yuxuan Xie, Xiaojun Chang, Yu Qiao, Wenqi Shao, Kaipeng Zhang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Multimodal Large Language Models (MLLMs) have made significant strides in visual understanding and generation tasks. However, generating interleaved image-text content remains a challenge, which requires integrated multimodal understanding and generation abilities. While the progress in unified models offers new solutions, existing benchmarks are insufficient for evaluating these methods due to data size and diversity limitations. To bridge this gap, we introduce GATE OpenING (OpenING), a comprehensive benchmark comprising 5,400 high-quality human-annotated instances across 56 real-world tasks. OpenING covers diverse daily scenarios such as travel guide, design, and brainstorming, offering a robust platform for challenging interleaved generation methods. In addition, we present IntJudge, a judge model for evaluating open-ended multimodal generation methods. Trained with a novel data pipeline, our IntJudge achieves an agreement rate of 82. 42% with human judgments, outperforming GPT-based evaluators by 11.34%. Extensive experiments on OpenING reveal that current interleaved generation methods still have substantial room for improvement. Key findings on interleaved image-text generation are further presented to guide the development of next-generation models. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2411.18499) | [🌐 Project Page](https://opening-benchmark.github.io/) | [💻 Code](https://github.com/LanceZPF/OpenING)
+
+![GATEOpenING](images/dataset/GATEOpenING.jpg)
+
+### 6. RAG-RewardBench: Benchmarking Reward Models in Retrieval Augmented Generation for Preference Alignment
+
+**Authors:** Zhuoran Jin, Hongbang Yuan, Tianyi Men, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao
+
+<details span>
+<summary><b>Abstract</b></summary>
+Despite the significant progress made by existing retrieval augmented language models (RALMs) in providing trustworthy responses and grounding in reliable sources, they often overlook effective alignment with human preferences. In the alignment process, reward models (RMs) act as a crucial proxy for human values to guide optimization. However, it remains unclear how to evaluate and select a reliable RM for preference alignment in RALMs. To this end, we propose RAG-RewardBench, the first benchmark for evaluating RMs in RAG settings. First, we design four crucial and challenging RAG-specific scenarios to assess RMs, including multi-hop reasoning, fine-grained citation, appropriate abstain, and conflict robustness. Then, we incorporate 18 RAG subsets, six retrievers, and 24 RALMs to increase the diversity of data sources. Finally, we adopt an LLM-as-a-judge approach to improve preference annotation efficiency and effectiveness, exhibiting a strong correlation with human annotations. Based on the RAG-RewardBench, we conduct a comprehensive evaluation of 45 RMs and uncover their limitations in RAG scenarios. Additionally, we also reveal that existing trained RALMs show almost no improvement in preference alignment, highlighting the need for a shift towards preference-aligned training.We release our benchmark and code publicly at https://huggingface.co/datasets/jinzhuoran/RAG-RewardBench/ for future work.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.13746) | [💻 Code](https://github.com/jinzhuoran/RAG-RewardBench/)
+
+![RAG-RewardBench](images/dataset/RAG-RewardBench.jpg)
 
 ## Robotics
 
@@ -1957,6 +2271,47 @@ The pre-training of visual representations has enhanced the efficiency of robot 
 ![RobotsPre-trainRobots](images/Robotics/RobotsPre-TrainRobots.jpg)
 
 </details>
+
+### 2. OmniManip: Towards General Robotic Manipulation via Object-Centric Interaction Primitives as Spatial Constraints
+
+**Authors:** Mingjie Pan, Jiyao Zhang, Tianshu Wu, Yinghao Zhao, Wenlong Gao, Hao Dong
+
+<details span>
+<summary><b>Abstract</b></summary>
+The development of general robotic systems capable of manipulating in unstructured environments is a significant challenge. While Vision-Language Models(VLM) excel in high-level commonsense reasoning, they lack the fine-grained 3D spatial understanding required for precise manipulation tasks. Fine-tuning VLM on robotic datasets to create Vision-Language-Action Models(VLA) is a potential solution, but it is hindered by high data collection costs and generalization issues. To address these challenges, we propose a novel object-centric representation that bridges the gap between VLM's high-level reasoning and the low-level precision required for manipulation. Our key insight is that an object's canonical space, defined by its functional affordances, provides a structured and semantically meaningful way to describe interaction primitives, such as points and directions. These primitives act as a bridge, translating VLM's commonsense reasoning into actionable 3D spatial constraints. In this context, we introduce a dual closed-loop, open-vocabulary robotic manipulation system: one loop for high-level planning through primitive resampling, interaction rendering and VLM checking, and another for low-level execution via 6D pose tracking. This design ensures robust, real-time control without requiring VLM fine-tuning. Extensive experiments demonstrate strong zero-shot generalization across diverse robotic manipulation tasks, highlighting the potential of this approach for automating large-scale simulation data generation.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.03841)
+
+![OmniManip](images/Robotics/OmniManip.jpg)
+
+### 3. GRAPE: Generalizing Robot Policy via Preference Alignment
+
+**Authors:** Zijian Zhang, Kaiyuan Zheng, Zhaorun Chen, Joel Jang, Yi Li, Chaoqi Wang, Mingyu Ding, Dieter Fox, Huaxiu Yao
+
+<details span>
+<summary><b>Abstract</b></summary>
+Despite the recent advancements of vision-language-action (VLA) models on a variety of robotics tasks, they suffer from critical issues such as poor generalizability to unseen tasks, due to their reliance on behavior cloning exclusively from successful rollouts. Furthermore, they are typically fine-tuned to replicate demonstrations collected by experts under different settings, thus introducing distribution bias and limiting their adaptability to diverse manipulation objectives, such as efficiency, safety, and task completion. To bridge this gap, we introduce GRAPE: Generalizing Robot Policy via Preference Alignment. Specifically, GRAPE aligns VLAs on a trajectory level and implicitly models reward from both successful and failure trials to boost generalizability to diverse tasks. Moreover, GRAPE breaks down complex manipulation tasks to independent stages and automatically guides preference modeling through customized spatiotemporal constraints with keypoints proposed by a large vision-language model. Notably, these constraints are flexible and can be customized to align the model with varying objectives, such as safety, efficiency, or task success. We evaluate GRAPE across a diverse array of tasks in both real-world and simulated environments. Experimental results demonstrate that GRAPE enhances the performance of state-of-the-art VLA models, increasing success rates on in-domain and unseen manipulation tasks by 51.79% and 60.36%, respectively. Additionally, GRAPE can be aligned with various objectives, such as safety and efficiency, reducing collision rates by 44.31% and rollout step-length by 11.15%, respectively. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2411.19309) | [🌐 Project Page](https://grape-vla.github.io/) | [💻 Code](https://github.com/aiming-lab/grape)
+
+![GRAPE](images/Robotics/GRAPE.jpg)
+
+
+## Agent
+### 1. Enhancing Multi-Robot Semantic Navigation Through Multimodal Chain-of-Thought Score Collaboration
+
+**Authors:** Zhixuan Shen, Haonan Luo, Kexun Chen, Fengmao Lv, Tianrui Li
+
+<details span>
+<summary><b>Abstract</b></summary>
+Understanding how humans cooperatively utilize semantic knowledge to explore unfamiliar environments and decide on navigation directions is critical for house service multi-robot systems. Previous methods primarily focused on single-robot centralized planning strategies, which severely limited exploration efficiency. Recent research has considered decentralized planning strategies for multiple robots, assigning separate planning models to each robot, but these approaches often overlook communication costs. In this work, we propose Multimodal Chain-of-Thought Co-Navigation (MCoCoNav), a modular approach that utilizes multimodal Chain-of-Thought to plan collaborative semantic navigation for multiple robots. MCoCoNav combines visual perception with Vision Language Models (VLMs) to evaluate exploration value through probabilistic scoring, thus reducing time costs and achieving stable outputs. Additionally, a global semantic map is used as a communication bridge, minimizing communication overhead while integrating observational results. Guided by scores that reflect exploration trends, robots utilize this map to assess whether to explore new frontier points or revisit history nodes. Experiments on HM3D_v0.2 and MP3D demonstrate the effectiveness of our approach. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.18292) | [💻 Code](https://github.com/FrankZxShen/MCoCoNav)
+
+![MCoCoNav](images/Agent/MCoCoNav.jpg)
 
 
 ## Others
@@ -2004,3 +2359,142 @@ Recent advancements in State Space Models (SSMs) have attracted significant inte
 
 </details>
 
+### 4. MatchAnything: Universal Cross-Modality Image Matching with Large-Scale Pre-Training
+
+**Authors:** Xingyi He, Hao Yu, Sida Peng, Dongli Tan, Zehong Shen, Hujun Bao, Xiaowei Zhou
+
+<details span>
+<summary><b>Abstract</b></summary>
+Image matching, which aims to identify corresponding pixel locations between images, is crucial in a wide range of scientific disciplines, aiding in image registration, fusion, and analysis. In recent years, deep learning-based image matching algorithms have dramatically outperformed humans in rapidly and accurately finding large amounts of correspondences. However, when dealing with images captured under different imaging modalities that result in significant appearance changes, the performance of these algorithms often deteriorates due to the scarcity of annotated cross-modal training data. This limitation hinders applications in various fields that rely on multiple image modalities to obtain complementary information. To address this challenge, we propose a large-scale pre-training framework that utilizes synthetic cross-modal training signals, incorporating diverse data from various sources, to train models to recognize and match fundamental structures across images. This capability is transferable to real-world, unseen cross-modality image matching tasks. Our key finding is that the matching model trained with our framework achieves remarkable generalizability across more than eight unseen cross-modality registration tasks using the same network weight, substantially outperforming existing methods, whether designed for generalization or tailored for specific tasks. This advancement significantly enhances the applicability of image matching technologies across various scientific disciplines and paves the way for new applications in multi-modality human and artificial intelligence analysis and beyond.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.07556) | [🌐 Project Page](https://zju3dv.github.io/MatchAnything/) | [💻 Code](https://github.com/zju3dv/MatchAnything)
+
+![MatchAnything](images/Others/MatchAnything.jpg)
+
+### 5. TAPTRv3: Spatial and Temporal Context Foster Robust Tracking of Any Point in Long Video
+
+**Authors:** Jinyuan Qu, Hongyang Li, Shilong Liu, Tianhe Ren, Zhaoyang Zeng, Lei Zhang
+
+<details span>
+<summary><b>Abstract</b></summary>
+In this paper, we present TAPTRv3, which is built upon TAPTRv2 to improve its point tracking robustness in long videos. TAPTRv2 is a simple DETR-like framework that can accurately track any point in real-world videos without requiring cost-volume. TAPTRv3 improves TAPTRv2 by addressing its shortage in querying high quality features from long videos, where the target tracking points normally undergo increasing variation over time. In TAPTRv3, we propose to utilize both spatial and temporal context to bring better feature querying along the spatial and temporal dimensions for more robust tracking in long videos. For better spatial feature querying, we present Context-aware Cross-Attention (CCA), which leverages surrounding spatial context to enhance the quality of attention scores when querying image features. For better temporal feature querying, we introduce Visibility-aware Long-Temporal Attention (VLTA) to conduct temporal attention to all past frames while considering their corresponding visibilities, which effectively addresses the feature drifting problem in TAPTRv2 brought by its RNN-like long-temporal modeling. TAPTRv3 surpasses TAPTRv2 by a large margin on most of the challenging datasets and obtains state-of-the-art performance. Even when compared with methods trained with large-scale extra internal data, TAPTRv3 is still competitive.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2411.18671) | [🌐 Project Page](https://taptr.github.io/) | [💻 Code](https://github.com/IDEA-Research/TAPTR)
+
+![TAPTRv3](images/Others/TAPTRv3.jpg)
+
+
+### 6. [NIPS' 24 Oral] MeshFormer : High-Quality Mesh Generation with 3D-Guided Reconstruction Model
+**Authors**: Minghua Liu, Chong Zeng, Xinyue Wei, Ruoxi Shi, Linghao Chen, Chao Xu, Mengqi Zhang, Zhaoning Wang, Xiaoshuai Zhang, Isabella Liu, Hongzhi Wu, Hao Su
+<details span><summary><b>Abstract</b></summary>
+Open-world 3D reconstruction models have recently garnered significant attention. However, without sufficient 3D inductive bias, existing methods typically entail expensive training costs and struggle to extract high-quality 3D meshes. In this work, we introduce MeshFormer, a sparse-view reconstruction model that explicitly leverages 3D native structure, input guidance, and training supervision. Specifically, instead of using a triplane representation, we store features in 3D sparse voxels and combine transformers with 3D convolutions to leverage an explicit 3D structure and projective bias. In addition to sparse-view RGB input, we require the network to take input and generate corresponding normal maps. The input normal maps can be predicted by 2D diffusion models, significantly aiding in the guidance and refinement of the geometry's learning. Moreover, by combining Signed Distance Function (SDF) supervision with surface rendering, we directly learn to generate high-quality meshes without the need for complex multi-stage training processes. By incorporating these explicit 3D biases, MeshFormer can be trained efficiently and deliver high-quality textured meshes with fine-grained geometric details. It can also be integrated with 2D diffusion models to enable fast single-image-to-3D and text-to-3D tasks.
+</details>
+
+[📄 Paper](https://neurips.cc/virtual/2024/poster/93101) | [🌐 Project Page](https://meshformer3d.github.io/) 
+
+![MeshFormer](images/Others/MeshFormer.jpg)
+
+</details>
+
+### 7. [NIPS' 24] MeshFormer : High-Quality Mesh Generation with 3D-Guided Reconstruction Model
+**Authors**: Xuehao Cui, Xuehao_Cui, Guangyang Wu, Zhenghao Gan, Guangtao Zhai, Xiaohong Liu
+<details span><summary><b>Abstract</b></summary>
+Existing methods to generate aesthetic QR codes, such as image and style transfer techniques, tend to compromise either the visual appeal or the scannability of QR codes when they incorporate human face identity. Addressing these imperfections, we present Face2QR—a novel pipeline specifically designed for generating personalized QR codes that harmoniously blend aesthetics, face identity, and scannability. Our pipeline introduces three innovative components. First, the ID-refined QR integration (IDQR) seamlessly intertwines the background styling with face ID, utilizing a unified Stable Diffusion (SD)-based framework with control networks. Second, the ID-aware QR ReShuffle (IDRS) effectively rectifies the conflicts between face IDs and QR patterns, rearranging QR modules to maintain the integrity of facial features without compromising scannability. Lastly, the ID-preserved Scannability Enhancement (IDSE) markedly boosts scanning robustness through latent code optimization, striking a delicate balance between face ID, aesthetic quality and QR functionality. In comprehensive experiments, Face2QR demonstrates remarkable performance, outperforming existing approaches, particularly in preserving facial recognition features within custom QR code designs.
+</details>
+
+[📄 Paper](https://nips.cc/virtual/2024/poster/93410) |[💻 Code](https://github.com/cavosamir/Face2QR) 
+
+![Face2QR](images/Others/Face2QR.jpg)
+
+</details>
+
+### 8. [NIPS' 24] CoSW: Conditional Sample Weighting for Smoke Segmentation with Label Noise
+**Authors**: Lujian Yao, Haitao Zhao, Zhongze Wang, Kaijie Zhao, Jingchao Peng
+<details span><summary><b>Abstract</b></summary>
+Smoke segmentation is of great importance in precisely identifying the smoke location, enabling timely fire rescue and gas leak detection. However, due to the visual diversity and blurry edges of the non-grid smoke, noisy labels are almost inevitable in large-scale pixel-level smoke datasets. Noisy labels significantly impact the robustness of the model and may lead to serious accidents. Nevertheless, currently, there are no specific methods for addressing noisy labels in smoke segmentation. Smoke differs from regular objects as its transparency varies, causing inconsistent features in the noisy labels. In this paper, we propose a conditional sample weighting (CoSW). CoSW utilizes a multi-prototype framework, where prototypes serve as prior information to apply different weighting criteria to the different feature clusters. A novel regularized within-prototype entropy (RWE) is introduced to achieve CoSW and stable prototype update. The experiments show that our approach achieves SOTA performance on both real-world and synthetic noisy smoke segmentation datasets.
+</details>
+
+[📄 Paper](https://nips.cc/virtual/2024/poster/95170) 
+
+![CoSW](images/Others/CoSW.jpg)
+
+</details>
+
+
+### 9. [Siggraph Aisa' 24] FreeAvatar: Robust 3D Facial Animation Transfer by Learning an Expression Foundation Model
+**Authors**: Feng Qiu, Wei Zhang, Chen Liu, Rudong An, Lincheng Li, Yu Ding, Changjie Fan, Zhipeng Hu, Xin Yu
+<details span><summary><b>Abstract</b></summary>
+Video-driven 3D facial animation transfer aims to drive avatars to reproduce the expressions of actors. Existing methods have achieved remarkable results by constraining both geometric and perceptual consistency. However, geometric constraints (like those designed on facial landmarks) are insufficient to capture subtle emotions, while expression features trained on classification tasks lack fine granularity for complex emotions. To address this, we propose \textbf{FreeAvatar}, a robust facial animation transfer method that relies solely on our learned expression representation. Specifically, FreeAvatar consists of two main components: the expression foundation model and the facial animation transfer model. In the first component, we initially construct a facial feature space through a face reconstruction task and then optimize the expression feature space by exploring the similarities among different expressions. Benefiting from training on the amounts of unlabeled facial images and re-collected expression comparison dataset, our model adapts freely and effectively to any in-the-wild input facial images. In the facial animation transfer component, we propose a novel Expression-driven Multi-avatar Animator, which first maps expressive semantics to the facial control parameters of 3D avatars and then imposes perceptual constraints between the input and output images to maintain expression consistency. To make the entire process differentiable, we employ a trained neural renderer to translate rig parameters into corresponding images. Furthermore, unlike previous methods that require separate decoders for each avatar, we propose a dynamic identity injection module that allows for the joint training of multiple avatars within a single network.
+</details>
+
+[📄 Paper](https://dl.acm.org/doi/full/10.1145/3680528.3687669)  | [💻 Code](https://github.com/FuxiVirtualHuman/free_avatar) 
+
+![FreeAvatar](images/Others/FreeAvatar.jpg)
+
+</details>
+
+
+### 10. [Siggraph Asia' 24] Dance-to-Music Generation with Encoder-based Textual Inversion
+**Authors**: Sifei Li, Weiming Dong, Yuxin Zhang, Fan Tang, Chongyang Ma, Oliver Deussen, Tong-Yee Lee, Changsheng Xu
+<details span><summary><b>Abstract</b></summary>
+The seamless integration of music with dance movements is essential for communicating the artistic intent of a dance piece. This alignment also significantly improves the immersive quality of gaming experiences and animation productions. Although there has been remarkable advancement in creating high-fidelity music from textual descriptions, current methodologies mainly focus on modulating overall characteristics such as genre and emotional tone. They often overlook the nuanced management of temporal rhythm, which is indispensable in crafting music for dance, since it intricately aligns the musical beats with the dancers’ movements. Recognizing this gap, we propose an encoder-based textual inversion technique to augment text-to-music models with visual control, facilitating personalized music generation. Specifically, we develop dual-path rhythm-genre inversion to effectively integrate the rhythm and genre of a dance motion sequence into the textual space of a text-to-music model. Contrary to traditional textual inversion methods, which directly update text embeddings to reconstruct a single target object, our approach utilizes separate rhythm and genre encoders to obtain text embeddings for two pseudo-words, adapting to the varying rhythms and genres. We collect a new dataset called In-the-wild Dance Videos (InDV) and demonstrate that our approach outperforms state-of-the-art methods across multiple evaluation metrics. Furthermore, our method is able to adapt to changes in tempo and effectively integrates with the inherent text-guided generation capability of the pre-trained model. 
+</details>
+
+[📄 Paper](https://dl.acm.org/doi/10.1145/3680528.3687562) | [🌐 Project Page](https://lsfhuihuiff.github.io/dance2music.github.io/) | [💻 Code](https://github.com/lsfhuihuiff/Dance-to-music_Siggraph_Asia_2024) | [🎥 Video](https://www.youtube.com/watch?v=y2pG2S5xDLY)
+
+![Dance-to-Music](images/Others/Dance-to-Music.jpg)
+
+</details>
+
+
+### 11. [Nature Machine Intelligence' 25] A quantitative analysis of knowledge-learning preferences in large language models in molecular science
+**Authors**: Pengfei Liu, Jun Tao, Zhixiang Ren
+<details span><summary><b>Abstract</b></summary>
+Deep learning has significantly advanced molecular modelling and design, enabling an efficient understanding and discovery of novel molecules. In particular, large language models introduce a fresh research paradigm to tackle scientific problems from a natural language processing perspective. Large language models significantly enhance our understanding and generation of molecules, often surpassing existing methods with their capabilities to decode and synthesize complex molecular patterns. However, two key issues remain: how to quantify the match between model and data modalities and how to identify the knowledge-learning preferences of models. To address these challenges, we propose a multimodal benchmark, named ChEBI-20-MM, and perform 1,263 experiments to assess the model’s compatibility with data modalities and knowledge acquisition. Through the modal transition probability matrix, we provide insights into the most suitable modalities for tasks. Furthermore, we introduce a statistically interpretable approach to discover context-specific knowledge mapping by localized feature filtering. Our analysis offers an exploration of the learning mechanism and paves the way for advancing large language models in molecular science.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2402.04119) | [💻 Code](https://github.com/AI-HPC-Research-Team/SLM4Mol)
+
+![MolecularLLM](images/Others/MolecularLLM.jpg)
+
+</details>
+
+### 12. [Nature Machine Intelligence' 24] Reusability report: exploring the utility of variational graph encoders for predicting molecular toxicity in drug design
+**Authors**: Ruijiang Li, Jiang Lu, Ziyi Liu, Duoyun Yi, Mengxuan Wan, Yixin Zhang, Peng Zan, Song He, Xiaochen Bo 
+<details span><summary><b>Abstract</b></summary>
+Variational graph encoders effectively combine graph convolutional networks with variational autoencoders, and have been widely employed for biomedical graph-structured data. Lam and colleagues developed a framework based on the variational graph encoder, NYAN, to facilitate the prediction of molecular properties in computer-assisted drug design. In NYAN, the low-dimensional latent variables derived from the variational graph autoencoder are leveraged as a universal molecular representation, yielding remarkable performance and versatility throughout the drug discovery process. In this study we assess the reusability of NYAN and investigate its applicability within the context of specific chemical toxicity prediction. The prediction accuracy—based on NYAN latent representations and other popular molecular feature representations—is benchmarked across a broad spectrum of toxicity datasets, and the adaptation of NYAN latent representation to other surrogate models is also explored. NYAN, equipped with common surrogate models, shows competitive or better performance in toxicity prediction compared with other state-of-the-art molecular property prediction methods. We also devise a multi-task learning strategy with feature enhancement and consensus inference by leveraging the low dimensionality and feature diversity of NYAN latent space, further boosting the multi-endpoint acute toxicity estimation. The analysis delves into the adaptability of the generic graph variational model, showcasing its aptitude for tailored tasks within the realm of drug discovery.
+</details>
+
+[📄 Paper](https://www.nature.com/articles/s42256-024-00923-6) | [💻 Code]( https://github.com/LuJiangTHU/NYAN_reuse)
+
+![Reusability_report](images/Others/Reusability_report.jpg)
+
+</details>
+
+
+### 13. [Nature Machine Intelligence' 24] An interpretable deep learning framework for genome-informed precision oncology
+**Authors**: Shuangxia Ren, Gregory F. Cooper, Lujia Chen, Xinghua Lu 
+<details span><summary><b>Abstract</b></summary>
+Cancers result from aberrations in cellular signalling systems, typically resulting from driver somatic genome alterations (SGAs) in individual tumours. Precision oncology requires understanding the cellular state and selecting medications that induce vulnerability in cancer cells under such conditions. To this end, we developed a computational framework consisting of two components: (1) a representation-learning component, which learns a representation of the cellular signalling systems when perturbed by SGAs and uses a biologically motivated and interpretable deep learning model, and (2) a drug-response prediction component, which predicts drug responses by leveraging the information of the cellular state of the cancer cells derived by the first component. Our cell-state-oriented framework notably improves the accuracy of predictions of drug responses compared to models using SGAs directly in cell lines. Moreover, our model performs well with real patient data. Importantly, our framework enables the prediction of responses to chemotherapy agents based on SGAs, thus expanding genome-informed precision oncology beyond molecularly targeted drugs.
+</details>
+
+[📄 Paper](https://www.nature.com/articles/s42256-024-00923-6) | [💻 Code]( https://zenodo.org/records/11559737)
+
+![genome-informed_precision_oncology](images/Others/genome-informed_precision_oncology.jpg)
+
+</details>
+
+
+### 14. [Nature Machine Intelligence' 24] Multiscale topology-enabled structure-to-sequence transformer for protein–ligand interaction predictions
+**Authors**: Dong Chen, Jian Liu, Guo-Wei Wei 
+<details span><summary><b>Abstract</b></summary>
+Despite the success of pretrained natural language processing (NLP) models in various fields, their application in computational biology has been hindered by their reliance on biological sequences, which ignores vital three-dimensional (3D) structural information incompatible with the sequential architecture of NLP models. Here we present a topological transformer (TopoFormer), which is built by integrating NLP models and a multiscale topology technique, the persistent topological hyperdigraph Laplacian (PTHL), which systematically converts intricate 3D protein–ligand complexes at various spatial scales into an NLP-admissible sequence of topological invariants and homotopic shapes. PTHL systematically transforms intricate 3D protein–ligand complexes into NLP-compatible sequences of topological invariants and shapes, capturing essential interactions across spatial scales. TopoFormer gives rise to exemplary scoring accuracy and excellent performance in ranking, docking and screening tasks in several benchmark datasets. This approach can be utilized to convert general high-dimensional structured data into NLP-compatible sequences, paving the way for broader NLP based research.
+</details>
+
+[📄 Paper](https://www.nature.com/articles/s42256-024-00855-1) | [💻 Code]( https://doi.org/10.5281/zenodo.10892799)
+
+![TopoFormer](images/Others/TopoFormer.jpg)
+
+</details>
