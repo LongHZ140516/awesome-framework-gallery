@@ -8,7 +8,7 @@
 🚀🚀🚀 This repository will be continuously updated🔥, and more images from various fields will be collected📦.
 
 ## 📢 Latest Updates
-- **Jan-26-2025**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ <img style="height: 15px;" src="images/icon/Agent.png"> Agent/ 📑 Others** framework images (number:*38*)
+- **Jan-26-2025**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ <img style="height: 15px;" src="images/icon/Agent.png"> Agent/ 📑 Others** framework images (number:*41*)
 - **Dec-01-2024**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ <img style="height: 15px;" src="images/icon/NeRF.png"> NeRF/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ 📑 Others** framework images (number:*50*) & Add **🔨 Tools** module to help better designing.
 - **Oct-03-2024**: Add 🛰️ **Remote Sensing** framework images (number:*20*)
 - **Sep-23-2024**: 🎉 ${\color{red} First\ gallery\ update!}$ Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ <img style="height: 15px;" src="images/icon/NeRF.png"> NeRF** framework images (number:*73*)
@@ -60,7 +60,8 @@
 <details open>
 <summary><b>LLM content</b></summary>
 
-### 1. MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI**Authors:** Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, Botao Yu, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen
+### 1. MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI
+**Authors:** Xiang Yue, Yuansheng Ni, Kai Zhang, Tianyu Zheng, Ruoqi Liu, Ge Zhang, Samuel Stevens, Dongfu Jiang, Weiming Ren, Yuxuan Sun, Cong Wei, Botao Yu, Ruibin Yuan, Renliang Sun, Ming Yin, Boyuan Zheng, Zhenzhu Yang, Yibo Liu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen
 <details span>
 <summary><b>Abstract</b></summary>
 We introduce MMMU: a new benchmark designed to evaluate multimodal models on massive multi-discipline tasks demanding college-level subject knowledge and deliberate reasoning. MMMU includes 11.5K meticulously collected multimodal questions from college exams, quizzes, and textbooks, covering six core disciplines: Art & Design, Business, Science, Health & Medicine, Humanities & Social Science, and Tech & Engineering. These questions span 30 subjects and 183 subfields, comprising 30 highly heterogeneous image types, such as charts, diagrams, maps, tables, music sheets, and chemical structures. Unlike existing benchmarks, MMMU focuses on advanced perception and reasoning with domain-specific knowledge, challenging models to perform tasks akin to those faced by experts. The evaluation of 14 open-source LMMs as well as the proprietary GPT-4V(ision) and Gemini highlights the substantial challenges posed by MMMU. Even the advanced GPT-4V and Gemini Ultra only achieve accuracies of 56% and 59% respectively, indicating significant room for improvement. We believe MMMU will stimulate the community to build next-generation multimodal foundation models towards expert artificial general intelligence.
@@ -376,8 +377,6 @@ Recent advances in Large Multimodal Models (LMM) have made it possible for vario
 
 ![LL3DA](images/LLM/CVPR2024_LL3DA.jpg)
 
-</details>
-
 
 ### 26. UrbanGPT: Spatio-Temporal Large Language Models
 
@@ -405,6 +404,8 @@ Human beings are social animals. How to equip 3D autonomous characters with simi
 
 ![SOLAMI-flag](images/LLM/SOLAMI_flag.jpg)
 ![SOLAMI-pipeline](images/LLM/SOLAMI_pipeline.jpg)
+
+</details>
 
 
 ## Diffusion
@@ -823,7 +824,6 @@ We present MoGe, a powerful model for recovering 3D geometry from monocular open
 
 ![MoGe](images/Diffusion/MoGe.jpg)
 
-</details>
 
 ### 32. LeviTor: 3D Trajectory Oriented Image-to-Video Synthesis
 
@@ -876,6 +876,8 @@ Our visual experience in daily life are dominated by dynamic change. Decoding su
 [📄 Paper](https://nips.cc/virtual/2024/poster/95156) | [🌐 Project Page](https://bcmi.sjtu.edu.cn/home/eeg2video/) | [💻 Code](https://github.com/XuanhaoLiu/EEG2Video)
 
 ![EEG2Video](images/Diffusion/EEG2Video.jpg)
+
+</details>
 
 
 ## 3DGS
@@ -1225,7 +1227,7 @@ Novel view synthesis of dynamic scenes has been an intriguing yet challenging pr
 **Authors:** Jiakai Sun, Han Jiao, Guangyuan Li, Zhanjie Zhang, Lei Zhao, Wei Xing
 
 <details span>
-<summary><b>Abstract</summary>
+<summary><b>Abstract</b></summary>
 Constructing photo-realistic Free-Viewpoint Videos
 (FVVs) of dynamic scenes from multi-view videos remains
 a challenging endeavor. Despite the remarkable advancements achieved by current neural rendering techniques,
@@ -1361,7 +1363,6 @@ We propose TextToon, a method to generate a drivable toonified avatar. Given a s
 
 ![TextToon](images/3DGS/SiggraphAsia2024_TextToon.jpg)
 
-</details>
 
 
 ### 32. CoSurfGS:Collaborative 3D Surface Gaussian Splatting with Distributed Learning for Large Scene Reconstruction
@@ -1417,12 +1418,41 @@ We introduce a novel 3D generation method for versatile and high-quality 3D asse
 ![Trellis](images/3DGS/Trellis.jpg)
 
 
+### 36. [NIPS' 24] AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation
+**Authors:** Boyu Han, Qianqian Xu, Zhiyong Yang, Shilong Bao, Peisong Wen, Yangbangyan Jiang, Qingming Huang
+
+<details span>
+<summary><b>Abstract</b></summary>
+The Area Under the ROC Curve (AUC) is a well-known metric for evaluating instance-level long-tail learning problems. In the past two decades, many AUC optimization methods have been proposed to improve model performance under long-tail distributions. In this paper, we explore AUC optimization methods in the context of pixel-level long-tail semantic segmentation, a much more complicated scenario. This task introduces two major challenges for AUC optimization techniques. On one hand, AUC optimization in a pixel-level task involves complex coupling across loss terms, with structured inner-image and pairwise inter-image dependencies, complicating theoretical analysis. On the other hand, we find that mini-batch estimation of AUC loss in this case requires a larger batch size, resulting in an unaffordable space complexity. To address these issues, we develop a pixel-level AUC loss function and conduct a dependency-graph-based theoretical analysis of the algorithm's generalization ability. Additionally, we design a Tail-Classes Memory Bank (T-Memory Bank) to manage the significant memory demand. Finally, comprehensive experiments across various benchmarks confirm the effectiveness of our proposed AUCSeg method. The code is available at https://github.com/boyuh/AUCSeg.
+</details>
+
+[📄 Paper](https://nips.cc/virtual/2024/poster/94250) | [💻 Code](https://github.com/boyuh/AUCSeg)
+
+![AUCSeg](images/3DGS/AUCSeg.jpg)
+
+
+### 37. [NIPS' 24 Oral] GIC: Gaussian-Informed Continuum for Physical Property Identification and Simulation
+**Authors:** Junhao Cai, Yuji Yang, Weihao Yuan, Yisheng He, Zilong Dong, Liefeng Bo, Hui Cheng, Qifeng Chen
+
+<details span>
+<summary><b>Abstract</b></summary>
+This paper studies the problem of estimating physical properties (system identification) through visual observations. To facilitate geometry-aware guidance in physical property estimation, we introduce a novel hybrid framework that leverages 3D Gaussian representation to not only capture explicit shapes but also enable the simulated continuum to render object masks as 2D shape surrogates during training. We propose a new dynamic 3D Gaussian framework based on motion factorization to recover the object as 3D Gaussian point sets across different time states. Furthermore, we develop a coarse-to-fine filling strategy to generate the density fields of the object from the Gaussian reconstruction, allowing for the extraction of object continuums along with their surfaces and the integration of Gaussian attributes into these continuum. In addition to the extracted object surfaces, the Gaussian-informed continuum also enables the rendering of object masks during simulations, serving as 2D-shape guidance for physical property estimation. Extensive experimental evaluations demonstrate that our pipeline achieves state-of-the-art performance across multiple benchmarks and metrics. Additionally, we illustrate the effectiveness of the proposed method through real-world demonstrations, showcasing its practical utility.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2406.14927) | [🌐 Project Page](https://jukgei.github.io/project/gic/) | [💻 Code](https://github.com/Jukgei/gic) | [🎥 Video](https://www.youtube.com/watch?v=xxCsrpmJVgs)
+
+![GIC](images/3DGS/GIC.jpg)
+
+</details>
+
+
 ## NeRF
 
 <details open>
 <summary><b>NeRF content</b></summary>
 
-### 1. [TPAMI' 24]PERF: Panoramic Neural Radiance Field from a Single Panorama**Authors:** Guangcong Wang, Peng Wang, Zhaoxi Chen, Wenping Wang, Chen Change Loy, Ziwei Liu
+### 1. [TPAMI' 24]PERF: Panoramic Neural Radiance Field from a Single Panorama
+**Authors:** Guangcong Wang, Peng Wang, Zhaoxi Chen, Wenping Wang, Chen Change Loy, Ziwei Liu
 <details span>
 <summary><b>Abstract</b></summary>
 Neural Radiance Field (NeRF) has achieved substantial progress in novel view synthesis given multi-view images.
@@ -1475,7 +1505,8 @@ upon acceptance.
 
 ![G-NeLF](images/NeRF/G-NeLF.jpg)
 
-### 3. GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding**Authors:** Hao Li, Dingwen Zhang, Yalun Dai, Nian Liu, Lechao Cheng, Jingfeng Li, Jingdong Wang, Junwei Han
+### 3. GP-NeRF: Generalized Perception NeRF for Context-Aware 3D Scene Understanding
+**Authors:** Hao Li, Dingwen Zhang, Yalun Dai, Nian Liu, Lechao Cheng, Jingfeng Li, Jingdong Wang, Junwei Han
 <details span>
 <summary><b>Abstract</b></summary>
 Applying NeRF to downstream perception tasks for scene understanding and representation is becoming increasingly popular. Most existing methods treat semantic prediction as an additional rendering task, \textit{i.e.}, the "label rendering" task, to build semantic NeRFs. However, by rendering semantic/instance labels per pixel without considering the contextual information of the rendered image, these methods usually suffer from unclear boundary segmentation and abnormal segmentation of pixels within an object. To solve this problem, we propose Generalized Perception NeRF (GP-NeRF), a novel pipeline that makes the widely used segmentation model and NeRF work compatibly under a unified framework, for facilitating context-aware 3D scene perception. To accomplish this goal, we introduce transformers to aggregate radiance as well as semantic embedding fields jointly for novel views and facilitate the joint volumetric rendering of both fields. In addition, we propose two self-distillation mechanisms, i.e., the Semantic Distill Loss and the Depth-Guided Semantic Distill Loss, to enhance the discrimination and quality of the semantic field and the maintenance of geometric consistency. In evaluation, we conduct experimental comparisons under two perception tasks (\textit{i.e.} semantic and instance segmentation) using both synthetic and real-world datasets. Notably, our method outperforms SOTA approaches by 6.94%, 11.76%, and 8.47% on generalized semantic segmentation, finetuning semantic segmentation, and instance segmentation, respectively.
@@ -1529,7 +1560,8 @@ Creating high-quality 3D models of clothed humans from single images for real-wo
 
 ![SIFU](images/NeRF/SIFU.jpg)
 
-### 8. ColNeRF: Collaboration for Generalizable Sparse Input Neural Radiance Field**Authors:** Zhangkai Ni, Peiqi Yang, Wenhan Yang, Hanli Wang, Lin Ma, Sam Kwong
+### 8. ColNeRF: Collaboration for Generalizable Sparse Input Neural Radiance Field
+**Authors:** Zhangkai Ni, Peiqi Yang, Wenhan Yang, Hanli Wang, Lin Ma, Sam Kwong
 <details span>
 <summary><b>Abstract</b></summary>
 Neural Radiance Fields (NeRF) have demonstrated impressive potential in synthesizing novel views from dense input, however, their effectiveness is challenged when dealing with sparse input. Existing approaches that incorporate additional depth or semantic supervision can alleviate this issue to an extent. However, the process of supervision collection is not only costly but also potentially inaccurate, leading to poor performance and generalization ability in diverse scenarios. In our work, we introduce a novel model: the Collaborative Neural Radiance Fields (ColNeRF) designed to work with sparse input. The collaboration in ColNeRF includes both the cooperation between sparse input images and the cooperation between the output of the neural radiation field. Through this, we construct a novel collaborative module that aligns information from various views and meanwhile imposes self-supervised constraints to ensure multi-view consistency in both geometry and appearance. A Collaborative Cross-View Volume Integration module (CCVI) is proposed to capture complex occlusions and implicitly infer the spatial location of objects. Moreover, we introduce self-supervision of target rays projected in multiple directions to ensure geometric and color consistency in adjacent regions. Benefiting from the collaboration at the input and output ends, ColNeRF is capable of capturing richer and more generalized scene representation, thereby facilitating higher-quality results of the novel view synthesis. Extensive experiments demonstrate that ColNeRF outperforms state-of-the-art sparse input generalizable NeRF methods. Furthermore, our approach exhibits superiority in fine-tuning towards adapting to new scenes, achieving competitive performance compared to per-scene optimized NeRF-based methods while significantly reducing computational costs.
@@ -1564,7 +1596,8 @@ We develop an effective point cloud rendering pipeline for novel view synthesis,
 
 ![FreqPCR](images/NeRF/FreqPCR.jpg)
 
-### 11. [CVPR'23] SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field**Authors:** Chong Bao, Yinda Zhang, Bangbang Yang, Tianxing Fan, Zesong Yang, Hujun Bao, Guofeng Zhang, Zhaopeng Cui
+### 11. [CVPR'23] SINE: Semantic-driven Image-based NeRF Editing with Prior-guided Editing Field
+**Authors:** Chong Bao, Yinda Zhang, Bangbang Yang, Tianxing Fan, Zesong Yang, Hujun Bao, Guofeng Zhang, Zhaopeng Cui
 <details span>
 <summary><b>Abstract</b></summary>
 Despite the great success in 2D editing using user-friendly tools, such as Photoshop, semantic strokes, or even text prompts, similar capabilities in 3D areas are still limited, either relying on 3D modeling skills or allowing editing within only a few categories. In this paper, we present a novel semantic-driven NeRF editing approach, which enables users to edit a neural radiance field with a single image, and faithfully delivers edited novel views with high fidelity and multi-view consistency. To achieve this goal, we propose a prior-guided editing field to encode fine-grained geometric and texture editing in 3D space, and develop a series of techniques to aid the editing process, including cyclic constraints with a proxy mesh to facilitate geometric supervision, a color compositing mechanism to stabilize semantic-driven texture editing, and a feature-cluster-based regularization to preserve the irrelevant content unchanged. Extensive experiments and editing examples on both real-world and synthetic data demonstrate that our method achieves photo-realistic 3D editing using only a single edited image, pushing the bound of semantic-driven editing in 3D real-world scenes.
@@ -1574,7 +1607,8 @@ Despite the great success in 2D editing using user-friendly tools, such as Photo
 
 ![SINE](images/NeRF/CVPR2023_SINE.jpg)
 
-### 12. PonderV2: Pave the Way for 3D Foundation Model with A Universal Pre-training Paradigm**Authors:** Haoyi Zhu, Honghui Yang, Xiaoyang Wu, Di Huang, Sha Zhang, Xianglong He, Hengshuang Zhao, Chunhua Shen, Yu Qiao, Tong He, Wanli Ouyang
+### 12. PonderV2: Pave the Way for 3D Foundation Model with A Universal Pre-training Paradigm
+**Authors:** Haoyi Zhu, Honghui Yang, Xiaoyang Wu, Di Huang, Sha Zhang, Xianglong He, Hengshuang Zhao, Chunhua Shen, Yu Qiao, Tong He, Wanli Ouyang
 <details span>
 <summary><b>Abstract</b></summary>
 In contrast to numerous NLP and 2D vision foundational models, learning a 3D foundational model poses considerably greater challenges. This is primarily due to the inherent data variability and diversity of downstream tasks. In this paper, we introduce a novel universal 3D pre-training framework designed to facilitate the acquisition of efficient 3D representation, thereby establishing a pathway to 3D foundational models. Considering that informative 3D features should encode rich geometry and appearance cues that can be utilized to render realistic images, we propose to learn 3D representations by differentiable neural rendering. We train a 3D backbone with a devised volumetric neural renderer by comparing the rendered with the real images. Notably, our approach seamlessly integrates the learned 3D encoder into various downstream tasks. These tasks encompass not only high-level challenges such as 3D detection and segmentation but also low-level objectives like 3D reconstruction and image synthesis, spanning both indoor and outdoor scenarios. Besides, we also illustrate the capability of pre-training a 2D backbone using the proposed methodology, surpassing conventional pre-training methods by a large margin. For the first time, PonderV2 achieves state-of-the-art performance on 11 indoor and outdoor benchmarks, implying its effectiveness.
@@ -1584,7 +1618,8 @@ In contrast to numerous NLP and 2D vision foundational models, learning a 3D fou
 
 ![PonderV2](images/NeRF/PonderV2.jpg)
 
-### 13. [CVPR'23] BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects**Authors:** Bowen Wen, Jonathan Tremblay, Valts Blukis, Stephen Tyree, Thomas Muller, Alex Evans, Dieter Fox, Jan Kautz, Stan Birchfield
+### 13. [CVPR'23] BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects
+**Authors:** Bowen Wen, Jonathan Tremblay, Valts Blukis, Stephen Tyree, Thomas Muller, Alex Evans, Dieter Fox, Jan Kautz, Stan Birchfield
 <details span>
 <summary><b>Abstract</b></summary>
 We present a near real-time method for 6-DoF tracking of an unknown object from a monocular RGBD video sequence, while simultaneously performing neural 3D reconstruction of the object. Our method works for arbitrary rigid objects, even when visual texture is largely absent. The object is assumed to be segmented in the first frame only. No additional information is required, and no assumption is made about the interaction agent. Key to our method is a Neural Object Field that is learned concurrently with a pose graph optimization process in order to robustly accumulate information into a consistent 3D representation capturing both geometry and appearance. A dynamic pool of posed memory frames is automatically maintained to facilitate communication between these threads. Our approach handles challenging sequences with large pose changes, partial and full occlusion, untextured surfaces, and specular highlights. We show results on HO3D, YCBInEOAT, and BEHAVE datasets, demonstrating that our method significantly outperforms existing approaches.
@@ -1949,7 +1984,7 @@ Inland freshwaters are essential in maintaining ecological balance and supportin
 
 ![flood-inundation](images/Remote%20Sensing/Multi-temporal-remote-sensing-of-inland-surface.jpg)
 
-### 31. Sustainable development of urban agglomerations around lakes in China: Achieving SDGs by regulating Ecosystem Service Supply and Demand through New-type Urbanization
+### 31. [HabitatI nternational'24] Sustainable development of urban agglomerations around lakes in China: Achieving SDGs by regulating Ecosystem Service Supply and Demand through New-type Urbanization
 **Authors:** Tongning Li, Yaobin Liu, Xiao Ouyang, Yajing Zhou, Mo Bi, Guoen Wei
 <details span><summary><b>Abstract</b></summary>
 The mechanism through which New-type Urbanization (NU), as a new direction in urban development, influences the Sustainable Development Goals (SDGs) by regulating the Ecosystem Services (ES) supply and demand remains to be determined. It is particularly true in urban agglomerations around lakes, characterized by severe human-land conflicts, where socio-economic development is closely linked to water. We selected China's urban agglomerations around lakes as the study area. We investigated the spatio-temporal heterogeneity of NU and the Ecosystem Service Supply and Demand Ratio (ESDR) from 2000 to 2018. We specifically focused on the dynamic trends of SDG 2 (Zero Hunger), SDG 13 (Climate Action), and SDG 15 (Life on Land). Furthermore, we utilized Structural Equation Modeling (SEM) to reveal the direct effects and indirect pathways through which NU influences the achievement of SDGs in the study area, emphasizing the differentiated performance of this mechanism across various urban agglomerations around Lakes. The results indicated that the ESDR has a particularly evident downward trend in urban centers along lakes, rivers, and road networks in spatial terms. The level of NU in urban agglomerations around lakes has increased by about 50% overall. It geographically exhibits three main spatial distribution patterns: “diffusion along the lake,” “homogeneous distribution,” and “diffusion along the river.” NU directly inhibits the achievement of SDGs but indirectly promotes the improvement of ESDR for food production and soil conservation, thereby indirectly facilitating the achievement of SDG 2 and SDG 15, but has an inhibitory effect on SDG 13. By regulating ESDR, NU is most effective in achieving SDGs in the urban agglomerations around Poyang Lake and Dongting Lake but has a significant inhibitory effect on the urban agglomeration around Hongze Lake. This research provides quantitative evidence for the urban planning shift, terrestrial ecosystem function restoration, and SDGs achievement in urban agglomerations around lakes. It also offers new insights from China for the sustainable urban construction of urban agglomerations around lakes worldwide.
@@ -1960,7 +1995,7 @@ The mechanism through which New-type Urbanization (NU), as a new direction in ur
 ![SustainableDevelopment](images/Remote%20Sensing/SustainableDevelopment.jpg)
 
 
-### 32. A new multivariate index for ecological security assessment in the China-Myanmar border region
+### 32. [Journal of Environmental Management'24] A new multivariate index for ecological security assessment in the China-Myanmar border region
 **Authors:** Yi Zou, Siqi Wang, Xuan Luo, Hanyu Jin, Xin Xiao, Yungang Li
 <details span><summary><b>Abstract</b></summary>
 The coordination of development efforts and ecological conservation in China's border regions is a significant challenge due to the overlap of biodiversity hotspots, ecologically fragile zones, and impoverished areas. Achieving the harmonious integration of ecological preservation and economic development relies on the fundamental assessment of ecological security (ES). However, comprehensive assessments of ES in border regions remain limited. This study introduces a new index, the multivariate ecological security index (MESI), which integrates ecosystem vigor, organization, elasticity, services and risk. Here, the MESI was utilized to assess the temporal and spatial changes in ES and its associated impact factors in the China-Myanmar border region (CMBR) from 2000 to 2020. The MESI provides a clear representation of the actual ES status in the CMBR, exhibiting a significant correlation with the eco-environmental quality index (EEQI; p < 0.01). The ES status exhibited notable spatial heterogeneity in the CMBR, consisting primarily of both relatively safe and safe levels, which accounted for approximately 85% of the total area. From 2000 to 2020, the CMBR experienced a gradual improvement in ES status, with the area experiencing an increase in the ES level accounting for 23.41% of the total area, which exceeded the proportion of the area experiencing a decrease in the ES level (4.71%). The combined impact of multiple factors exerted a greater influence on ES than did individual factors alone. Notably, human factors increasingly influenced the ES status during the study period. The results of this study provide valuable insights for ecological preservation and sustainable management in the CMBR, and the MESI can be extended to assess the ES of other regions.
@@ -2037,7 +2072,7 @@ Recently, multi-modal large language models (MLLMs) have shown excellent reasoni
 
 ![RingMoGPT](images/Remote%20Sensing/RingMoGPT.png)
 
-### 39. [Journal_of_Environmental_Management'24] Towards a Green Equal City: Measuring and matching the supply-demand of green exposure in urban center
+### 39. [Journal of Environmental Management'24] Towards a Green Equal City: Measuring and matching the supply-demand of green exposure in urban center
 **Authors:**  Chaoyang Zhu, Shanwen Zheng, Shengjie Yang, Jun Dong, Moheng Ma, Shanshan Zhang, Shengnan Liu, Xinyu Liu, Yifeng Yao, Baolong Han
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2050,8 +2085,8 @@ Exposure to green environments is crucial for human health. However, urbanizatio
 
 ![Towards-Green-Equal-City](images/Remote%20Sensing/Towards%20a%20Green%20Equal%20City%20workflow.jpg)
 
-### 40. [Arxiv'24] Modality Decoupling is All You Need: A Simple Solution for Unsupervised Hyperspectral Image Fusion
-**Authors:**  Songcheng Du†, Yang Zou†, Zixu Wang, Xingyuan Li, Ying Li, Qiang Shen
+### 40. Modality Decoupling is All You Need: A Simple Solution for Unsupervised Hyperspectral Image Fusion
+**Authors:**  Songcheng Du, Yang Zou, Zixu Wang, Xingyuan Li, Ying Li, Qiang Shen
 <details span>
 <summary><b>Abstract</b></summary>
  Hyperspectral Image Fusion (HIF) aims to fuse lowresolution hyperspectral images (LR-HSIs) and highresolution multispectral images (HR-MSIs) to reconstruct high spatial and high spectral resolution images. Current methods typically apply direct fusion from the two modalities without valid supervision, failing to fully perceive the deep modality-complementary information and hence, resulting in a superficial understanding of inter-modality connections. To bridge this gap, we propose a simple and effective solution for unsupervised HIF with an assumption that modality decoupling is essential for HIF. We introduce the modality clustering loss that ensures clear guidance of the modality, decoupling towards modality-shared features while steering clear of modality-complementary ones. Also, we propose an end-to-end Modality-Decoupled SpatialSpectral Fusion (MossFuse) framework that decouples shared and complementary information across modalities and aggregates a concise representation of the LR-HSI and HR-MSI to reduce the modality redundancy. Systematic experiments over multiple datasets demonstrate that our simple and effective approach consistently outperforms the existing HIF methods while requiring considerably fewer parameters with reduced inference time.
@@ -2061,8 +2096,8 @@ Exposure to green environments is crucial for human health. However, urbanizatio
 
 ![flood-inundation](images/Remote%20Sensing/Modality%20Decoupling%20is%20All%20You%20Need.png)
 
-### 41. [Front._Plant_Sci.'24] MaxEnt and Marxan modeling to predict the potential habitat and priority planting areas of Coffea arabica in Yunnan, China under climate change scenario
-**Authors:**  Xia Li1, Zihao Wang, Shaoqiang Wang, Zhaohui Qian
+### 41. [Front. Plant Sci.'24] MaxEnt and Marxan modeling to predict the potential habitat and priority planting areas of Coffea arabica in Yunnan, China under climate change scenario
+**Authors:**  Xia Li, Zihao Wang, Shaoqiang Wang, Zhaohui Qian
 <details span>
 <summary><b>Abstract</b></summary>
  Introduction: Coffea arabica (Arabica coffee) is an important cash crop in Yunnan, China. Ongoing climate change has made coffee production more difficult to sustain, posing challenges for the region’s coffee industry. Predictions of the distribution of potentially suitable habitats for Arabica coffee in Yunnan could provide a theoretical basis for the cultivation and rational management of this species.
@@ -2088,6 +2123,9 @@ Discussion: Climate, soil, and topography combine to influence the potential geo
 ![Local-Climate-Zones](images/Remote%20Sensing/Mapping%20of%20Local%20Climate%20Zones.jpg)
 
 ### 43. [CellPress'24] Shared insights for heat health risk adaptation in metropolitan areas of developing countries
+
+**Authors:**  Wenbo Yu, Jun Yang, Dongqi Sun, Xiangming Xiao, Jianhong(Cecilia) Xia, Xueming Li
+
 <details span>
 <summary><b>Abstract</b></summary>
 Global warming has led to a surge in heat health risks (HHRs), the impacts of which are particularly pronounced in metropolitan areas of developing countries. In the current study, six metropolitan areas - Beijing, China; Cairo, Egypt; Jakarta, Indonesia; Mumbai, India; Rio de Janeiro, Brazil; and Tehran, Iran - were selected as the study area to further differentiate the built-up landscapes by utilizing the concept of local climate zones. Moreover, we assessed the similarities and differences in HHR associated with the landscape. Results revealed a 30.67% higher HHR in compact built-up landscapes than in the open built-up type. Urban green spaces played an effective but differentiated role in mitigating HHR. That is, low vegetation in urbanized areas and trees in suburban areas significantly mitigated HHR. Collectively, our findings emphasize the role of effective planning and management in addressing HHR and provide empirical support for implementing HHR mitigation and adaptation strategies.
@@ -2131,7 +2169,8 @@ Point cloud completion, which aims at recovering original shape information from
 
 ![Prototype-Aware](images/pointcloud/Prototype-Aware.jpg)
 
-### 3. [ICCV'23] 3DHacker: Spectrum-based Decision Boundary Generation for Hard-label 3D Point Cloud Attack**Authors:** Yunbo Tao, Daizong Liu, Pan Zhou, Yulai Xie, Wei Du, Wei Hu
+### 3. [ICCV'23] 3DHacker: Spectrum-based Decision Boundary Generation for Hard-label 3D Point Cloud Attack
+**Authors:** Yunbo Tao, Daizong Liu, Pan Zhou, Yulai Xie, Wei Du, Wei Hu
 <details span>
 <summary><b>Abstract</b></summary>
 With the maturity of depth sensors, the vulnerability of 3D point cloud models has received increasing attention in various applications such as autonomous driving and robot navigation. Previous 3D adversarial attackers either follow the white-box setting to iteratively update the coordinate perturbations based on gradients, or utilize the output model logits to estimate noisy gradients in the black-box setting. However, these attack methods are hard to be deployed in real-world scenarios since realistic 3D applications will not share any model details to users. Therefore, we explore a more challenging yet practical 3D attack setting, \textit{i.e.}, attacking point clouds with black-box hard labels, in which the attacker can only have access to the prediction label of the input. To tackle this setting, we propose a novel 3D attack method, termed \textbf{3D} \textbf{H}ard-label att\textbf{acker} (\textbf{3DHacker}), based on the developed decision boundary algorithm to generate adversarial samples solely with the knowledge of class labels. Specifically, to construct the class-aware model decision boundary, 3DHacker first randomly fuses two point clouds of different classes in the spectral domain to craft their intermediate sample with high imperceptibility, then projects it onto the decision boundary via binary search. To restrict the final perturbation size, 3DHacker further introduces an iterative optimization strategy to move the intermediate sample along the decision boundary for generating adversarial point clouds with smallest trivial perturbations. Extensive evaluations show that, even in the challenging hard-label setting, 3DHacker still competitively outperforms existing 3D attacks regarding the attack performance as well as adversary quality.
@@ -2153,7 +2192,6 @@ Interactive segmentation has an important role in facilitating the annotation pr
 
 ![Interactive4D](images/pointcloud/Interactive4D.jpg)
 
-</details>
 
 
 ### 5. OpenIN: Open-Vocabulary Instance-Oriented Navigation in Dynamic Domestic Environments
@@ -2170,12 +2208,26 @@ In daily domestic settings, frequently used objects like cups often have unfixed
 ![OpenIN](images/pointcloud/OpenIN.jpg)
 
 
+### 6 [NIPS'24 Spotlight] SA3DIP: Segment Any 3D Instance with Potential 3D Priors
+**Authors:** Xi Yang, Xi_Yang, Xu Gu, Xingyilang Yin, Xinbo Gao
+
+<details span>
+<summary><b>Abstract</b></summary>
+The proliferation of 2D foundation models has sparked research into adapting them for open-world 3D instance segmentation. Recent methods introduce a paradigm that leverages superpoints as geometric primitives and incorporates 2D multi-view masks from Segment Anything model (SAM) as merging guidance, achieving outstanding zero-shot instance segmentation results. However, the limited use of 3D priors restricts the segmentation performance. Previous methods calculate the 3D superpoints solely based on estimated normal from spatial coordinates, resulting in under-segmentation for instances with similar geometry. Besides, the heavy reliance on SAM and hand-crafted algorithms in 2D space suffers from over-segmentation due to SAM’s inherent part-level segmentation tendency. To address these issues, we propose SA3DIP, a novel method for Segmenting Any 3D Instances via exploiting potential 3D Priors. Specifically, on one hand, we generate complementary 3D primitives based on both geometric and textural priors, which reduces the initial errors that accumulate in subsequent procedures. On the other hand, we introduce supplemental constraints from the 3D space by using a 3D detector to guide a further merging process. Furthermore, we notice a considerable portion of low-quality ground truth annotations in ScanNetV2 benchmark, which affect the fair evaluations. Thus, we present ScanNetV2-INS with complete ground truth labels and supplement additional instances for 3D class-agnostic instance segmentation. Experimental evaluations on various 2D-3D datasets demonstrate the effectiveness and robustness of our approach.
+</details>
+
+[📄 Paper](https://nips.cc/virtual/2024/poster/96708) |  [💻 Code](https://github.com/ryang41/sa3dip)
+
+![SA3DIP](images/pointcloud/SA3DIP.jpg)
+
+</details>
+
 ## Dataset
 
 <details open>
 <summary><b>Dataset content</b></summary>
 
-### 1.  LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models
+### 1. [ICLR'25] LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models
 **Authors:** Junyan Ye, Baichuan Zhou, Zilong Huang, Junan Zhang, Tianyi Bai, Hengrui Kang, Jun He, Honglin Lin, Zihao Wang, Tong Wu, Zhizheng Wu, Yiping Chen, Dahua Lin, Conghui He, Weijia Li
 
 <details span>
@@ -2211,7 +2263,7 @@ We present MEGA-Bench, an evaluation suite that scales multimodal evaluation to 
 
 ![MEGA-BENCH](images/dataset/MEGA-BENCH.jpg)
 
-</details>
+
 
 
 ### 4. Are VLMs Ready for Autonomous Driving? An Empirical Study from the Reliability, Data, and Metric Perspectives
@@ -2253,6 +2305,9 @@ Despite the significant progress made by existing retrieval augmented language m
 
 ![RAG-RewardBench](images/dataset/RAG-RewardBench.jpg)
 
+</details>
+
+
 ## Robotics
 
 <details open>
@@ -2271,7 +2326,6 @@ The pre-training of visual representations has enhanced the efficiency of robot 
 
 ![RobotsPre-trainRobots](images/Robotics/RobotsPre-TrainRobots.jpg)
 
-</details>
 
 ### 2. OmniManip: Towards General Robotic Manipulation via Object-Centric Interaction Primitives as Spatial Constraints
 
@@ -2299,8 +2353,14 @@ Despite the recent advancements of vision-language-action (VLA) models on a vari
 
 ![GRAPE](images/Robotics/GRAPE.jpg)
 
+</details>
+
 
 ## Agent
+
+<details open>
+<summary><b>Agents content</b></summary>
+
 ### 1. Enhancing Multi-Robot Semantic Navigation Through Multimodal Chain-of-Thought Score Collaboration
 
 **Authors:** Zhixuan Shen, Haonan Luo, Kexun Chen, Fengmao Lv, Tianrui Li
@@ -2314,6 +2374,7 @@ Understanding how humans cooperatively utilize semantic knowledge to explore unf
 
 ![MCoCoNav](images/Agent/MCoCoNav.jpg)
 
+</details>
 
 ## Others
 
@@ -2358,7 +2419,6 @@ Recent advancements in State Space Models (SSMs) have attracted significant inte
 
 ![MMHead](images/Others/ACMMM2024_MMHead.jpg)
 
-</details>
 
 ### 4. MatchAnything: Universal Cross-Modality Image Matching with Large-Scale Pre-Training
 
@@ -2397,7 +2457,7 @@ Open-world 3D reconstruction models have recently garnered significant attention
 
 ![MeshFormer](images/Others/MeshFormer.jpg)
 
-</details>
+
 
 ### 7. [NIPS' 24] MeshFormer : High-Quality Mesh Generation with 3D-Guided Reconstruction Model
 **Authors**: Xuehao Cui, Xuehao_Cui, Guangyang Wu, Zhenghao Gan, Guangtao Zhai, Xiaohong Liu
@@ -2409,7 +2469,7 @@ Existing methods to generate aesthetic QR codes, such as image and style transfe
 
 ![Face2QR](images/Others/Face2QR.jpg)
 
-</details>
+
 
 ### 8. [NIPS' 24] CoSW: Conditional Sample Weighting for Smoke Segmentation with Label Noise
 **Authors**: Lujian Yao, Haitao Zhao, Zhongze Wang, Kaijie Zhao, Jingchao Peng
@@ -2421,7 +2481,7 @@ Smoke segmentation is of great importance in precisely identifying the smoke loc
 
 ![CoSW](images/Others/CoSW.jpg)
 
-</details>
+
 
 
 ### 9. [Siggraph Aisa' 24] FreeAvatar: Robust 3D Facial Animation Transfer by Learning an Expression Foundation Model
@@ -2434,8 +2494,6 @@ Video-driven 3D facial animation transfer aims to drive avatars to reproduce the
 
 ![FreeAvatar](images/Others/FreeAvatar.jpg)
 
-</details>
-
 
 ### 10. [Siggraph Asia' 24] Dance-to-Music Generation with Encoder-based Textual Inversion
 **Authors**: Sifei Li, Weiming Dong, Yuxin Zhang, Fan Tang, Chongyang Ma, Oliver Deussen, Tong-Yee Lee, Changsheng Xu
@@ -2447,7 +2505,7 @@ The seamless integration of music with dance movements is essential for communic
 
 ![Dance-to-Music](images/Others/Dance-to-Music.jpg)
 
-</details>
+
 
 
 ### 11. [Nature Machine Intelligence' 25] A quantitative analysis of knowledge-learning preferences in large language models in molecular science
@@ -2460,7 +2518,7 @@ Deep learning has significantly advanced molecular modelling and design, enablin
 
 ![MolecularLLM](images/Others/MolecularLLM.jpg)
 
-</details>
+
 
 ### 12. [Nature Machine Intelligence' 24] Reusability report: exploring the utility of variational graph encoders for predicting molecular toxicity in drug design
 **Authors**: Ruijiang Li, Jiang Lu, Ziyi Liu, Duoyun Yi, Mengxuan Wan, Yixin Zhang, Peng Zan, Song He, Xiaochen Bo 
@@ -2471,8 +2529,6 @@ Variational graph encoders effectively combine graph convolutional networks with
 [📄 Paper](https://www.nature.com/articles/s42256-024-00923-6) | [💻 Code]( https://github.com/LuJiangTHU/NYAN_reuse)
 
 ![Reusability_report](images/Others/Reusability_report.jpg)
-
-</details>
 
 
 ### 13. [Nature Machine Intelligence' 24] An interpretable deep learning framework for genome-informed precision oncology
@@ -2485,7 +2541,7 @@ Cancers result from aberrations in cellular signalling systems, typically result
 
 ![genome-informed_precision_oncology](images/Others/genome-informed_precision_oncology.jpg)
 
-</details>
+
 
 
 ### 14. [Nature Machine Intelligence' 24] Multiscale topology-enabled structure-to-sequence transformer for protein–ligand interaction predictions
