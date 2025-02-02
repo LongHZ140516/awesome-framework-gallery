@@ -7,6 +7,7 @@
 
 🚀🚀🚀 This repository will be continuously updated🔥, and more images from various fields will be collected📦.
 
+
 ## 📢 Latest Updates
 - **Jan-26-2025**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ <img style="height: 15px;" src="images/icon/Agent.png"> Agent/ 📑 Others** framework images (number:*41*)
 - **Dec-01-2024**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ <img style="height: 15px;" src="images/icon/NeRF.png"> NeRF/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ 📑 Others** framework images (number:*50*) & Add **🔨 Tools** module to help better designing.
@@ -14,6 +15,14 @@
 - **Sep-23-2024**: 🎉 ${\color{red} First\ gallery\ update!}$ Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ <img style="height: 15px;" src="images/icon/NeRF.png"> NeRF** framework images (number:*73*)
 
 ## Please share a $\color{orange} STAR$ ⭐ if this project does help
+
+## 🧾 TODO List
+
+We’ll soon add **beautiful flowcharts** from 🧬**Nature** and 🌍**Science** to inspire your illustrations! 🌟
+
+- [ ] Add flowcharts from 🧬**Nature** 
+- [ ] Add flowcharts from 🌍**Science** 
+
 
 ## 📄 Table of contents
 - 🔨 [Tools](#tools)
