@@ -9,6 +9,7 @@
 
 
 ## 📢 Latest Updates
+- **Mar-25-2025**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ <img style="height: 15px;" src="images/icon/Agent.png"> Agent/ 📑 Others / 🧬 Nature-Science-Cell** framework images (number:*37*)
 - **Jan-26-2025**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ <img style="height: 15px;" src="images/icon/Agent.png"> Agent/ 📑 Others** framework images (number:*41*)
 - **Dec-01-2024**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ <img style="height: 15px;" src="images/icon/NeRF.png"> NeRF/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ 📑 Others** framework images (number:*50*) & Add **🔨 Tools** module to help better designing.
 - **Oct-03-2024**: Add 🛰️ **Remote Sensing** framework images (number:*20*)
@@ -18,10 +19,9 @@
 
 ## 🧾 TODO List
 
-We’ll soon add **beautiful flowcharts** from 🧬**Nature** and 🌍**Science** to inspire your illustrations! 🌟
-
-- [ ] Add flowcharts from 🧬**Nature** 
-- [ ] Add flowcharts from 🌍**Science** 
+- [x] Add flowcharts from 🧬**Nature** 
+- [x] Add flowcharts from 🌍**Science** 
+- [ ] 💻 Create a **dedicated website** for the repository
 
 
 ## 📄 Table of contents
@@ -36,6 +36,7 @@ We’ll soon add **beautiful flowcharts** from 🧬**Nature** and 🌍**Science*
 - 🕹️ [Robotics](#robotics)
 - <img style="height: 15px;" src="images/icon/Agent.png"> [Agent](#agent)
 - 📑 [Others](#others)
+- 🧬 [Nature-Science-Cell](#nature-science-cell)
 
 <!-- Tool part -->
 
@@ -414,8 +415,72 @@ Human beings are social animals. How to equip 3D autonomous characters with simi
 ![SOLAMI-flag](images/LLM/SOLAMI_flag.jpg)
 ![SOLAMI-pipeline](images/LLM/SOLAMI_pipeline.jpg)
 
+### 28. CoSER: Coordinating LLM-Based Persona Simulation of Established Roles
+
+**Authors:** Xintao Wang, Heng Wang, Yifei Zhang, Xinfeng Yuan, Rui Xu, Jen-tse Huang, Siyu Yuan, Haoran Guo, Jiangjie Chen, Wei Wang, Yanghua Xiao, Shuchang Zhou
+
+<details span>
+<summary><b>Abstract</b></summary>
+Role-playing language agents (RPLAs) have emerged as promising applications of large language models (LLMs). However, simulating established characters presents a challenging task for RPLAs, due to the lack of authentic character datasets and nuanced evaluation methods using such data. In this paper, we present CoSER, a collection of a high-quality dataset, open models, and an evaluation protocol towards effective RPLAs of established characters. The CoSER dataset covers 17,966 characters from 771 renowned books. It provides authentic dialogues with real-world intricacies, as well as diverse data types such as conversation setups, character experiences and internal thoughts. Drawing from acting methodology, we introduce given-circumstance acting for training and evaluating role-playing LLMs, where LLMs sequentially portray multiple characters in book scenes. Using our dataset, we develop CoSER 8B and CoSER 70B, i.e., advanced open role-playing LLMs built on LLaMA-3.1 models. Extensive experiments demonstrate the value of the CoSER dataset for RPLA training, evaluation and retrieval. Moreover, CoSER 70B exhibits state-of-the-art performance surpassing or matching GPT-4o on our evaluation and three existing benchmarks, i.e., achieving 75.80% and 93.47% accuracy on the InCharacter and LifeChoice benchmarks respectively.
 </details>
 
+[📄 Paper](https://arxiv.org/pdf/2502.09082) | [💻 Code](https://github.com/Neph0s/COSER)
+
+![CoSER](/images/LLM/CoSER.jpg)
+
+### 29. Crabs: Consuming Resrouce via Auto-generation for LLM-DoS Attack under Black-box Settings
+
+**Authors:** Yuanhe Zhang, Zhenhong Zhou, Wei Zhang, Xinyue Wang, Xiaojun Jia, Yang Liu, Sen Su
+
+<details span>
+<summary><b>Abstract</b></summary>
+Large Language Models (LLMs) have demonstrated remarkable performance across diverse tasks. LLMs continue to be vulnerable to external threats, particularly Denial-of-Service (DoS) attacks. Specifically, LLM-DoS attacks aim to exhaust computational resources and block services. However, prior works tend to focus on performing white-box attacks, overlooking black-box settings. In this work, we propose an automated algorithm designed for black-box LLMs, called Auto-Generation for LLM-DoS Attack (AutoDoS). AutoDoS introduces DoS Attack Tree and optimizes the prompt node coverage to enhance effectiveness under black-box conditions. Our method can bypass existing defense with enhanced stealthiness via semantic improvement of prompt nodes. Furthermore, we reveal that implanting Length Trojan in Basic DoS Prompt aids in achieving higher attack efficacy. Experimental results show that AutoDoS amplifies service response latency by over 250 ×↑, leading to severe resource consumption in terms of GPU utilization and memory usage. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.13879) | [💻 Code](https://github.com/shuita2333/AutoDoS)
+
+![Crabs](/images/LLM/Crabs.jpg)
+
+### 30. A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression
+
+**Authors:** Chenlong Deng, Zhisong Zhang, Kelong Mao, Shuaiyi Li, Xinting Huang, Dong Yu, Zhicheng Dou
+
+<details span>
+<summary><b>Abstract</b></summary>
+In this work, we provide a thorough investigation of gist-based context compression methods to improve long-context processing in large language models. We focus on two key questions: (1) How well can these methods replace full attention models? and (2) What potential failure patterns arise due to compression? Through extensive experiments, we show that while gist-based compression can achieve near-lossless performance on tasks like retrieval-augmented generation and long-document QA, it faces challenges in tasks like synthetic recall. Furthermore, we identify three key failure patterns: lost by the boundary, lost if surprise, and lost along the way. To mitigate these issues, we propose two effective strategies: fine-grained autoencoding, which enhances the reconstruction of original token information, and segment-wise token importance estimation, which adjusts optimization based on token dependencies. Our work provides valuable insights into the understanding of gist token-based context compression and offers practical strategies for improving compression capabilities.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.17483)
+
+![gist_tokenbased_context](/images/LLM/gist_tokenbased_context.jpg)
+
+### 31. Towards Economical Inference: Enabling DeepSeek's Multi-Head Latent Attention in Any Transformer-based LLMs
+
+**Authors:** Tao Ji, Bin Guo, Yuanbin Wu, Qipeng Guo, Lixing Shen, Zhan Chen, Xipeng Qiu, Qi Zhang, Tao Gui
+
+<details span>
+<summary><b>Abstract</b></summary>
+Multi-head Latent Attention (MLA) is an innovative architecture proposed by DeepSeek, designed to ensure efficient and economical inference by significantly compressing the Key-Value (KV) cache into a latent vector. Compared to MLA, standard LLMs employing Multi-Head Attention (MHA) and its variants such as Grouped-Query Attention (GQA) exhibit significant cost disadvantages. Enabling well-trained LLMs (e.g., Llama) to rapidly adapt to MLA without pre-training from scratch is both meaningful and challenging. This paper proposes the first data-efficient fine-tuning method for transitioning from MHA to MLA (MHA2MLA), which includes two key components: for partial-RoPE, we remove RoPE from dimensions of queries and keys that contribute less to the attention scores, for low-rank approximation, we introduce joint SVD approximations based on the pre-trained parameters of keys and values. These carefully designed strategies enable MHA2MLA to recover performance using only a small fraction (0.3% to 0.6%) of the data, significantly reducing inference costs while seamlessly integrating with compression techniques such as KV cache quantization. For example, the KV cache size of Llama2-7B is reduced by 92.19%, with only a 0.5% drop in LongBench performance.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2502.14837) | [💻 Code](https://github.com/JT-Ushio/MHA2MLA)
+
+![MHA2MLA](/images/LLM/MHA2MLA.jpg)
+
+### 32. [CVPR' 25] LSceneLLM: Enhancing Large 3D Scene Understanding Using Adaptive Visual Preferences
+
+**Authors:** Hongyan Zhi, Peihao Chen, Junyan Li, Shuailei Ma, Xinyu Sun, Tianhang Xiang, Yinjie Lei, Mingkui Tan, Chuang Gan
+
+<details span>
+<summary><b>Abstract</b></summary>
+Research on 3D Vision-Language Models (3D-VLMs) is gaining increasing attention, which is crucial for developing embodied AI within 3D scenes, such as visual navigation and embodied question answering. Due to the high density of visual features, especially in large 3D scenes, accurately locating task-relevant visual information is challenging. Existing works attempt to segment all objects and consider their features as scene representations. However, these task-agnostic object features include much redundant information and missing details for the task-relevant area. To tackle these problems, we propose LSceneLLM, an adaptive framework that automatically identifies task-relevant areas by leveraging LLM's visual preference for different tasks, followed by a plug-and-play scene magnifier module to capture fine-grained details in focused areas. Specifically, a dense token selector examines the attention map of LLM to identify visual preferences for the instruction input. It then magnifies fine-grained details of the focusing area. An adaptive self-attention module is leveraged to fuse the coarse-grained and selected fine-grained visual information. To comprehensively evaluate the large scene understanding ability of 3D-VLMs, we further introduce a cross-room understanding benchmark, XR-Scene, which contains a series of large scene understanding tasks including XR-QA, XR-EmbodiedPlanning, and XR-SceneCaption. Experiments show that our method surpasses existing methods on both large scene understanding and existing scene understanding benchmarks. Plunging our scene magnifier module into the existing 3D-VLMs also brings significant improvement.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2412.01292v2) 
+
+![LSceneLLM](images/LLM/LSceneLLM.jpg)
+
+</details>
 
 ## Diffusion
 
@@ -885,6 +950,58 @@ Our visual experience in daily life are dominated by dynamic change. Decoding su
 [📄 Paper](https://nips.cc/virtual/2024/poster/95156) | [🌐 Project Page](https://bcmi.sjtu.edu.cn/home/eeg2video/) | [💻 Code](https://github.com/XuanhaoLiu/EEG2Video)
 
 ![EEG2Video](images/Diffusion/EEG2Video.jpg)
+
+### 36. [ICLR'25] MVTokenFlow: High-quality 4D Con tent Generation using Multiview Token Flow
+
+**Authors:** Hanzhuo Huang, Yuan Liu, Ge Zheng, Jiepeng Wang, Zhiyang Dou, Sibei Yang
+
+<details span>
+<summary><b>Abstract</b></summary>
+In this paper, we present MVTokenFlow for high-quality 4D content creation from monocular videos. Recent advancements in generative models such as video diffusion models and multiview diffusion models enable us to create videos or 3D models. However, extending these generative models for dynamic 4D content creation is still a challenging task that requires the generated content to be consistent spatially and temporally. To address this challenge, MVTokenFlow utilizes the multiview diffusion model to generate multiview images on different timesteps, which attains spatial consistency across different viewpoints and allows us to reconstruct a reasonable coarse 4D field. Then, MVTokenFlow further regenerates all the multiview images using the rendered 2D flows as guidance. The 2D flows effectively associate pixels from different timesteps and improve the temporal consistency by reusing tokens in the regeneration process. Finally, the regenerated images are spatiotemporally consistent and utilized to refine the coarse 4D field to get a high-quality 4D field. Experiments demonstrate the effectiveness of our design and show significantly improved quality than baseline methods.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2502.11697) | [💻 Code](https://github.com/SooLab/MVTokenFlow)
+
+![MVTokenFlow](/images/Diffusion/ICLR2025_MVTokenFlow.jpg)
+
+### 37. OMG3D: 3D object manipulation in a single image usint generative models
+
+**Authors:** Ruisi Zhao, Zechuan Zhang, Zongxin Yang, Yi Yang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Object manipulation in images aims to not only edit the object's presentation but also gift objects with motion. Previous methods encountered challenges in concurrently handling static editing and dynamic generation, while also struggling to achieve fidelity in object appearance and scene lighting. In this work, we introduce \textbf{OMG3D}, a novel framework that integrates the precise geometric control with the generative power of diffusion models, thus achieving significant enhancements in visual performance. Our framework first converts 2D objects into 3D, enabling user-directed modifications and lifelike motions at the geometric level. To address texture realism, we propose CustomRefiner, a texture refinement module that pre-train a customized diffusion model, aligning the details and style of coarse renderings of 3D rough model with the original image, further refine the texture. Additionally, we introduce IllumiCombiner, a lighting processing module that estimates and corrects background lighting to match human visual perception, resulting in more realistic shadow effects. Extensive experiments demonstrate the outstanding visual performance of our approach in both static and dynamic scenarios. Remarkably, all these steps can be done using one NVIDIA 3090.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.12935v1) | [🌐 Project Page](https://whalesong-zrs.github.io/OMG3D-projectpage/)
+
+![OMG3D](/images/Diffusion/OMG3D.jpg)
+
+### 38. CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image
+
+**Authors:** Kaixin Yao, Longwen Zhang, Xinhao Yan, Yan Zeng, Qixuan Zhang, Lan Xu, Wei Yang, Jiayuan Gu, Jingyi Yu
+
+<details span>
+<summary><b>Abstract</b></summary>
+Recovering high-quality 3D scenes from a single RGB image is a challenging task in computer graphics. Current methods often struggle with domain-specific limitations or low-quality object generation. To address these, we propose CAST (Component-Aligned 3D Scene Reconstruction from a Single RGB Image), a novel method for 3D scene reconstruction and recovery. CAST starts by extracting object-level 2D segmentation and relative depth information from the input image, followed by using a GPT-based model to analyze inter-object spatial relationships. This enables the understanding of how objects relate to each other within the scene, ensuring more coherent reconstruction. CAST then employs an occlusion-aware large-scale 3D generation model to independently generate each object's full geometry, using MAE and point cloud conditioning to mitigate the effects of occlusions and partial object information, ensuring accurate alignment with the source image's geometry and texture. To align each object with the scene, the alignment generation model computes the necessary transformations, allowing the generated meshes to be accurately placed and integrated into the scene's point cloud. Finally, CAST incorporates a physics-aware correction step that leverages a fine-grained relation graph to generate a constraint graph. This graph guides the optimization of object poses, ensuring physical consistency and spatial coherence. By utilizing Signed Distance Fields (SDF), the model effectively addresses issues such as occlusions, object penetration, and floating objects, ensuring that the generated scene accurately reflects real-world physical interactions. CAST can be leveraged in robotics, enabling efficient real-to-simulation workflows and providing realistic, scalable simulation environments for robotic systems.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2502.12894) | [🌐 Project Page](https://sites.google.com/view/cast4) | [🎥 Video](https://www.youtube.com/watch?v=cloVLY6lWdI)
+
+![CAST](/images/Diffusion/CAST.jpg)
+
+### 39. [CVPR' 25] SemGeoMo: Dynamic Contextual Human Motion Generation with Semantic and Geometric Guidance
+
+**Authors:** Peishan Cong, Ziyi Wang, Yuexin Ma, Xiangyu Yue
+
+<details span>
+<summary><b>Abstract</b></summary>
+Generating reasonable and high-quality human interactive motions in a given dynamic environment is crucial for understanding, modeling, transferring, and applying human behaviors to both virtual and physical robots. In this paper, we introduce an effective method, SemGeoMo, for dynamic contextual human motion generation, which fully leverages the text-affordance-joint multi-level semantic and geometric guidance in the generation process, improving the semantic rationality and geometric correctness of generative motions. Our method achieves state-of-the-art performance on three datasets and demonstrates superior generalization capability for diverse interaction scenarios. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2403.13307) | [🌐 Project Page](https://4dvlab.github.io/project_page/semgeomo/) | [💻 Code](https://github.com/4DVLab/SemGeoMo)
+
+![SemGeoMo](images/Diffusion/SemGeoMo.jpg)
 
 </details>
 
@@ -1452,6 +1569,96 @@ This paper studies the problem of estimating physical properties (system identif
 
 ![GIC](images/3DGS/GIC.jpg)
 
+### 38. RDG-GS: Relative Depth Guidance with Gaussian Splatting for Real-time Sparse-View 3D Rendering
+
+**Authors:** Chenlu Zhan, Yufei Zhang, Yu Lin, Gaoang Wang, Hongwei Wang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Efficiently synthesizing novel views from sparse inputs while maintaining accuracy remains a critical challenge in 3D reconstruction. While advanced techniques like radiance fields and 3D Gaussian Splatting achieve rendering quality and impressive efficiency with dense view inputs, they suffer from significant geometric reconstruction errors when applied to sparse input views. Moreover, although recent methods leverage monocular depth estimation to enhance geometric learning, their dependence on single-view estimated depth often leads to view inconsistency issues across different viewpoints. Consequently, this reliance on absolute depth can introduce inaccuracies in geometric information, ultimately compromising the quality of scene reconstruction with Gaussian splats. In this paper, we present RDG-GS, a novel sparse-view 3D rendering framework with Relative Depth Guidance based on 3D Gaussian Splatting. The core innovation lies in utilizing relative depth guidance to refine the Gaussian field, steering it towards view-consistent spatial geometric representations, thereby enabling the reconstruction of accurate geometric structures and capturing intricate textures. First, we devise refined depth priors to rectify the coarse estimated depth and insert global and fine-grained scene information to regular Gaussians. Building on this, to address spatial geometric inaccuracies from absolute depth, we propose relative depth guidance by optimizing the similarity between spatially correlated patches of depth and images. Additionally, we also directly deal with the sparse areas challenging to converge by the adaptive sampling for quick densification. Across extensive experiments on Mip-NeRF360, LLFF, DTU, and Blender, RDG-GS demonstrates state-of-the-art rendering quality and efficiency, making a significant advancement for real-world application.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.11102)
+
+![RDG-GS](/images/3DGS/RDG-GS.jpg)
+
+### 39. MoDec-GS: Global-to-Local Motion Decomposition and Temporal Interval Adjustment for Compact Dynamic 3D Gaussian Splatting
+
+**Authors:** Sangwoon Kwak, Joonsoo Kim, Jun Young Jeong, Won-Sik Cheong, Jihyong Oh, Munchurl Kim
+
+<details span>
+<summary><b>Abstract</b></summary>
+3D Gaussian Splatting (3DGS) has made significant strides in scene representation and neural rendering, with intense efforts focused on adapting it for dynamic scenes. Despite delivering remarkable rendering quality and speed, existing methods struggle with storage demands and representing complex real-world motions. To tackle these issues, we propose MoDecGS, a memory-efficient Gaussian splatting framework designed for reconstructing novel views in challenging scenarios with complex motions. We introduce GlobaltoLocal Motion Decomposition (GLMD) to effectively capture dynamic motions in a coarsetofine manner. This approach leverages Global Canonical Scaffolds (Global CS) and Local Canonical Scaffolds (Local CS), extending static Scaffold representation to dynamic video reconstruction. For Global CS, we propose Global Anchor Deformation (GAD) to efficiently represent global dynamics along complex motions, by directly deforming the implicit Scaffold attributes which are anchor position, offset, and local context features. Next, we finely adjust local motions via the Local Gaussian Deformation (LGD) of Local CS explicitly. Additionally, we introduce Temporal Interval Adjustment (TIA) to automatically control the temporal coverage of each Local CS during training, allowing MoDecGS to find optimal interval assignments based on the specified number of temporal segments. Extensive evaluations demonstrate that MoDecGS achieves an average 70% reduction in model size over stateoftheart methods for dynamic 3D Gaussians from realworld dynamic videos while maintaining or even improving rendering quality.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.03714)
+
+![MoDec-GS](/images/3DGS/MoDec-GS.jpg)
+
+### 40. DenseSplat: Densifying Gaussian Splatting SLAM with Neural Radiance Prior
+
+**Authors:** Mingrui Li, Shuhong Liu, Tianchen Deng, Hongyu Wang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Gaussian SLAM systems excel in real-time rendering and fine-grained reconstruction compared to NeRF-based systems. However, their reliance on extensive keyframes is impractical for deployment in real-world robotic systems, which typically operate under sparse-view conditions that can result in substantial holes in the map. To address these challenges, we introduce DenseSplat, the first SLAM system that effectively combines the advantages of NeRF and 3DGS. DenseSplat utilizes sparse keyframes and NeRF priors for initializing primitives that densely populate maps and seamlessly fill gaps. It also implements geometry-aware primitive sampling and pruning strategies to manage granularity and enhance rendering efficiency. Moreover, DenseSplat integrates loop closure and bundle adjustment, significantly enhancing frame-to-frame tracking accuracy. Extensive experiments on multiple large-scale datasets demonstrate that DenseSplat achieves superior performance in tracking and mapping compared to current state-of-the-art methods.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2502.09111)
+
+![DenseSplat](/images/3DGS/DenseSplat.jpg)
+
+### 41. PINGS: Gaussian Splatting Meets Distance Fields within a Point-Based Implicit Neural Map
+
+**Authors:** Yue Pan, Xingguang Zhong, Liren Jin, Louis Wiesmann, Marija Popović, Jens Behley, Cyrill Stachniss
+
+<details span>
+<summary><b>Abstract</b></summary>
+Robots require high-fidelity reconstructions of their environment for effective operation. Such scene representations should be both, geometrically accurate and photorealistic to support downstream tasks. While this can be achieved by building distance fields from range sensors and radiance fields from cameras, the scalable incremental mapping of both fields consistently and at the same time with high quality remains challenging. In this paper, we propose a novel map representation that unifies a continuous signed distance field and a Gaussian splatting radiance field within an elastic and compact point-based implicit neural map. By enforcing geometric consistency between these fields, we achieve mutual improvements by exploiting both modalities. We devise a LiDAR-visual SLAM system called PINGS using the proposed map representation and evaluate it on several challenging large-scale datasets. Experimental results demonstrate that PINGS can incrementally build globally consistent distance and radiance fields encoded with a compact set of neural points. Compared to the state-of-the-art methods, PINGS achieves superior photometric and geometric rendering at novel views by leveraging the constraints from the distance field. Furthermore, by utilizing dense photometric cues and multi-view consistency from the radiance field, PINGS produces more accurate distance fields, leading to improved odometry estimation and mesh reconstruction.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2502.05752)
+
+![PINGS](/images/3DGS/PINGS.jpg)
+
+### 42. DynamicGSG: Dynamic 3D Gaussian Scene Graphs for Environment Adaptation
+
+**Authors:** Luzhou Ge, Xiangyu Zhu, Zhuo Yang, Xuesong Li
+
+<details span>
+<summary><b>Abstract</b></summary>
+In real-world scenarios, environment changes caused by human or agent activities make it extremely challenging for robots to perform various long-term tasks. Recent works typically struggle to effectively understand and adapt to dynamic environments due to the inability to update their environment representations in memory according to environment changes and lack of fine-grained reconstruction of the environments. To address these challenges, we propose DynamicGSG, a dynamic, high-fidelity, open-vocabulary scene graph construction system leveraging Gaussian splatting. DynamicGSG builds hierarchical scene graphs using advanced vision language models to represent the spatial and semantic relationships between objects in the environments, utilizes a joint feature loss we designed to supervise Gaussian instance grouping while optimizing the Gaussian maps, and locally updates the Gaussian scene graphs according to real environment changes for long-term environment adaptation. Experiments and ablation studies demonstrate the performance and efficacy of our proposed method in terms of semantic segmentation, language-guided object retrieval, and reconstruction quality. Furthermore, we validate the dynamic updating capabilities of our system in real laboratory environments.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2502.15309) | [💻 Code](https://github.com/GeLuzhou/Dynamic-GSG)
+
+![DynamicGSG](/images/3DGS/DynamicGSG.jpg)
+
+### 43. [ICLR' 25] M3: 3D-Spatial MultiModal Memory
+
+**Authors:** Xueyan Zou, Yuchen Song, Ri-Zhao Qiu, Xuanbin Peng, Jianglong Ye, Sifei Liu, Xiaolong Wang
+
+<details span>
+<summary><b>Abstract</b></summary>
+We present 3D Spatial MultiModal Memory (M3), a multimodal memory system designed to retain information about medium-sized static scenes through video sources for visual perception. By integrating 3D Gaussian Splatting techniques with foundation models, M3 builds a multimodal memory capable of rendering feature representations across granularities, encompassing a wide range of knowledge. In our exploration, we identify two key challenges in previous works on feature splatting: (1) computational constraints in storing high-dimensional features for each Gaussian primitive, and (2) misalignment or information loss between distilled features and foundation model features. To address these challenges, we propose M3 with key components of principal scene components and Gaussian memory attention, enabling efficient training and inference. To validate M3, we conduct comprehensive quantitative evaluations of feature similarity and downstream tasks, as well as qualitative visualizations to highlight the pixel trace of Gaussian memory attention. Our approach encompasses a diverse range of foundation models, including vision-language models (VLMs), perception models, and large multimodal and language models (LMMs/LLMs). Furthermore, to demonstrate real-world applicability, we deploy M3's feature field in indoor scenes on a quadruped robot. Notably, we claim that M3 is the first work to address the core compression challenges in 3D feature distillation.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2503.16413) | [🌐 Project Page](https://m3-spatial-memory.github.io/) | [💻 Code](https://github.com/MaureenZOU/m3-spatial)
+
+![M3](/images/3DGS/ICLR2025_M3.jpg)
+
+### 44. [SA' 24] DIScene: Object Decoupling and Interaction Modeling for Complex Scene Generation
+**Authors:** Xiao-Lei Li, Haodong Li, Hao-Xiang Chen, Tai-Jiang Mu, Shi-Min Hu
+
+<details span>
+<summary><b>Abstract</b></summary>
+This paper reconsiders how to distill knowledge from pretrained 2D diffusion models to guide 3D asset generation, in particular to generate complex 3D scenes: it should accept varied inputs, i.e., texts or images, to allow for flexible expression of requirement; objects in the scene should be style-consistent and decoupled with clearly modeled interactions, benefiting downstream tasks. We propose DIScene, a novel method for this task. It represents the entire 3D scene with a learnable structured scene graph: each node explicitly models an object with its appearance, textual description, transformation, geometry as a mesh attached with surface-aligned Gaussians; the graph’s edges model object interactions. With this new representation, objects are optimized in the canonical space and interactions between objects are optimized by object-aware rendering to avoid wrong back-propagation. Extensive experiments demonstrate the significant utility and superiority of our approach and that DIScene can greatly facilitate 3D content creation tasks.
+</details>
+
+[📄 Paper](https://dl.acm.org/doi/10.1145/3680528.3687589) 
+![DIScene_SiggraphAisa2024](images/3DGS/DIScene_SiggraphAisa2024.jpg)
+
+
 </details>
 
 
@@ -1638,6 +1845,16 @@ We present a near real-time method for 6-DoF tracking of an unknown object from 
 
 ![BundleSDF](images/NeRF/CVPR2023_BundleSDF.jpg)
 
+### 14. [SA' 24] Neural Light Spheres for Implicit Image Stitching and View Synthesis
+**Authors:** Ilya Chugunov, Amogh Joshi, Kiran Murthy, Francois Bleibel, Felix Heide
+<details span>
+<summary><b>Abstract</b></summary>
+Challenging to capture, and challenging to display on a cellphone screen, the panorama paradoxically remains both a staple and underused feature of modern mobile camera applications. In this work we address both of these challenges with a spherical neural light field model for implicit panoramic image stitching and re-rendering; able to accommodate for depth parallax, view-dependent lighting, and local scene motion and color changes during capture. Fit during test-time to an arbitrary path panoramic video capture – vertical, horizontal, random-walk – these neural light spheres jointly estimate the camera path and a high-resolution scene reconstruction to produce novel wide field-of-view projections of the environment. Our single-layer model avoids expensive volumetric sampling, and decomposes the scene into compact view-dependent ray offset and color components, with a total model size of 80 MB per scene, and real-time (50 FPS) rendering at 1080p resolution. We demonstrate improved reconstruction quality over traditional image stitching and radiance field methods, with significantly higher tolerance to scene motion and non-ideal capture settings.
+</details>
+
+[📄 Paper](https://dl.acm.org/doi/10.1145/3680528.3687660) | [💻 Code](https://github.com/princeton-computational-imaging/NeuLS) 
+![Neural_Light_Sphere_Model_SiggraphAsia2024](images/NeRF/Neural_Light_Sphere_Model_SiggraphAsia2024.jpg)
+
 </details>
 
 
@@ -1668,18 +1885,7 @@ Rapid and accurate agricultural greenhouse extraction with remote sensing imager
 
 ![Large-scale](images/Remote%20Sensing/Large-scale%20agricultural.jpg)
 
-### 3. [ISPRS'24] Identifying cropland non-agriculturalization with high representational consistency from bi-temporal high-resolution remote sensing images: From benchmark datasets to real-world application
-**Authors:** Zhendong Sun, Yanfei Zhong, Xinyu Wang, Liangpei Zhang
-<details span>
-<summary><b>Abstract</b></summary>
-Cropland non-agriculturalization (CNA) refers to the conversion of cropland into construction land, woodland/garden/grassland, water body, or other non-agricultural land, which ultimately disrupts local agroecosystems and the cultivation and production of crops. Remote sensing technology is an important tool for large-area CNA detection, and remote sensing based methods that can be used for this task include the time-series analysis method and change detection from bi-temporal images. In particular, change detection methods using high-resolution remote sensing imagery have great potential for CNA detection, but enormous challenges do still remain. The large intra-class variance of cropland with different phenological stages and planting patterns leads to cropland areas being difficult to identify effectively, while certain features can be misidentified because they are similar to cropland, resulting in false alarms and missed detections in the results. There is also a lack of large-scale CNA datasets covering multiple change scenarios as data support. To address these problems, a lightweight model focused on CNA detection (CNANet) is proposed in this paper. Specifically, the uniquely crafted represent-consist-enhance (RCE) module is seamlessly integrated between the encoder and decoder components of CNANet to perform a contrast operation on the deep features extracted by the feature extractor. The RCE module is specifically designed to aggregate multiple cropland representations and extend the cropland representations from the confusing background, to achieve the purpose of reducing the intra-class reflectance differences and enhancing the model’s perception of cropland. In addition, a large-scale high-resolution cropland non-agriculturalization (Hi-CNA) dataset was built for the CNA identification task, with a total of 6797 pairs of 512 × 512 images with semantic annotations. Compared to the existing datasets, the Hi-CNA dataset has the advantages of multiple phenological stages, multiple change scenarios, and multiple annotation types, in addition to the large data volume. The experimental results obtained in this study show that the benchmark methods tested on the Hi-CNA dataset can all achieve a good accuracy, proving the high-quality annotation of the dataset. The overall accuracy and F1-score of CNANet with the default settings reach 93.81 % and 78.9 %, respectively, achieving a superior accuracy, compared to the other benchmark methods, and demonstrating stronger perception of cropland changes. In addition, in two selected verification regions within the large-scale real-world CNA mapping results, the F1-score is 83.61 % and 50.87 %.
-</details>
-
-[📄 Paper](https://doi.org/10.1016/j.isprsjprs.2024.05.011) | [💻 Code](http://rsidea.whu.edu.cn/Hi-CNA_dataset.htm)
-
-![non-agriculturalization](images/Remote%20Sensing/Identifying%20cropland%20non-agriculturalization.jpg)
-
-### 4. [ISPRS'24] Robust remote sensing retrieval of key eutrophication indicators in coastal waters based on explainable machine learning
+### 3. [ISPRS'24] Robust remote sensing retrieval of key eutrophication indicators in coastal waters based on explainable machine learning
 **Authors:** Liudi Zhu, Tingwei Cui, Runa A, Xinliang Pan, Wenjing Zhao, Jinzhao Xiang, Mengmeng Cao
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1690,7 +1896,7 @@ Excessive discharges of nitrogen and phosphorus nutrients lead to eutrophication
 
 ![Robust_remote_sensing_retrieval](images/Remote%20Sensing/Robust_remote_sensing_retrieval.jpg)
 
-### 5. [ISPRS'24] LoveNAS: Towards multi-scene land-cover mapping via hierarchical searching adaptive network
+### 4. [ISPRS'24] LoveNAS: Towards multi-scene land-cover mapping via hierarchical searching adaptive network
 **Authors:** Junjue Wang, Yanfei Zhong, Ailong Ma, Zhuo Zheng, Yuting Wan, Liangpei Zhang
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1701,7 +1907,7 @@ Land-cover information reflects basic Earth’s surface environments and is crit
 
 ![LoveNAS](images/Remote%20Sensing/LoveNAS.jpg)
 
-### 6. [ISPRS'23] PatchAugNet: Patch feature augmentation-based heterogeneous point cloud place recognition in large-scale street scenes
+### 5. [ISPRS'23] PatchAugNet: Patch feature augmentation-based heterogeneous point cloud place recognition in large-scale street scenes
 **Authors:** Xianghong Zou, Jianping Li, Yuan Wang, Fuxun Liang, Weitong Wu, Haiping Wang, Bisheng Yang, Zhen Dong
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1712,18 +1918,7 @@ Point Cloud Place Recognition (PCPR) in street scenes is an essential task in th
 
 ![PatchAugNet](images/Remote%20Sensing/PatchAugNet.jpg)
 
-### 7. [TGRS'24] StarNet: A Deep Learning Model for Enhancing Polarimetric Radar Quantitative Precipitation Estimation
-**Authors:** Wenyuan Li, Haonan Chen, Lei Han, Wen-Chau Lee
-<details span>
-<summary><b>Abstract</b></summary>
-Accurate and real-time estimation of surface precipitation is crucial for decision-making during severe weather events and for water resource management. Polarimetric weather radar serves as the primary operational tool employed for quantitative precipitation estimation (QPE). However, the conventional parametric radar QPE algorithms overlook the dynamic spatiotemporal characteristics of precipitation. In addition, challenges such as radar beam attenuation and imbalanced distribution of precipitation data further compromise the estimation accuracy. This article develops a 3-D star neural network (StarNet) for polarimetric radar QPEs that integrate physical height prior knowledge and employ a reweighted loss function. To better cope with the dynamic characteristics of precipitation patterns, 3-D convolution is introduced within StarNet to effectively capture the spatiotemporal features between successive radar volume scanning data. In particular, multidimensional polarimetric radar observations are utilized as inputs, and surface gauge measurements are employed as training labels. The feasibility and performance of the StarNet model are demonstrated and quantified using U.S. Weather Surveillance Radar-1988 Doppler (WSR-88D) observations collected near Melbourne, Florida. The experimental results show that the StarNet model enhances the prediction accuracy of moderate to heavy precipitation events and improves the estimation performance over long distances, with a mean absolute error (MAE) of 1.55 mm, a root mean square error (RMSE) of 2.63 mm, a normalized standard error (NSE) of 25%, a correlation coefficient (CC) of 0.92, and a BIAS of 0.94 for hourly rainfall estimates. The results suggest that StarNet is able to effectively map the connection between polarimetric radar observations and surface rainfall.
-</details>
-
-[📄 Paper](https://doi.org/10.1109/TGRS.2024.3426532)
-
-![StarNET](images/Remote%20Sensing/StarNET.png)
-
-### 8. [JAG'24] An ensemble framework for explainable geospatial machine learning models
+### 6. [JAG'24] An ensemble framework for explainable geospatial machine learning models
 **Authors:** Lingbo Liu
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1736,18 +1931,7 @@ Analyzing spatially varying effects is pivotal in geographic analysis. However, 
 
 ![explainable_geospatial](images/Remote%20Sensing/explainable_geospatial_machine%20learning_models_1.jpg)
 
-### 9. [ISPRS'23] Global–local–global context-aware network for salient object detection in optical remote sensing images
-**Authors:** Zhen Bai, Gongyang Li, Zhi Liu
-<details span>
-<summary><b>Abstract</b></summary>
-For the salient object detection in optical remote sensing images (ORSI-SOD), many existing methods are trapped in a local–global mode, i.e., CNN-based encoder binds with a specific global context-aware module, struggling to deal with the challenging ORSIs with complex background and scale-variant objects. To solve this issue, we explore the synergy of the global-context-aware and local-context-aware modeling and construct a preferable global–local–global context-aware network (GLGCNet). In the GLGCNet, a transformer-based encoder is adopted to extract global representations, combining with local-context-aware features gathered from three saliency-up modules for comprehensive saliency modeling, and an edge assignment module is additionally employed to refine the preliminary detection. Specifically, the saliency-up module involves two components, one for global–local context-aware transfer towards pixel-wise dynamic convolution parameters prediction, the other for dynamically local-context aware modeling. The corresponding position-sensitive filter is aware of its previous global-wise focus, thus enhancing the spatial compactness of salient objects and encouraging the feature upsampling achievement for multi-scale feature combinations. The edge assignment module enhances the robustness of preliminary saliency prediction and assigns the semantic attributes of preliminary saliency cues to the shallow-level edge feature to obtain final complete salient objects in a spatially and semantically global manner. Extensive experiments demonstrate that the proposed GLGCNet surpasses 23 state-of-the-art methods on three popular datasets.
-</details>
-
-[📄 Paper](https://doi.org/10.1016/j.isprsjprs.2023.03.013)
-
-![Global–local–global](images/Remote%20Sensing/Global–local–global.jpg)
-
-### 10. [JAG'24] Category-sensitive semi-supervised semantic segmentation framework for land-use/land-cover mapping with optical remote sensing images
+### 7. [JAG'24] Category-sensitive semi-supervised semantic segmentation framework for land-use/land-cover mapping with optical remote sensing images
 **Authors:** Jifa Chen, Gang Chen, Li Zhang, Min Huang, Jin Luo, Mingjun Ding, Yong Ge
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1758,7 +1942,7 @@ High-quality land-use/land-cover mapping with optical remote sensing images yet 
 
 ![Category-sensitive](images/Remote%20Sensing/Category-sensitive_semi-supervised_semantic_segmentation.jpg)
 
-### 11. [JAG'24] Deep spatial–spectral difference network with heterogeneous feature mutual learning for sea fog detection
+### 8. [JAG'24] Deep spatial–spectral difference network with heterogeneous feature mutual learning for sea fog detection
 **Authors:** Nan Wu, Wei Jin
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1769,7 +1953,7 @@ Multispectral remote sensing image-based sea fog detection (SFD) is both importa
 
 ![Deep_spatial–spectral_difference_network](images/Remote%20Sensing/Deep_spatial–spectral_difference_network.jpg)
 
-### 12. [JAG'24] Mapping seamless monthly XCO2 in East Asia: Utilizing OCO-2 data and machine learning
+### 9. [JAG'24] Mapping seamless monthly XCO2 in East Asia: Utilizing OCO-2 data and machine learning
 **Authors:** Terigelehu Te, Chunling Bao, Hasi Bagan, Yuxin Xie, Meihui Che, Takahiro Yoshida, Bayarsaikhan Uudus
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1780,7 +1964,7 @@ High spatial resolution XCO2 data is key to investigating the mechanisms of carb
 
 ![XCO2](images/Remote%20Sensing/Mapping_seamless_monthly_XCO2.jpg)
 
-### 13. [JAG'24] A novel urban population-land coupling simulation model: Integrating spatial equilibrium and macro-micro strategies
+### 10. [JAG'24] A novel urban population-land coupling simulation model: Integrating spatial equilibrium and macro-micro strategies
 **Authors:** Yunqi Guo, Limin Jiao, Yujie Sun, Haoran Zhang, Zejin Liu, Gang Xu
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1793,7 +1977,7 @@ Traditional urban simulation models often fail to adequately integrate crucial s
 
 ![urban_population-land](images/Remote%20Sensing/A_novel_urban_population-land_coupling_simulation_model_1.jpg)
 
-### 14. [TGRS'20] More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification
+### 11. [TGRS'20] More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification
 **Authors:** Danfeng Hong, Lianru Gao, Naoto Yokoya, Jing Yao, Jocelyn Chanussot, Qian Du
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1804,7 +1988,7 @@ Classification and identification of the materials lying over or beneath the ear
 
 ![MDL-RS](images/Remote%20Sensing/MDL-RS.png)
 
-### 15. [JAG'24] D2T-Net: A dual-domain transformer network exploiting spatial and channel dimensions for semantic segmentation of urban mobile laser scanning point clouds
+### 12. [JAG'24] D2T-Net: A dual-domain transformer network exploiting spatial and channel dimensions for semantic segmentation of urban mobile laser scanning point clouds
 **Authors:** Ziwei Luo, Ziyin Zeng, Jie Wan, Wei Tang, Zhongge Jin, Zhong Xie, Yongyang Xu
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1815,7 +1999,7 @@ Semantic segmentation is key in analyzing urban mobile laser scanning (MLS) poin
 
 ![D2T-Net](images/Remote%20Sensing/D2T-Net.jpg)
 
-### 16. [JAG'24] Cross-temporal and spatial information fusion for multi-task building change detection using multi-temporal optical imagery
+### 13. [JAG'24] Cross-temporal and spatial information fusion for multi-task building change detection using multi-temporal optical imagery
 **Authors:** Wen Xiao, Hui Cao, Yuqi Lei, Qiqi Zhu, Nengcheng Chen
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1828,7 +2012,7 @@ Accurate detection of changes in buildings is crucial for the understanding of u
 
 ![CSCLNet](images/Remote%20Sensing/CSCLNet-1.jpg)
 
-### 17. [JAG'24] ColorMesh: Surface and texture reconstruction of large-scale scenes from unstructured colorful point clouds with adaptive automatic viewpoint selection
+### 14. [JAG'24] ColorMesh: Surface and texture reconstruction of large-scale scenes from unstructured colorful point clouds with adaptive automatic viewpoint selection
 **Authors:** Mubai Li, Zhenxin Zhang, Siyun Chen, Liqiang Zhang, Zhihua Xu, Xiaoxu Ren, Jinlan Liu, Peng Sun
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1841,7 +2025,7 @@ High-quality surface reconstruction and texture reconstruction of large-scale sc
 
 ![ColorMesh](images/Remote%20Sensing/ColorMesh-1.jpg)
 
-### 18. [JAG'24] Tracking annual dynamics of carbon storage of salt marsh plants in the Yellow River Delta national nature reserve of china based on sentinel-2 imagery during 2017–2022
+### 15. [JAG'24] Tracking annual dynamics of carbon storage of salt marsh plants in the Yellow River Delta national nature reserve of china based on sentinel-2 imagery during 2017–2022
 **Authors:** Chen Chen, Yi Ma, Dingfeng Yu, Yabin Hu, Lirong Ren
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1852,7 +2036,7 @@ High-quality surface reconstruction and texture reconstruction of large-scale sc
 
 ![carbon%20storage](images/Remote%20Sensing/Tracking%20carbon%20storage.png)
 
-### 19. [JAG'24] A novel weakly-supervised method based on the segment anything model for seamless transition from classification to segmentation: A case study in segmenting latent photovoltaic locations
+### 16. [JAG'24] A novel weakly-supervised method based on the segment anything model for seamless transition from classification to segmentation: A case study in segmenting latent photovoltaic locations
 **Authors:** Ruiqing Yang, Guojin He, Ranyu Yin, Guizhou Wang, Zhaoming Zhang, Tengfei Long, Yan Peng, Jianping Wang
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1863,7 +2047,7 @@ In the quest for large-scale photovoltaic (PV) panel extraction, substantial dat
 
 ![LPL](images/Remote%20Sensing/LPL.jpg)
 
-### 20. [TGRS'24] RoadCorrector: A Structure-Aware Road Extraction Method for Road Connectivity and Topology Correction
+### 17. [TGRS'24] RoadCorrector: A Structure-Aware Road Extraction Method for Road Connectivity and Topology Correction
 **Authors:** Jinpeng Li, Jun He, Weijia Li, Jiabin Chen, Jinhua Yu
 
 <details span>
@@ -1875,7 +2059,7 @@ Road extraction from high-resolution remote sensing images has been an important
 
 ![RoadCorrector](images/Remote%20Sensing/RoadCorrector.png)
 
-### 21. [RSE'24] SCARF: A new algorithm for continuous prediction of biomass dynamics using machine learning and Landsat time series
+### 18. [RSE'24] SCARF: A new algorithm for continuous prediction of biomass dynamics using machine learning and Landsat time series
 **Authors:** Yingchun Fu, Runhao Li, Zhe Zhu, Yufei Xue, Hu Ding, Xinyu Wang , Jiaming Na, Weijie Xia
 
 <details span>
@@ -1887,31 +2071,7 @@ We developed the SCARF (Spatial Mismatch and Systematic Prediction Error Correct
 
 ![SCARF](images/Remote%20Sensing/SCARF.jpg)
 
-### 22. [RSE'24] Filling GRACE data gap using an innovative transformer-based deep learning approach
-**Authors:** Longhao Wang, Yongqiang Zhang
-
-<details span>
-<summary><b>Abstract</b></summary>
-The terrestrial water storage anomaly (TWSA), derived from the Gravity Recovery and Climate Experiment (GRACE) and its successor, the GRACE Follow-on (GRACE-FO) satellite, presents a remarkable opportunity for extreme weather detection and the enhancement of environmental protection. However, the practical utility of GRACE data is challenged by an 11-month data gap and several months of missing data. To address this limitation, we have developed an innovative transformer-based deep learning model for data gap-filling. This model incorporates a self-attention mechanism using causal convolution, allowing the neural network to capture the local context of GRACE time series data. It takes into account various factors such as temperature (T), precipitation (P), and evapotranspiration (ET). We trained the model using a global dataset of 10,000 time series pixels and applied it to fill all the time gaps. The validation results demonstrate its robustness, with an average root mean square error (RMSE) of 6.18 cm and Nash-Sutcliffe efficiency (NSE) of 0.906. Notably, the Transformer-based method outperforms other state-of-the-art approaches in arid regions. The incorporation of T, P, and ET has further enhanced the accuracy of gap filling, with an average RMSE decrease of 7.5 %. This study has produced a reliable gap-filling product that addresses 11-month data gaps and 24 isolated gaps, ensuring the continuity of GRACE data for various scholarly applications. Moreover, our Transformer approach holds important potential for surpassing traditional methods in predicting and filling gaps in remote sensing data and gridded observations.
-</details>
-
-[📄 Paper](https://doi.org/10.1016/j.rse.2024.114465)
-
-![Filling_GRACE_data_gap](images/Remote%20Sensing/Filling_GRACE_data_gap.jpg)
-
-### 23. [RSE'24] Improved phenology-based rice mapping algorithm by integrating optical and radar data
-**Authors:** Zizhang Zhao, Jinwei Dong, Geli Zhang, Jilin Yang, Ruoqi Liu, Bingfang Wu, Xiangming Xiao
-
-<details span>
-<summary><b>Abstract</b></summary>
-Information on rice planting areas is critically important for food and water security, as well as for adapting to climate change. Mapping rice globally remains challenging due to the diverse climatic conditions and various rice cropping systems worldwide. Synthetic Aperture Radar (SAR) data, which is immune to climatic conditions, plays a vital role in rice mapping in cloudy, rainy, low-latitude regions but it suffers from commission errors in high-latitude regions. Conversely, optical data performs well in high-latitude regions due to its high observation frequency and less cloud contamination but faces significant omission errors in low-latitude regions. An effective integrated method that combines both data types is key to global rice mapping. Here, we propose a novel adaptive rice mapping framework named Rice-Sentinel that combines Sentinel-1 and Sentinel-2 data. First, we extracted key phenological phases of rice (e.g., the flooding and transplanting phase and the rapid growth phase), by analyzing the characteristic V-shaped changes in the Sentinel-1 VH curve. Second, we identified potential flooding signals in rice pixels by integrating the VH time series from Sentinel-1 with the Land Surface Water Index (LSWI) and Enhanced Vegetation Index (EVI) from Sentinel-2, utilizing the generated phenology phases. Third, the rapid growth signals of rice following its flooding phase were identified using Sentinel-2 data. Finally, rice fields were identified by integrating flooding and rapid growth signals. The resultant rice maps in six different case regions of the world (Northeast and South China, California, USA, Mekong Delta of Vietnam, Sakata City in Japan, and Mali in Africa) showed overall accuracies over 90 % and F1 scores over 0.91, outperforming the existing methods and products. This algorithm combines the strengths of both optical and SAR time series data and leverages biophysical principles to generate robust rice maps without relying on any prior ground truth samples. It is well-positioned for global applications and is expected to contribute to global rice monitoring efforts.
-</details>
-
-[📄 Paper](https://doi.org/10.1016/j.rse.2024.114460)
-
-![Improved_phenology-based](images/Remote%20Sensing/Improved_phenology-based.jpg)
-
-### 24. [RSE'24] Observation-based quantification of aerosol transport using optical flow: A satellite perspective to characterize interregional transport of atmospheric pollution
+### 19. [RSE'24] Observation-based quantification of aerosol transport using optical flow: A satellite perspective to characterize interregional transport of atmospheric pollution
 **Authors:** Tianhao Zhang, Yu Gu, Bin Zhao, Lunche Wang, Zhongmin Zhu, Yun Lin, Xing Chang, Xinghui Xia, Zhe Jiang, Hongrong Shi, Wei Gong
 
 <details span>
@@ -1923,7 +2083,7 @@ Information on rice planting areas is critically important for food and water se
 
 ![A-satellite-perspective](images/Remote%20Sensing/A-satellite-perspective-to-characterize-interregional.jpg)
 
-### 25. [RSE'24] Retrieval of high-resolution melting-season albedo and its implications for the Karakoram Anomaly
+### 20. [RSE'24] Retrieval of high-resolution melting-season albedo and its implications for the Karakoram Anomaly
 **Authors:** Fuming Xie, Shiyin Liu, Yu Zhu, Xinyi Qing, Shucheng Tan, Yongpeng Gao, Miaomiao Qi, Ying Yi, Hui Ye, Muhammad Mannan Afzal, Xianhe Zhang, Jun Zhou
 
 <details span>
@@ -1935,7 +2095,7 @@ Glacial responses to climate change exhibit considerable heterogeneity. Although
 
 ![high-resolution](images/Remote%20Sensing/Retrieval-of-high-resolution-melting-season-albedo.jpg)
 
-### 26. [RSE'24] Flood inundation monitoring using multi-source satellite imagery: a knowledge transfer strategy for heterogeneous image change detection
+### 21. [RSE'24] Flood inundation monitoring using multi-source satellite imagery: a knowledge transfer strategy for heterogeneous image change detection
 **Authors:** Bofei Zhao, Haigang Sui, Junyi Liu, Weiyue Shi, Wentao Wang, Chuan Xu, Jindi Wang
 
 <details span>
@@ -1947,7 +2107,7 @@ Flood emergency mapping is essential for flood management, often requiring near 
 
 ![flood-inundation](images/Remote%20Sensing/flood-inundation.jpg)
 
-### 27. [RSE'23] Marine big data-driven ensemble learning for estimating global phytoplankton group composition over two decades (1997–2020)
+### 22. [RSE'23] Marine big data-driven ensemble learning for estimating global phytoplankton group composition over two decades (1997–2020)
 **Authors:** Yuan Zhang, Fang Shen, Xuerong Sun, Kun Tan 
 
 <details span>
@@ -1959,7 +2119,7 @@ Accurate monitoring of the spatial-temporal distribution and variability of phyt
 
 ![flood-inundation](images/Remote%20Sensing/Marine-big-data-driven-ensemble-learning.jpg)
 
-### 28. [RSE'23] Mapping tree species diversity in temperate montane forests using Sentinel-1 and Sentinel-2 imagery and topography data
+### 23. [RSE'23] Mapping tree species diversity in temperate montane forests using Sentinel-1 and Sentinel-2 imagery and topography data
 **Authors:** Xiang Liu, Julian Frey, Catalina Munteanu, Nicole Still, Barbara Koch
 
 <details span>
@@ -1971,7 +2131,7 @@ Detailed information on spatial patterns of tree species diversity (TSD) is esse
 
 ![flood-inundation](images/Remote%20Sensing/Mapping-tree-species.jpg)
 
-### 29. [JAG'24] Geospatial intelligence framework for BTS infrastructure planning toward universal internet access target in Indonesia
+### 24. [JAG'24] Geospatial intelligence framework for BTS infrastructure planning toward universal internet access target in Indonesia
 **Authors:** Anjar Dimara Sakti, I Gusti Ayu Andani, Anissa Dicky Putri, Muhammad Rizky Zakiar, Ismail Al Faruqi, Cokro Santoso, Rezzy Eko Caraka, Pitri Rohayani, Fabian Surya Pramudya, Arie Wahyu Wijayanto, Angga Setiyadi, Wervyan Shalannanda
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1982,7 +2142,7 @@ Equitable internet coverage has emerged as a key global priority, which is essen
 
 ![flood-inundation](images/Remote%20Sensing/Geospatial-intelligence-framework.jpg)
 
-### 30. [JAG'24] Multi-temporal remote sensing of inland surface waters: A fusion of sentinel-1&2 data applied to small seasonal ponds in semiarid environments
+### 25. [JAG'24] Multi-temporal remote sensing of inland surface waters: A fusion of sentinel-1&2 data applied to small seasonal ponds in semiarid environments
 **Authors:** Francesco Valerio, Sérgio Godinho, Gonçalo Ferraz, Ricardo Pita, João Gameiro, Bruno Silva, Ana Teresa Marques, João Paulo Silva
 <details span>
 <summary><b>Abstract</b></summary>
@@ -1993,7 +2153,7 @@ Inland freshwaters are essential in maintaining ecological balance and supportin
 
 ![flood-inundation](images/Remote%20Sensing/Multi-temporal-remote-sensing-of-inland-surface.jpg)
 
-### 31. [HabitatI nternational'24] Sustainable development of urban agglomerations around lakes in China: Achieving SDGs by regulating Ecosystem Service Supply and Demand through New-type Urbanization
+### 26. [HabitatI nternational'24] Sustainable development of urban agglomerations around lakes in China: Achieving SDGs by regulating Ecosystem Service Supply and Demand through New-type Urbanization
 **Authors:** Tongning Li, Yaobin Liu, Xiao Ouyang, Yajing Zhou, Mo Bi, Guoen Wei
 <details span><summary><b>Abstract</b></summary>
 The mechanism through which New-type Urbanization (NU), as a new direction in urban development, influences the Sustainable Development Goals (SDGs) by regulating the Ecosystem Services (ES) supply and demand remains to be determined. It is particularly true in urban agglomerations around lakes, characterized by severe human-land conflicts, where socio-economic development is closely linked to water. We selected China's urban agglomerations around lakes as the study area. We investigated the spatio-temporal heterogeneity of NU and the Ecosystem Service Supply and Demand Ratio (ESDR) from 2000 to 2018. We specifically focused on the dynamic trends of SDG 2 (Zero Hunger), SDG 13 (Climate Action), and SDG 15 (Life on Land). Furthermore, we utilized Structural Equation Modeling (SEM) to reveal the direct effects and indirect pathways through which NU influences the achievement of SDGs in the study area, emphasizing the differentiated performance of this mechanism across various urban agglomerations around Lakes. The results indicated that the ESDR has a particularly evident downward trend in urban centers along lakes, rivers, and road networks in spatial terms. The level of NU in urban agglomerations around lakes has increased by about 50% overall. It geographically exhibits three main spatial distribution patterns: “diffusion along the lake,” “homogeneous distribution,” and “diffusion along the river.” NU directly inhibits the achievement of SDGs but indirectly promotes the improvement of ESDR for food production and soil conservation, thereby indirectly facilitating the achievement of SDG 2 and SDG 15, but has an inhibitory effect on SDG 13. By regulating ESDR, NU is most effective in achieving SDGs in the urban agglomerations around Poyang Lake and Dongting Lake but has a significant inhibitory effect on the urban agglomeration around Hongze Lake. This research provides quantitative evidence for the urban planning shift, terrestrial ecosystem function restoration, and SDGs achievement in urban agglomerations around lakes. It also offers new insights from China for the sustainable urban construction of urban agglomerations around lakes worldwide.
@@ -2004,7 +2164,7 @@ The mechanism through which New-type Urbanization (NU), as a new direction in ur
 ![SustainableDevelopment](images/Remote%20Sensing/SustainableDevelopment.jpg)
 
 
-### 32. [Journal of Environmental Management'24] A new multivariate index for ecological security assessment in the China-Myanmar border region
+### 27. [Journal of Environmental Management'24] A new multivariate index for ecological security assessment in the China-Myanmar border region
 **Authors:** Yi Zou, Siqi Wang, Xuan Luo, Hanyu Jin, Xin Xiao, Yungang Li
 <details span><summary><b>Abstract</b></summary>
 The coordination of development efforts and ecological conservation in China's border regions is a significant challenge due to the overlap of biodiversity hotspots, ecologically fragile zones, and impoverished areas. Achieving the harmonious integration of ecological preservation and economic development relies on the fundamental assessment of ecological security (ES). However, comprehensive assessments of ES in border regions remain limited. This study introduces a new index, the multivariate ecological security index (MESI), which integrates ecosystem vigor, organization, elasticity, services and risk. Here, the MESI was utilized to assess the temporal and spatial changes in ES and its associated impact factors in the China-Myanmar border region (CMBR) from 2000 to 2020. The MESI provides a clear representation of the actual ES status in the CMBR, exhibiting a significant correlation with the eco-environmental quality index (EEQI; p < 0.01). The ES status exhibited notable spatial heterogeneity in the CMBR, consisting primarily of both relatively safe and safe levels, which accounted for approximately 85% of the total area. From 2000 to 2020, the CMBR experienced a gradual improvement in ES status, with the area experiencing an increase in the ES level accounting for 23.41% of the total area, which exceeded the proportion of the area experiencing a decrease in the ES level (4.71%). The combined impact of multiple factors exerted a greater influence on ES than did individual factors alone. Notably, human factors increasingly influenced the ES status during the study period. The results of this study provide valuable insights for ecological preservation and sustainable management in the CMBR, and the MESI can be extended to assess the ES of other regions.
@@ -2014,7 +2174,7 @@ The coordination of development efforts and ecological conservation in China's b
 
 ![SustainableDevelopment](images/Remote%20Sensing/Index4Ecological_Security_Assessment.jpg)
 
-### 33. [AFM'25] The role of phenology in crop yield prediction: Comparison of ground-based phenology and remotely sensed phenology
+### 28. [AFM'25] The role of phenology in crop yield prediction: Comparison of ground-based phenology and remotely sensed phenology
 **Authors:**  Jie Pei, Shaofeng Tan, Yaopeng Zou, Chunhua Liao, Yinan He, Jian Wang, Huabing Huang, Tianxing Wang, Haifeng Tian, Huajun Fang, Li Wang, Jianxi Huang
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2025,18 +2185,19 @@ Precise and timely crop yield predictions at large scales are crucial for safegu
 
 ![The-role-of-phenology](images/Remote%20Sensing/The_role_of_phenology_in_crop_yield_prediction.jpg)
 
-### 34. [ISPRS'24] A new methodology for establishing an SOC content prediction model that is spatiotemporally transferable at multidecadal and intercontinental scales
-**Authors:**  Xiangtian Meng , Yilin Bao, Chong Luo, Xinle Zhang, Huanjun Liu
+### 29. [Habitat International'25] The impact of anti-fragility on agricultural production under extreme precipitation in China
+
+**Authors:**  Yuxin Pan, Zuge Xing, Jiapei Wu, Jinming Yan, Fangzhou Xia
 <details span>
 <summary><b>Abstract</b></summary>
-Quantifying and tracking the soil organic carbon (SOC) content is a key step toward long-term terrestrial ecosystem monitoring. Over the past decade, numerous models have been proposed and have achieved promising results for predicting SOC content. However, many of these studies are confined to specific temporal or spatial contexts, neglecting model transferability. Temporal transferability refers to a model’s ability to be applied across different periods, while spatial transferability relates to its applicability across diverse geographic locations for prediction. Therefore, developing a new methodology to establish a prediction model with high spatiotemporal transferability for SOC content is critically important. In this study, two large intercontinental study areas were selected, and measured topsoil (0–20 cm) sample data, 27,059 cloudless Landsat 5/8 images, digital elevation models, and climate data were acquired for 3 periods. Based on these data, monthly average climate data, monthly average data reflecting soil properties, and topography data were calculated as original input (OI) variables. We established an innovative multivariate deep learning model with high spatiotemporal transferability, combining the advantages of attention mechanism, graph neural network, and long short-term memory network model (A-GNN-LSTM). Additionally, the spatiotemporal transferability of A-GNN-LSTM and commonly used prediction models were compared. Finally, the abilities of the OI variables and the OI variables processed by feature engineering (FEI) for different SOC prediction models were explored. The results show that 1) the A-GNN-LSTM that used OI as the input variable was the optimal prediction model (RMSE = 4.86 g kg−1, R2 = 0.81, RPIQ = 2.46, and MAE = 3.78 g kg−1) with the highest spatiotemporal transferability. 2) Compared to the temporal transferability of the GNN, the A-GNN-LSTM demonstrates superior temporal transferability (ΔR2T = −0.10 vs. −0.07). Furthermore, compared to the spatial transferability of LSTM, the A-GNN-LSTM shows enhanced spatial transferability (ΔR2S = −0.16 vs. −0.09). These findings strongly suggest that the fusion of geospatial context and temporally dependent information, extracted through the integration of GNN and LSTM models, effectively enhances the spatiotemporal transferability of the models. 3) By introducing the attention mechanism, the weights of different input variables could be calculated, increasing the physical interpretability of the deep learning model. The largest weight was assigned to climate data (39.55 %), and the smallest weight was assigned to vegetation (19.96 %). 4) Among the commonly used prediction models, the deep learning model had higher prediction accuracy (RMSE = 6.64 g kg−1, R2 = 0.64, RPIQ = 1.78, and MAE = 4.78 g kg−1) and spatial transferability (ΔRMSES = 1.43 g kg−1, ΔR2S = −0.13, ΔRPIQS = −0.50, and ΔMAES = 1.09 g kg−1), and the linear model had the higher temporal transferability (ΔRMSET = 1.46 g kg−1, ΔR2T = −0.14, ΔRPIQT = −0.45, and ΔMAET = 1.29 g kg−1). 5) The deep learning models necessitated the OI, whereas the linear and traditional machine learning models necessitated FEI to achieve higher prediction accuracy. This study presents an important step forward in integrating multiple deep learning models to build a highly spatiotemporal transferability SOC prediction model.
+Frequent extreme precipitation poses significant challenges to rural systems, underscoring the pivotal role of bolstering resilience against such weather extremes for the sustenance of rural sustainability. Although existing research has analysed the adverse effects of extreme precipitation on rural vulnerability, there remains a dearth of exploration into the potential benefits that rural areas might reap from such events. Drawing on Taleb's theory of anti-fragility, this study constructs a comprehensive measurement index system for the Rural Anti-Fragility Index (RAFI) from three dimensions: exposure, sensitivity, and adaptation. In this work the spatiotemporal dynamics of rural anti-fragility in Chinese county-level rural areas and their impact on agricultural production were analysed. The results indicate that (1) Spanning 2000 to 2018, China's RAFI level continuously increased, with an overall level in the median range, the highest in the Rural Sensitivity Index (RSI), followed by the Rural Exposure Index (REI), and the lowest in the Rural Adaptation Index (RAI). (2) The RAFI exhibited significant spatial clustering characteristics, with high values in the southeast and low values in the northwest. Hotspots of Rural Anti-Fragility (RAF) are mainly concentrated in the Middlelower Yangtze Plain (MYP) and Southern China (SC), while cold spots are distributed in the transitional zones of the central and western regions, as well as Tibet, Xinjiang, and other areas, with the regions of cold and hot spots becoming increasingly significant and expanding continuously. (3) The presence of RAF positively and substantially influences agricultural output in terms of both area and yield, with the greatest effect on wheat, followed by rice and spring maize. The different levels of anti-fragility exhibited strong heterogeneity in their impacts on the production areas of the three crops. We advocate for deliberate and proactive measures to augment RAFI, paramount for the realization of enduring goals in rural sustainability and agricultural progression.
 </details>
 
-[📄 Paper](https://doi.org/10.1016/j.isprsjprs.2024.09.038)
+[📄 Paper](https://doi.org/10.1016/j.habitatint.2025.103354)
 
-![flood-inundation](images/Remote%20Sensing/A-GNN-LSTM%20prediction%20model.jpg)
+![flood-inundation](images/Remote%20Sensing/HI_The_impact_of_anti-fragility_on_agricultural.jpg)
 
-### 35. [STOTEN'23] Impacts of the Three Gorges Dam on riparian vegetation in the Yangtze River Basin under climate change
+### 30. [STOTEN'23] Impacts of the Three Gorges Dam on riparian vegetation in the Yangtze River Basin under climate change
 **Authors:**  Yang Yang, Yihang Wang, Nan Cong, Nan Wang, Weiwei Yao
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2047,7 +2208,7 @@ As the largest hydroelectric project in the world, the Three Gorges Dam (TGD) is
 
 ![Three Gorges Dam](images/Remote%20Sensing/Impacts%20of%20the%20Three%20Gorges%20Dam%20on%20riparian%20vegetation.jpg)
 
-### 36. [Nature_City'24] War city profiles drawn from satellite images
+### 31. [Nature_City'24] War city profiles drawn from satellite images
 **Authors:**  Zhengyang Hou, Ying Qu, Liqiang Zhang, Jun Liu, Faqiang Wang, Qiwei Yu, An Zeng, Ziyue Chen, Yuanyuan Zhao, Hong Tang, Yuebin Wang, Xingang Li, Yang Li, Shuwen Peng, Jing Ran, Xin Yao, Xichen Meng, Suhong Liu & Chenghu Zhou 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2058,7 +2219,7 @@ The extent of war-induced destruction in urban areas is critical information for
 
 ![War-city](images/Remote%20Sensing/War%20city%20profiles%20drawn%20from%20satellite.jpg)
 
-### 37. [RSE'21] Production of global daily seamless data cubes and quantification of global land cover change from 1985 to 2020 - iMap World 1.0
+### 32. [RSE'21] Production of global daily seamless data cubes and quantification of global land cover change from 1985 to 2020 - iMap World 1.0
 **Authors:**  Han Liu, Peng Gong, Jie Wang, Xi Wang, Grant Ning, Bing Xu
 
 <details span>
@@ -2070,7 +2231,7 @@ Longer time high-resolution, high-frequency, consistent, and more detailed land 
 
 ![Production-of-global-daily-seamless-data](images/Remote%20Sensing/Production%20of%20global%20daily%20seamless%20data%20cubes.jpg)
 
-### 38. [TGRS'24] RingMoGPT: A Unified Remote Sensing Foundation Model for Vision, Language, and grounded tasks
+### 33. [TGRS'24] RingMoGPT: A Unified Remote Sensing Foundation Model for Vision, Language, and grounded tasks
 **Authors:**  Peijin Wang, Huiyang Hu, Boyuan Tong, Ziqi Zhang, Fanglong Yao, Yingchao Feng
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2081,7 +2242,7 @@ Recently, multi-modal large language models (MLLMs) have shown excellent reasoni
 
 ![RingMoGPT](images/Remote%20Sensing/RingMoGPT.png)
 
-### 39. [Journal of Environmental Management'24] Towards a Green Equal City: Measuring and matching the supply-demand of green exposure in urban center
+### 34. [Journal of Environmental Management'24] Towards a Green Equal City: Measuring and matching the supply-demand of green exposure in urban center
 **Authors:**  Chaoyang Zhu, Shanwen Zheng, Shengjie Yang, Jun Dong, Moheng Ma, Shanshan Zhang, Shengnan Liu, Xinyu Liu, Yifeng Yao, Baolong Han
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2094,7 +2255,7 @@ Exposure to green environments is crucial for human health. However, urbanizatio
 
 ![Towards-Green-Equal-City](images/Remote%20Sensing/Towards%20a%20Green%20Equal%20City%20workflow.jpg)
 
-### 40. Modality Decoupling is All You Need: A Simple Solution for Unsupervised Hyperspectral Image Fusion
+### 35. Modality Decoupling is All You Need: A Simple Solution for Unsupervised Hyperspectral Image Fusion
 **Authors:**  Songcheng Du, Yang Zou, Zixu Wang, Xingyuan Li, Ying Li, Qiang Shen
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2105,7 +2266,7 @@ Exposure to green environments is crucial for human health. However, urbanizatio
 
 ![flood-inundation](images/Remote%20Sensing/Modality%20Decoupling%20is%20All%20You%20Need.png)
 
-### 41. [Front. Plant Sci.'24] MaxEnt and Marxan modeling to predict the potential habitat and priority planting areas of Coffea arabica in Yunnan, China under climate change scenario
+### 36. [Front. Plant Sci.'24] MaxEnt and Marxan modeling to predict the potential habitat and priority planting areas of Coffea arabica in Yunnan, China under climate change scenario
 **Authors:**  Xia Li, Zihao Wang, Shaoqiang Wang, Zhaohui Qian
 <details span>
 <summary><b>Abstract</b></summary>
@@ -2119,7 +2280,7 @@ Discussion: Climate, soil, and topography combine to influence the potential geo
 
 ![flood-inundation](images/Remote%20Sensing/MaxEnt%20and%20Marxan%20modeling.jpg)
 
-### 42. [Jstar'24] Mapping of Local Climate Zones and Heat Hazard Assessment from a Historical-Future Perspective
+### 37. [Jstar'24] Mapping of Local Climate Zones and Heat Hazard Assessment from a Historical-Future Perspective
 **Authors:**  Jiayi Ren, Jun Yang, Wenbo Yu, Nan Cong, Xiangming Xiao, Jianhong Xia
 
 <details span>
@@ -2131,7 +2292,7 @@ Discussion: Climate, soil, and topography combine to influence the potential geo
 
 ![Local-Climate-Zones](images/Remote%20Sensing/Mapping%20of%20Local%20Climate%20Zones.jpg)
 
-### 43. [CellPress'24] Shared insights for heat health risk adaptation in metropolitan areas of developing countries
+### 38. [CellPress'24] Shared insights for heat health risk adaptation in metropolitan areas of developing countries
 
 **Authors:**  Wenbo Yu, Jun Yang, Dongqi Sun, Xiangming Xiao, Jianhong(Cecilia) Xia, Xueming Li
 
@@ -2144,8 +2305,125 @@ Global warming has led to a surge in heat health risks (HHRs), the impacts of wh
 
 ![health-risk](images/Remote%20Sensing/Shared%20insights%20for%20heat%20health%20risk.jpg)
 
+### 39. [CSC'25] Unraveling the impact of urban expansion on vegetation carbon sequestration capacity: A case study of the Yangtze River Economic Belt
+
+**Authors:** Jinyang Wang, Zhenfeng Shao, Peng Fu, Qingwei Zhuang, Jiahui Chang, Peiqing Jing, Zhiyu Zhao, Zhenpeng Xu, Siyuan Wang, Fei Yang 
+
+<details span>
+<summary><b>Abstract</b></summary>
+Developing a deeper understanding of how human activities affect urban ecosystems is crucial for designing and promoting sustainable regional development. Although existing studies have explored the causes of environmental changes in cities, there remains a lack in revealing and quantifying the impact of urban expansion on the vegetation carbon sequestration capacity (VCSC). To address these gaps, this study calculated the 20-year monthly Net Primary Productivity (NPP) of vegetation in the Yangtze River Economic Belt (YREB). The contributions of climate and human activities to NPP were quantified across regional, provincial, and urban scales. Furthermore, the variation pattern of urban expansion affects VCSC along urban-rural gradients was investigated. The findings indicated that (1) the annual growth rate of NPP in the YREB was 4.28 gC·m-2·yr-1 from 2000 to 2020, and the cities with the most significant influence of climate and human activities on NPP were Kunming (78.29 %) and Shanghai (40.87 %), respectively. (2) Over the past 20 years, vegetation carbon sequestration in the YREB has experienced fluctuating, rising, and stabilizing stages, with Chengdu and Nanchang growing by 28.02 % and 14.83 %, respectively, during the rising stage. (3) The impact distance of urban expansion on NPP in Shanghai and Hangzhou is greater and occurred earlier, while Kunming and Guiyang exhibited clear directional heterogeneity. This research established a framework to reveal the impact of urban expansion on VCSC, which is beneficial to urban managers in designing evidence-based solutions for sustainable urban development.
 </details>
 
+[📄 Paper](https://doi.org/10.1016/j.scs.2025.106157)
+
+![CSC1](images/Remote%20Sensing/CSC_urban_expansion_on_vegetation.jpg)
+
+### 40. [STOTEN'22] Impacts of land use/land cover changes on ecosystem services in ecologically fragile regions
+
+**Authors:**  Zhou Fang, Tonghui Ding, Junyu Chen, Shi Xue, Qin Zhou, Yingdi Wang, Yixin Wang, Zhongde Huang, Shiliang Yang
+
+<details span>
+<summary><b>Abstract</b></summary>
+High-density human activities have rapidly changed the pattern of urban land use/land cover (LULC), affecting the supply of urban ecosystem services (ESs). This poses a challenge to the balance of urban development and ecological protection, which may be more serious in ecologically fragile regions. This study identified key LULC change (LULCC) impacts on ESs in Ordos, an ecologically fragile region in Northwest China. The urbanization process of Ordos will continue in 2030 under the business-as-usual scenario due to its strategic positioning in the National Energy Base of China. The future LULC simulation results showed that developed land in eastern Ordos will continue to expand in 2030, and more forest and grassland will appear in western Ordos as a result of ecological restoration. The results of the InVEST model in calculating four important ESs showed that the ES supply in the densely populated areas (eastern Ordos) has declined, and more attention must be given to natural vegetation protection in the urbanization process. Although carbon storage in the western region has increased due to afforestation, this also reduces the water yield supply, which may exacerbate the water shortage in Ordos. Supported by this framework, more sustainable urban land use management can be undertaken to balance the conflict between ecological protection and urbanization. This will contribute to regional ecological health and sustainable urban development.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.scitotenv.2022.154967)
+
+![_Total_Environ_Impacts_of_land_use](images/Remote%20Sensing/Sci._Total_Environ_Impacts_of_land_use.jpg)
+
+### 41. [JCLP'25] Social-ecological system sustainability in China from the perspective of supply-demand balance for ecosystem services
+
+**Authors:** Jiawang Zhang, Ming Wang, Kai Liu, Sida Chen, Zhan'ao Zhao
+
+<details span>
+<summary><b>Abstract</b></summary>
+Ecosystem services supply-demand balance is the core of the human-earth coupling system and crucial for regional sustainability. However, comprehensive studies on large-scale, grid-based supply-demand relationships, inter-service trade-offs and synergies, and the impacts of land use are still limited. The study develops a social-ecological analysis framework based on ecosystem services supply-demand balance, alongside a land use transition framework incorporating structure, conflict, and dynamics. The supply-demand balance of six services from 2000 to 2020, as well as the comprehensive supply-demand balance, were calculated. Additionally, the trade-offs/synergies between services were analyzed, service clusters were identified, and the spatial response of land use transition to the balance of each service was explored. The results show that carbon sequestration, grain production, habitat quality, and recreation and leisure services have maintained relative balance in past 20 years, while the balance index for water yield and soil conservation services have fluctuated. Notably, high-surplus areas are mainly concentrated in national nature protection ecological regions. The impact of land use conflict on the supply-demand balance exceeds that of land use structure and dynamics, with high-high cluster areas accounting for 26.8%. Spatial heterogeneity is observed in the trade-offs/synergies between different services within each watershed. Five clusters of ecosystem services supply, five of demand, and six of balance were identified. These findings can offer valuable insights into alleviating China's ecosystem services deficits, harmonizing regional human-earth relationships, and promoting the sustainability of socio-ecological systems.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.jclepro.2025.145039)
+
+![JCLP_Social-ecological_system](images/Remote%20Sensing/JCLP_Social-ecological_system.jpg)
+
+
+### 42. [JCLP'25] Spatiotemporal differentiation and trade-offs and synergies of ecosystem services in tropical island basins: A case study of three major basins of Hainan Island
+
+**Authors:** Le Zhang, Jinrui Lei, Zongzhu Chen, Peng Zhou, Tingtian Wu, Xiaohua Chen, Yuanling Li, Xiaoyan Pan
+
+<details span>
+<summary><b>Abstract</b></summary>
+Accurately understanding the spatiotemporal differentiation with regards to ecosystem services and corresponding trade-offs and synergies fundamentally contributes to the efficient ecosystem management, and accordingly benefits peoples' life quality. Nevertheless, research on the relationships and driving mechanisms of ecosystem services in the unique geographical context of tropical island basins remains limited. The three major basins of Hainan Island, Nandu River basin, Changhua River basin, and Wanquan River basin, serve as the vital water conservation areas and ecological barriers for the entire island. Exploring the spatiotemporal differentiation regarding ecosystem services and corresponding trade-offs and synergies within these basins well benefit the protection of ecological system and the better development in island basins. Based on the data from 5 periods from 1980 to 2020, the case study utilizes the Integrated Valuation of Ecosystem Services and Trade-offs (InVEST) model for evaluating the spatiotemporal differentiation of 4 ecosystem services: Water conservation (WC), soil conservation (SC), carbon storage (CS), and habitat quality (HQ). By integrating a geographically weighted regression model (GWR) and a geographical detector (GD), the study analyzes the spatiotemporal distribution patterns and governing factors about the two relationship types among abovementioned ecosystem services, finding that in the 1980–2020 period, the overall functionality of these ecosystem services presents a declining trend, with the total amount of WC, SC, and CS decreasing by 9 million m3, 14 million t, and 1.59 Tg, respectively, and the mean of HQ decreasing by 0.0038. The four types of ecosystem services generally exhibit a spatial distribution pattern of “higher in the center, lower on the periphery”, with strong autocorrelation and significant clustering. Soil type, slope, and land use intensity (LUI) primarily drive the spatial differentiation in the 4 ecosystem services. Multiple driving factors interacting together well explain basin ecosystem services' spatial differentiation. Regarding the two types of relationships, synergies dominate among the basins’ various ecosystem services, and the overall synergy intensity has increased between 1980 and 2020. The two types of relationships among ecosystem services were primarily impacted by topography, soil type, and normalized difference vegetation index (NDVI). This study fills the gap in research on ecosystem service relationships in island basins, and the research results also have practical guidance for the planning and utilization of ecological resources, ecosystem protection and restoration, and sustainable development of island basins in Hainan Island and even globally.
+</details>
+
+[📄 Paper](https://www.sciencedirect.com/science/article/pii/S0959652625001489)
+
+![JCLP_Spatiotemporal_differentiation](images/Remote%20Sensing/JCLP_Spatiotemporal_differentiation.jpg)
+
+### 43. [RCR'25] Conservation effects of transboundary protected areas on mitigating anthropogenic pressure across China's borders
+
+**Authors:** Li An, Lei Shen, Shuai Zhong, Delong Li, Yidong Zhu
+
+<details span>
+<summary><b>Abstract</b></summary>
+The escalating anthropogenic pressure in terrestrial borderlands is one of the major threats to transboundary ecosystems. To realize effective transboundary conservation efforts, neighboring countries need to clarify the spatial patterns and variation trends of anthropogenic pressure, as well as effects of the transboundary protected area (TBPA) on resisting anthropogenic pressure. This study investigated TBPAs across China's borders with diversified socioeconomic and natural backgrounds based on nighttime light, population density, impervious surface data and causal inference methods. We found both TBPAs and surrounding unprotected areas experienced significant increase of anthropogenic pressure, and the proportion of very high pressure in TBPAs expanded from 0.43 % in 2000 to 1.19 % in 2020. TBPAs effectively mitigated the growth trend of anthropogenic pressure by 23.91 %, however there's discrepancy in conservation effects among different TBPAs and countries. These results highlight the necessity to enhance international collaboration to address anthropogenic pressure and promote sustainable livelihoods in transboundary areas.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.resconrec.2024.107976)
+
+![RCR_Conservation_effects_of_transboundary_protected_areas](images/Remote%20Sensing/RCR_Conservation_effects_of_transboundary_protected_areas.jpg)
+
+### 44. [JCLP'23] Simulating the impact of land use change on ecosystem services in agricultural production areas with multiple scenarios considering ecosystem service richness
+
+**Authors:** Long Jiang, Zongzhi Wang, Qiting Zuo, Huihua Du
+
+<details span>
+<summary><b>Abstract</b></summary>
+Agricultural land is a complex seminatural and semiartificial ecosystem that is affected by both human activities and natural factors. Clarifying land use and ecological health conflicts in agricultural areas is important for maintaining ecosystem services. Thus, taking the Henan section of the Yellow River (HSYR) as the study area, this study constructed an ecosystem service index (ESI) assessment model to explore the impact of land use change on ecosystem services from 1980 to 2020. Then, the future land use simulation (FLUS) model was used to simulate the effects of different development patterns on ecosystem services heterogeneity in 2035. The results showed that, from 1980 to 2000, the ESI increased from 0.520 to 0.649, but then decreased to 0.509 by the end of 2020 in the HSYR. In any simulation scenarios, urban land expansion continued to encroach on cropland, resulting in the loss of ecosystem services. Especially in the natural development scenario (ND), the ESI may be reduced by up to 2.55%. The results also emphasized that ecosystem services can be protected in the cropland protection scenario (EC). The results of this study enrich the understanding of the impact of human activities on ecological services in agricultural areas and provide new insights into grasping regional food security and ecological stability.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.jclepro.2023.136485)
+
+![JCLP](images/Remote%20Sensing/JCLP_Simulating_the_impact_of_land_use.jpg)
+
+### 45. [RSE'25] First quasi-global soil moisture retrieval using Fengyun-3 GNSS-R constellation observations
+
+**Authors:** Wentao Yang, Fei Guo, Xiaohong Zhang, Yifan Zhu, Zheng Li, Zhiyu Zhang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Global Navigation Satellite System-Reflectometry (GNSS-R) has considerable potential for large-scale soil moisture (SM) monitoring. With the Fengyun-3 (FY-3) E, F, and G satellites currently in orbit, the FY-3 satellite series has formed the GNSS-R constellation. A comprehensive analysis and validation of the SM retrieval capability of the FY-3 GNSS-R constellation observations are essential. This study is the first to use FY-3 GNSS-R constellation observations to evaluate their performance in quasi-global daily SM retrieval. Specifically, this study proposed an effective SM retrieval method for obtaining an FY-3 GNSS-R SM with minimal ancillary data. Compared with the Soil Moisture Active Passive (SMAP) reference SM, the FY-3 SM exhibited a reasonable global spatial pattern as SMAP, with a root mean square error (RMSE) of 0.039 cm3/cm3 in low vegetation areas. Validation results from over 200 independent in situ stations showed that the unbiased RMSE and correlation for FY-3 SM were 0.039 cm3/cm3 and 0.60, respectively. Triple collocation (TC) analysis showed that the standard deviation and correlation for the FY-3 SM were 0.017 cm3/cm3 and 0.62, respectively. Global and local validations indicate that the SM derived from the FY-3 GNSS-R constellation observations has well-defined accuracy and effectively captures spatiotemporal variations. Compared to the contemporaneous Cyclone GNSS official SM, the accuracy of the FY-3 SM retrieved using the proposed method improved by 17.1 %. Consequently, the SM from the FY-3 GNSS-R constellation observations can be an invaluable complement to the global SM dataset. Furthermore, this method effectively reduced systematic bias and random errors in SM retrievals (unbiased RMSE (ubRMSE) from 0.041to 0.034 cm3/cm3and TC standard deviation from 0.034to 0.017 cm3/cm3), which may provide a valuable reference for generating SM products from subsequent FY-3 GNSS-R constellations.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.rse.2025.114653)
+
+![RSE_First_quasi-global_soil_moisture](images/Remote%20Sensing/RSE_First_quasi-global_soil_moisture.jpg)
+
+### 46. [JEM'24] Evaluation of ecosystem quality and stability based on key indicators and ideal reference frame: A case study of the Qinghai-Tibet Plateau
+
+**Authors:** Jitao Zhou, Xiaofeng Wang, Xiaoxue Wang, Wenjie Yao, You Tu, Zechong Sun, Xiaoming Feng
+
+<details span>
+<summary><b>Abstract</b></summary>
+China has explicitly prioritized the enhancement of ecosystem quality and stability(EQS) as a governmental objective. However, our understanding of systematic and comprehensive assessment methods for EQS remains limited. The development and investigation of corresponding evaluation frameworks and their underlying mechanisms remain insufficiently explored. This study employs the concept of an "ideal reference system and key indicators,” integrating diverse ecosystem and human activity characteristics from perspectives such as ecosystem structure, function, and landscape vulnerability, to determine indicator weights using the Analytic Hierarchy Process(AHP) and entropy weight method, thereby constructing an evaluation framework for assessing the quality and stability of the Qinghai-Tibet Plateau(QTP) ecosystem. The spatiotemporal variations in EQS from 2000 to 2018 were examined, and the key driving factors were identified using the optimal parameter-based geographical detector (OPGD). The results indicate that the EQS of the QTP exhibit a spatial distribution pattern characterized by higher values in the southeast and lower values in the northwest. From 2000 to 2018, there has been a consistent improvement in the overall ecosystem quality and stability across the QTP. The EQS exhibit a significant synergistic effect, with high-high(26.59 ± 1.26%) and low-low(32.61 ± 1.45%) matching combinations becoming the predominant regional patterns. However, in climatic transition zones and glacial areas, the relationship between these factors is particularly distinctive, indicating ecosystem response mechanisms specific to certain natural environmental conditions. Vegetation cover(>0.697), evapotranspiration(>0.620), and precipitation(>0.688) are the primary natural factors influencing EQS, while the impact of human activities has become increasingly significant. Furthermore, the research findings underscore the positive effects of the variable climatic conditions of the QTP on ecosystems within the context of global climate warming, while the stringent implementation of ecological protection measures has collectively contributed to the enhancement of EQS. The proposed evaluation framework not only facilitates a comprehensive and precise assessment of regional EQS, but also provides a scientific basis for understanding and managing the adaptive responses of plateau ecosystems under the complex interplay of natural and anthropogenic factors.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.jenvman.2024.122460)
+
+![JEM_Evaluation_of_ecosystem_quality_and_stability](images/Remote%20Sensing/JEM_Evaluation_of_ecosystem_quality_and_stability.jpg)
+
+### 47. [JEM'25] Climate and human activities shaping carbon-water-food interactions: Implications for governance in the Yangtze River Basin and its sub-basins, China
+
+**Authors:** Yulong Li, Liang Zheng, Hongping Cui, Di Wu, Ying Wang
+
+<details span>
+<summary><b>Abstract</b></summary>
+The carbon-water-food systems are inextricably linked and increasingly strained by climate change and human activities. However, there is a lack of studies that examine how climate and human activities affect the carbon-water-food interactions, particularly in large basin regions like the Yangtze River Basin (YZRB) of China. This study addresses this gap by quantifying the carbon-water-food systems through key ecosystem services—carbon storage (CS), water yield (WY), and food production (FP)—using the InVEST model, investigate the synergies and trade-offs among these systems both at the basin-wide scale and across the nine sub-basins within the YZRB. Furthermore, Random Forest (RF) and Partial Least Squares Structural Equation Modelling (PLS-SEM) are employed to conduct a comprehensive analysis of how climate and human activities influence the interactions among the carbon-water-food systems. The results showed that: (1) During the study period from 2000 to 2020, the total of CS decreased by 56.53 × 104t in the YZRB, while WY and FP increased by 16.15 × 105mm and 14.55 × 106t, respectively. The interactions between CS-WY and WY-FP exhibit synergistic relationships, with the former weakening over time (from 0.56 to 0.54) and the latter strengthening (from 0.46 to 0.51). Meanwhile, the trade-off between CS and FP gradually strengthened (from 0.09 to 0.11). Although the carbon-water-food interactions in some sub-basins align with the overall YZRB pattern, the trajectories of change differ across regions. (2) Both climate and human activities influence the carbon-water-food systems in the YZRB and its sub-basins, albeit with varying directional impacts. While climate exerts a more dominant influence, the role of human activities has steadily increased over the study period. (3) Climate and human activities also shape the interactions among carbon, water, and food systems in differing ways, with sub-basin interactions exhibiting distinct variations. These findings provide valuable insights for guiding ecosystem conservation and promoting high-quality development in the YZRB and other basins.
+</details>
+
+[📄 Paper](https://doi.org/10.1016/j.jenvman.2025.124582)
+
+![JEM_Climate](images/Remote%20Sensing/JEM_Climate%20and%20human%20activities%20shaping%20carbon-water-food%20interactions.jpg)
+
+</details>
 
 ## PointCloud
 
@@ -2228,6 +2506,31 @@ The proliferation of 2D foundation models has sparked research into adapting the
 [📄 Paper](https://nips.cc/virtual/2024/poster/96708) |  [💻 Code](https://github.com/ryang41/sa3dip)
 
 ![SA3DIP](images/pointcloud/SA3DIP.jpg)
+
+### 7. CoDynTrust: Robust Asynchronous Collaborative Perception via Dynamic Feature Trust Modulus
+
+**Authors:** Yunjiang Xu, Lingzhi Li, Jin Wang, Benyuan Yang, Zhiwen Wu, Xinhong Chen, Jianping Wang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Collaborative perception, fusing information from multiple agents, can extend perception range so as to improve perception performance. However, temporal asynchrony in real-world environments, caused by communication delays, clock misalignment, or sampling configuration differences, can lead to information mismatches. If this is not well handled, then the collaborative performance is patchy, and what's worse safety accidents may occur. To tackle this challenge, we propose CoDynTrust, an uncertainty-encoded asynchronous fusion perception framework that is robust to the information mismatches caused by temporal asynchrony. CoDynTrust generates dynamic feature trust modulus (DFTM) for each region of interest by modeling aleatoric and epistemic uncertainty as well as selectively suppressing or retaining single-vehicle features, thereby mitigating information mismatches. We then design a multi-scale fusion module to handle multi-scale feature maps processed by DFTM. Compared to existing works that also consider asynchronous collaborative perception, CoDynTrust combats various low-quality information in temporally asynchronous scenarios and allows uncertainty to be propagated to downstream tasks such as planning and control. Experimental results demonstrate that CoDynTrust significantly reduces performance degradation caused by temporal asynchrony across multiple datasets, achieving state-of-the-art detection performance even with temporal asynchrony.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2502.08169v1) | [💻 Code](https://github.com/CrazyShout/CoDynTrust)
+
+![CoDynTrust](/images/pointcloud//CoDynTrust.jpg)
+
+### 8. [CVPR' 25] LiMoE: Mixture of LiDAR Representation Learners from Automotive Scenes
+**Authors:** Xiang Xu, Lingdong Kong, Hui Shuai, Liang Pan, Ziwei Liu, Qingshan Liu
+
+<details span>
+<summary><b>Abstract</b></summary>
+LiDAR data pretraining offers a promising approach to leveraging large-scale, readily available datasets for enhanced data utilization. However, existing methods predominantly focus on sparse voxel representation, overlooking the complementary attributes provided by other LiDAR representations. In this work, we propose LiMoE, a framework that integrates the Mixture of Experts (MoE) paradigm into LiDAR data representation learning to synergistically combine multiple representations, such as range images, sparse voxels, and raw points. Our approach consists of three stages: i) Image-to-LiDAR Pretraining, which transfers prior knowledge from images to point clouds across different representations; ii) Contrastive Mixture Learning (CML), which uses MoE to adaptively activate relevant attributes from each representation and distills these mixed features into a unified 3D network; iii) Semantic Mixture Supervision (SMS), which combines semantic logits from multiple representations to boost downstream segmentation performance. Extensive experiments across eleven large-scale LiDAR datasets demonstrate our effectiveness and superiority. The code has been made publicly accessible.
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2501.04004) | [🌐 Project Page](https://ldkong.com/LiMoE) | [💻 Code](https://github.com/Xiangxu-0103/LiMoE)
+
+![LiMoE](images/pointcloud/LiMoE.jpg)
 
 </details>
 
@@ -2362,6 +2665,85 @@ Despite the recent advancements of vision-language-action (VLA) models on a vari
 
 ![GRAPE](images/Robotics/GRAPE.jpg)
 
+### 4. Bilevel Learning for Bilevel Planning
+
+**Authors:** Bowen Li, Tom Silver, Sebastian Scherer, Alexander Gray
+
+<details span>
+<summary><b>Abstract</b></summary>
+A robot that learns from demonstrations should not just imitate what it sees -- it should understand the high-level concepts that are being demonstrated and generalize them to new tasks. Bilevel planning is a hierarchical model-based approach where predicates (relational state abstractions) can be leveraged to achieve compositional generalization. However, previous bilevel planning approaches depend on predicates that are either hand-engineered or restricted to very simple forms, limiting their scalability to sophisticated, high-dimensional state spaces. To address this limitation, we present IVNTR, the first bilevel planning approach capable of learning neural predicates directly from demonstrations. Our key innovation is a neuro-symbolic bilevel learning framework that mirrors the structure of bilevel planning. In IVNTR, symbolic learning of the predicate "effects" and neural learning of the predicate "functions" alternate, with each providing guidance for the other. We evaluate IVNTR in six diverse robot planning domains, demonstrating its effectiveness in abstracting various continuous and high-dimensional states. While most existing approaches struggle to generalize (with < 35% success rate), our IVNTR achieves an average of 77% success rate on unseen tasks. Additionally, we showcase IVNTR on a mobile manipulator, where it learns to perform real-world mobile manipulation tasks and generalizes to unseen test scenarios that feature new objects, new states, and longer task horizons. Our findings underscore the promise of learning and planning with abstractions as a path towards high-level generalization.
+</details>
+
+[📄 Paper](https://www.arxiv.org/pdf/2502.08697)
+
+![BLBP](/images/Robotics/BLBP.jpg)
+
+### 5. CordViP: Correspondence-based Visuomotor Policy for Dexterous Manipulation in Real-World
+
+**Authors:** Yankai Fu, Qiuxuan Feng, Ning Chen, Zichen Zhou, Mengzhen Liu, Mingdong Wu, Tianxing Chen, Shanyu Rong, Jiaming Liu, Hao Dong, Shanghang Zhang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Achieving human-level dexterity in robots is a key objective in the field of robotic manipulation. Recent advancements in 3D-based imitation learning have shown promising results, providing an effective pathway to achieve this goal. However, obtaining high-quality 3D representations presents two key problems: (1) the quality of point clouds captured by a single-view camera is significantly affected by factors such as camera resolution, positioning, and occlusions caused by the dexterous hand; (2) the global point clouds lack crucial contact information and spatial correspondences, which are necessary for fine-grained dexterous manipulation tasks. To eliminate these limitations, we propose CordViP, a novel framework that constructs and learns correspondences by leveraging the robust 6D pose estimation of objects and robot proprioception. Specifically, we first introduce the interaction-aware point clouds, which establish correspondences between the object and the hand. These point clouds are then used for our pre-training policy, where we also incorporate object-centric contact maps and hand-arm coordination information, effectively capturing both spatial and temporal dynamics. Our method demonstrates exceptional dexterous manipulation capabilities with an average success rate of 90\% in four real-world tasks, surpassing other baselines by a large margin. Experimental results also highlight the superior generalization and robustness of CordViP to different objects, viewpoints, and scenarios. 
+</details>
+
+[📄 Paper](https://www.arxiv.org/pdf/2502.08449) | [🌐 Project Page](https://aureleopku.github.io/CordViP/)
+
+![CordViP](/images/Robotics/CordViP.jpg)
+
+### 6. GRACE: Generalizing Robot-Assisted Caregiving with User Functionality Embeddings
+
+**Authors:** Ziang Liu, Yuanchen Ju, Yu Da, Tom Silver, Pranav N. Thakkar, Jenna Li, Justin Guo, Katherine Dimitropoulou, Tapomayukh Bhattacharjee
+
+<details span>
+<summary><b>Abstract</b></summary>
+Robot caregiving should be personalized to meet the diverse needs of care recipients -- assisting with tasks as needed, while taking user agency in action into account. In physical tasks such as handover, bathing, dressing, and rehabilitation, a key aspect of this diversity is the functional range of motion (fROM), which can vary significantly between individuals. In this work, we learn to predict personalized fROM as a way to generalize robot decision-making in a wide range of caregiving tasks. We propose a novel data-driven method for predicting personalized fROM using functional assessment scores from occupational therapy. We develop a neural model that learns to embed functional assessment scores into a latent representation of the user's physical function. The model is trained using motion capture data collected from users with emulated mobility limitations. After training, the model predicts personalized fROM for new users without motion capture. Through simulated experiments and a real-robot user study, we show that the personalized fROM predictions from our model enable the robot to provide personalized and effective assistance while improving the user's agency in action.
+</details>
+
+[📄 Paper](https://www.arxiv.org/pdf/2502.08449) | [🌐 Project Page](https://emprise.cs.cornell.edu/grace/)
+
+![GRACE](/images/Robotics/GRACE.jpg)
+
+### 7. Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids
+
+**Authors:** Toru Lin, Kartik Sachdev, Linxi Fan, Jitendra Malik, Yuke Zhu
+
+<details span>
+<summary><b>Abstract</b></summary>
+Reinforcement learning has delivered promising results in achieving human- or even superhuman-level capabilities across diverse problem domains, but success in dexterous robot manipulation remains limited. This work investigates the key challenges in applying reinforcement learning to solve a collection of contact-rich manipulation tasks on a humanoid embodiment. We introduce novel techniques to overcome the identified challenges with empirical validation. Our main contributions include an automated real-to-sim tuning module that brings the simulated environment closer to the real world, a generalized reward design scheme that simplifies reward engineering for long-horizon contact-rich manipulation tasks, a divide-and-conquer distillation process that improves the sample efficiency of hard-exploration problems while maintaining sim-to-real performance, and a mixture of sparse and dense object representations to bridge the sim-to-real perception gap. We show promising results on three humanoid dexterous manipulation tasks, with ablation studies on each technique. Our work presents a successful approach to learning humanoid dexterous manipulation using sim-to-real reinforcement learning, achieving robust generalization and high performance without the need for human demonstration.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2502.20396) | [🌐 Project Page](https://toruowo.github.io/recipe/)
+
+![Sim-to-Real](/images/Robotics/Sim-to-Real.jpg)
+
+### 8. DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping
+
+**Authors:** Yifan Zhong, Xuchuan Huang, Ruochong Li, Ceyao Zhang, Yitao Liang, Yaodong Yang, Yuanpei Chen
+
+<details span>
+<summary><b>Abstract</b></summary>
+Dexterous grasping remains a fundamental yet challenging problem in robotics. A general-purpose robot must be capable of grasping diverse objects in arbitrary scenarios. However, existing research typically relies on specific assumptions, such as single-object settings or limited environments, leading to constrained generalization. Our solution is DexGraspVLA, a hierarchical framework that utilizes a pre-trained Vision-Language model as the high-level task planner and learns a diffusion-based policy as the low-level Action controller. The key insight lies in iteratively transforming diverse language and visual inputs into domain-invariant representations, where imitation learning can be effectively applied due to the alleviation of domain shift. Thus, it enables robust generalization across a wide range of real-world scenarios. Notably, our method achieves a 90+% success rate under thousands of unseen object, lighting, and background combinations in a ``zero-shot'' environment. Empirical analysis further confirms the consistency of internal model behavior across environmental variations, thereby validating our design and explaining its generalization performance. We hope our work can be a step forward in achieving general dexterous grasping. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2502.20900) | [🌐 Project Page](https://dexgraspvla.github.io/) | [💻 Code](https://github.com/Psi-Robot/DexGraspVLA)
+
+![DexGraspVLA](/images/Robotics/DexGraspVLA.jpg)
+
+### 9. [ICLR' 25]GravMAD: Grounded Spatial Value Maps Guided Action Diffusion for Generalized 3D Manipulation
+
+**Authors:** Yangtao Chen, Zixuan Chen, Junhui Yin, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yang Gao
+
+<details span>
+<summary><b>Abstract</b></summary>
+Robots' ability to follow language instructions and execute diverse 3D manipulation tasks is vital in robot learning. Traditional imitation learning-based methods perform well on seen tasks but struggle with novel, unseen ones due to variability. Recent approaches leverage large foundation models to assist in understanding novel tasks, thereby mitigating this issue. However, these methods lack a task-specific learning process, which is essential for an accurate understanding of 3D environments, often leading to execution failures. In this paper, we introduce GravMAD, a sub-goal-driven, language-conditioned action diffusion framework that combines the strengths of imitation learning and foundation models. Our approach breaks tasks into sub-goals based on language instructions, allowing auxiliary guidance during both training and inference. During training, we introduce Sub-goal Keypose Discovery to identify key sub-goals from demonstrations. Inference differs from training, as there are no demonstrations available, so we use pre-trained foundation models to bridge the gap and identify sub-goals for the current task. In both phases, GravMaps are generated from sub-goals, providing GravMAD with more flexible 3D spatial guidance compared to fixed 3D positions. Empirical evaluations on RLBench show that GravMAD significantly outperforms state-of-the-art methods, with a 28.63% improvement on novel tasks and a 13.36% gain on tasks encountered during training. Evaluations on real-world robotic tasks further show that GravMAD can reason about real-world tasks, associate them with relevant visual information, and generalize to novel tasks. These results demonstrate GravMAD's strong multi-task learning and generalization in 3D manipulation. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2409.20154v4) | [🌐 Project Page](https://gravmad.github.io/)
+
+![GravMAD](/images/Robotics/GravMAD.jpg)
+
+
 </details>
 
 
@@ -2382,6 +2764,19 @@ Understanding how humans cooperatively utilize semantic knowledge to explore unf
 [📄 Paper](https://arxiv.org/pdf/2412.18292) | [💻 Code](https://github.com/FrankZxShen/MCoCoNav)
 
 ![MCoCoNav](images/Agent/MCoCoNav.jpg)
+
+### 2. [CVPR' 25] EgoLife: Towards Egocentric Life Assistant
+
+**Authors:** Jingkang Yang, Shuai Liu, Hongming Guo, Yuhao Dong, Xiamengwei Zhang, Sicheng Zhang, Pengyun Wang, Zitang Zhou, Binzhu Xie, Ziyue Wang, Bei Ouyang, Zhengyu Lin, Marco Cominelli, Zhongang Cai, Yuanhan Zhang, Peiyuan Zhang, Fangzhou Hong, Joerg Widmer, Francesco Gringoli, Lei Yang, Bo Li, Ziwei Liu
+
+<details span>
+<summary><b>Abstract</b></summary>
+We introduce EgoLife, a project to develop an egocentric life assistant that accompanies and enhances personal efficiency through AI-powered wearable glasses. To lay the foundation for this assistant, we conducted a comprehensive data collection study where six participants lived together for one week, continuously recording their daily activities - including discussions, shopping, cooking, socializing, and entertainment - using AI glasses for multimodal egocentric video capture, along with synchronized third-person-view video references. This effort resulted in the EgoLife Dataset, a comprehensive 300-hour egocentric, interpersonal, multiview, and multimodal daily life dataset with intensive annotation. Leveraging this dataset, we introduce EgoLifeQA, a suite of long-context, life-oriented question-answering tasks designed to provide meaningful assistance in daily life by addressing practical questions such as recalling past relevant events, monitoring health habits, and offering personalized recommendations. To address the key technical challenges of (1) developing robust visual-audio models for egocentric data, (2) enabling identity recognition, and (3) facilitating long-context question answering over extensive temporal information, we introduce EgoButler, an integrated system comprising EgoGPT and EgoRAG. EgoGPT is an omni-modal model trained on egocentric datasets, achieving state-of-the-art performance on egocentric video understanding. EgoRAG is a retrieval-based component that supports answering ultra-long-context questions. Our experimental studies verify their working mechanisms and reveal critical factors and bottlenecks, guiding future improvements. By releasing our datasets, models, and benchmarks, we aim to stimulate further research in egocentric AI assistants.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2503.03803) | [🌐 Project Page](https://egolife-ai.github.io/) | [💻 Code](https://github.com/EvolvingLMMs-Lab/EgoLife)
+
+![EgoLife](/images/Agent/CVPR2025_EgoLife.jpg)
 
 </details>
 
@@ -2514,10 +2909,61 @@ The seamless integration of music with dance movements is essential for communic
 
 ![Dance-to-Music](images/Others/Dance-to-Music.jpg)
 
+### 11. [ECCV' 24] PromptCCD: Learning Gaussian Mixture Prompt Pool for Continual Category Discovery
 
+**Authors:** Fernando Julio Cendra, Bingchen Zhao, Kai Han
 
+<details span>
+<summary><b>Abstract</b></summary>
+We tackle the problem of Continual Category Discovery (CCD), which aims to automatically discover novel categories in a continuous stream of unlabeled data while mitigating the challenge of catastrophic forgetting -- an open problem that persists even in conventional, fully supervised continual learning. To address this challenge, we propose PromptCCD, a simple yet effective framework that utilizes a Gaussian Mixture Model (GMM) as a prompting method for CCD. At the core of PromptCCD lies the Gaussian Mixture Prompting (GMP) module, which acts as a dynamic pool that updates over time to facilitate representation learning and prevent forgetting during category discovery. Moreover, GMP enables on-the-fly estimation of category numbers, allowing PromptCCD to discover categories in unlabeled data without prior knowledge of the category numbers. We extend the standard evaluation metric for Generalized Category Discovery (GCD) to CCD and benchmark state-of-the-art methods on diverse public datasets. PromptCCD significantly outperforms existing methods, demonstrating its effectiveness. 
+</details>
 
-### 11. [Nature Machine Intelligence' 25] A quantitative analysis of knowledge-learning preferences in large language models in molecular science
+[📄 Paper](https://arxiv.org/abs/2407.19001) | [🌐 Project Page](https://visual-ai.github.io/promptccd/) | [💻 Code](https://github.com/Visual-AI/PromptCCD)
+
+![PromptCCD_ECCV2024](images/Others/PromptCCD_ECCV2024.jpg)
+
+### 12. Surface-SOS: Self-Supervised Object Segmentation via Neural Surface Representation
+
+**Authors:** Xiaoyun Zheng, Liwei Liao, Jianbo Jiao, Feng Gao, Ronggang Wang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Self-supervised Object Segmentation (SOS) aims to segment objects without any annotations. Under conditions of multi-camera inputs, the structural, textural and geometrical consistency among each view can be leveraged to achieve fine-grained object segmentation. To make better use of the above information, we propose Surface representation based Self-supervised Object Segmentation (Surface-SOS), a new framework to segment objects for each view by 3D surface representation from multi-view images of a scene. To model high-quality geometry surfaces for complex scenes, we design a novel scene representation scheme, which decomposes the scene into two complementary neural representation modules respectively with a Signed Distance Function (SDF). Moreover, Surface-SOS is able to refine single-view segmentation with multi-view unlabeled images, by introducing coarse segmentation masks as additional input. To the best of our knowledge, Surface-SOS is the first self-supervised approach that leverages neural surface representation to break the dependence on large amounts of annotated data and strong constraints. These constraints typically involve observing target objects against a static background or relying on temporal supervision in videos. Extensive experiments on standard benchmarks including LLFF, CO3D, BlendedMVS, TUM and several real-world scenes show that Surface-SOS always yields finer object masks than its NeRF-based counterparts and surpasses supervised single-view baselines remarkably. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.09947v1) | [💻 Code](https://github.com/zhengxyun/Surface-SOS)
+
+![Surface-SOS](/images/Others//Surface-SOS.jpg)
+
+### 13. Discrete Prior-based Temporal-coherent Content Prediction for Blind Face Video Restoration
+
+**Authors:** Lianxin Xie, Bingbing Zheng, Wen Xue, Yunfei Zhang, Le Jiang, Ruotao Xu, Si Wu, Hau-San Wong
+
+<details span>
+<summary><b>Abstract</b></summary>
+Blind face video restoration aims to restore high-fidelity details from videos subjected to complex and unknown degradations. This task poses a significant challenge of managing temporal heterogeneity while at the same time maintaining stable face attributes. In this paper, we introduce a Discrete Prior-based Temporal-Coherent content prediction transformer to address the challenge, and our model is referred to as DP-TempCoh. Specifically, we incorporate a spatial-temporal-aware content prediction module to synthesize high-quality content from discrete visual priors, conditioned on degraded video tokens. To further enhance the temporal coherence of the predicted content, a motion statistics modulation module is designed to adjust the content, based on discrete motion priors in terms of cross-frame mean and variance. As a result, the statistics of the predicted content can match with that of real videos over time. By performing extensive experiments, we verify the effectiveness of the design elements and demonstrate the superior performance of our DP-TempCoh in both synthetically and naturally degraded video restoration.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.09947v1) | [💻 Code](https://github.com/lxxie298/DP-TempCoh)
+
+![DP-TempCoh](/images/Others//DP-TempCoh.jpg)
+
+### 14. [AAAI' 25]Efficient Self-Supervised Video Hashing with Selective State Spaces
+
+**Authors:** Jinpeng Wang, Niu Lian, Jun Li, Yuting Wang, Yan Feng, Bin Chen, Yongbing Zhang, Shu-Tao Xia
+
+<details span>
+<summary><b>Abstract</b></summary>
+Self-supervised video hashing (SSVH) is a practical task in video indexing and retrieval. Although Transformers are predominant in SSVH for their impressive temporal modeling capabilities, they often suffer from computational and memory inefficiencies. Drawing inspiration from Mamba, an advanced state-space model, we explore its potential in SSVH to achieve a better balance between efficacy and efficiency. We introduce S5VH, a Mamba-based video hashing model with an improved self-supervised learning paradigm. Specifically, we design bidirectional Mamba layers for both the encoder and decoder, which are effective and efficient in capturing temporal relationships thanks to the data-dependent selective scanning mechanism with linear complexity. In our learning strategy, we transform global semantics in the feature space into semantically consistent and discriminative hash centers, followed by a center alignment loss as a global learning signal. Our self-local-global (SLG) paradigm significantly improves learning efficiency, leading to faster and better convergence. Extensive experiments demonstrate S5VH's improvements over state-of-the-art methods, superior transferability, and scalable advantages in inference efficiency.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.14518v1) | [💻 Code](https://github.com/gimpong/AAAI25-S5VH)
+
+![S5VH](/images/Others//S5VH.jpg)
+
+## Nature-Science-Cell
+
+### 1. [Nature Machine Intelligence' 25] A quantitative analysis of knowledge-learning preferences in large language models in molecular science
 **Authors**: Pengfei Liu, Jun Tao, Zhixiang Ren
 <details span><summary><b>Abstract</b></summary>
 Deep learning has significantly advanced molecular modelling and design, enabling an efficient understanding and discovery of novel molecules. In particular, large language models introduce a fresh research paradigm to tackle scientific problems from a natural language processing perspective. Large language models significantly enhance our understanding and generation of molecules, often surpassing existing methods with their capabilities to decode and synthesize complex molecular patterns. However, two key issues remain: how to quantify the match between model and data modalities and how to identify the knowledge-learning preferences of models. To address these challenges, we propose a multimodal benchmark, named ChEBI-20-MM, and perform 1,263 experiments to assess the model’s compatibility with data modalities and knowledge acquisition. Through the modal transition probability matrix, we provide insights into the most suitable modalities for tasks. Furthermore, we introduce a statistically interpretable approach to discover context-specific knowledge mapping by localized feature filtering. Our analysis offers an exploration of the learning mechanism and paves the way for advancing large language models in molecular science.
@@ -2529,7 +2975,7 @@ Deep learning has significantly advanced molecular modelling and design, enablin
 
 
 
-### 12. [Nature Machine Intelligence' 24] Reusability report: exploring the utility of variational graph encoders for predicting molecular toxicity in drug design
+### 2. [Nature Machine Intelligence' 24] Reusability report: exploring the utility of variational graph encoders for predicting molecular toxicity in drug design
 **Authors**: Ruijiang Li, Jiang Lu, Ziyi Liu, Duoyun Yi, Mengxuan Wan, Yixin Zhang, Peng Zan, Song He, Xiaochen Bo 
 <details span><summary><b>Abstract</b></summary>
 Variational graph encoders effectively combine graph convolutional networks with variational autoencoders, and have been widely employed for biomedical graph-structured data. Lam and colleagues developed a framework based on the variational graph encoder, NYAN, to facilitate the prediction of molecular properties in computer-assisted drug design. In NYAN, the low-dimensional latent variables derived from the variational graph autoencoder are leveraged as a universal molecular representation, yielding remarkable performance and versatility throughout the drug discovery process. In this study we assess the reusability of NYAN and investigate its applicability within the context of specific chemical toxicity prediction. The prediction accuracy—based on NYAN latent representations and other popular molecular feature representations—is benchmarked across a broad spectrum of toxicity datasets, and the adaptation of NYAN latent representation to other surrogate models is also explored. NYAN, equipped with common surrogate models, shows competitive or better performance in toxicity prediction compared with other state-of-the-art molecular property prediction methods. We also devise a multi-task learning strategy with feature enhancement and consensus inference by leveraging the low dimensionality and feature diversity of NYAN latent space, further boosting the multi-endpoint acute toxicity estimation. The analysis delves into the adaptability of the generic graph variational model, showcasing its aptitude for tailored tasks within the realm of drug discovery.
@@ -2540,7 +2986,7 @@ Variational graph encoders effectively combine graph convolutional networks with
 ![Reusability_report](images/Others/Reusability_report.jpg)
 
 
-### 13. [Nature Machine Intelligence' 24] An interpretable deep learning framework for genome-informed precision oncology
+### 3. [Nature Machine Intelligence' 24] An interpretable deep learning framework for genome-informed precision oncology
 **Authors**: Shuangxia Ren, Gregory F. Cooper, Lujia Chen, Xinghua Lu 
 <details span><summary><b>Abstract</b></summary>
 Cancers result from aberrations in cellular signalling systems, typically resulting from driver somatic genome alterations (SGAs) in individual tumours. Precision oncology requires understanding the cellular state and selecting medications that induce vulnerability in cancer cells under such conditions. To this end, we developed a computational framework consisting of two components: (1) a representation-learning component, which learns a representation of the cellular signalling systems when perturbed by SGAs and uses a biologically motivated and interpretable deep learning model, and (2) a drug-response prediction component, which predicts drug responses by leveraging the information of the cellular state of the cancer cells derived by the first component. Our cell-state-oriented framework notably improves the accuracy of predictions of drug responses compared to models using SGAs directly in cell lines. Moreover, our model performs well with real patient data. Importantly, our framework enables the prediction of responses to chemotherapy agents based on SGAs, thus expanding genome-informed precision oncology beyond molecularly targeted drugs.
@@ -2551,9 +2997,7 @@ Cancers result from aberrations in cellular signalling systems, typically result
 ![genome-informed_precision_oncology](images/Others/genome-informed_precision_oncology.jpg)
 
 
-
-
-### 14. [Nature Machine Intelligence' 24] Multiscale topology-enabled structure-to-sequence transformer for protein–ligand interaction predictions
+### 4. [Nature Machine Intelligence' 24] Multiscale topology-enabled structure-to-sequence transformer for protein–ligand interaction predictions
 **Authors**: Dong Chen, Jian Liu, Guo-Wei Wei 
 <details span><summary><b>Abstract</b></summary>
 Despite the success of pretrained natural language processing (NLP) models in various fields, their application in computational biology has been hindered by their reliance on biological sequences, which ignores vital three-dimensional (3D) structural information incompatible with the sequential architecture of NLP models. Here we present a topological transformer (TopoFormer), which is built by integrating NLP models and a multiscale topology technique, the persistent topological hyperdigraph Laplacian (PTHL), which systematically converts intricate 3D protein–ligand complexes at various spatial scales into an NLP-admissible sequence of topological invariants and homotopic shapes. PTHL systematically transforms intricate 3D protein–ligand complexes into NLP-compatible sequences of topological invariants and shapes, capturing essential interactions across spatial scales. TopoFormer gives rise to exemplary scoring accuracy and excellent performance in ranking, docking and screening tasks in several benchmark datasets. This approach can be utilized to convert general high-dimensional structured data into NLP-compatible sequences, paving the way for broader NLP based research.
@@ -2562,5 +3006,60 @@ Despite the success of pretrained natural language processing (NLP) models in va
 [📄 Paper](https://www.nature.com/articles/s42256-024-00855-1) | [💻 Code]( https://doi.org/10.5281/zenodo.10892799)
 
 ![TopoFormer](images/Others/TopoFormer.jpg)
+
+### 5. [Nature Medicine' 24] A visual-language foundation model for computational pathology
+**Authors**: Ming Y. Lu, Bowen Chen, Drew F. K. Williamson, Richard J. Chen, Ivy Liang, Tong Ding, Guillaume Jaume, Igor Odintsov, Long Phi Le, Georg Gerber, Anil V. Parwani, Andrew Zhang, Faisal Mahmood
+<details span><summary><b>Abstract</b></summary>
+The accelerated adoption of digital pathology and advances in deep learning have enabled the development of robust models for various pathology tasks across a diverse array of diseases and patient cohorts. However, model training is often difficult due to label scarcity in the medical domain, and a model’s usage is limited by the specific task and disease for which it is trained. Additionally, most models in histopathology leverage only image data, a stark contrast to how humans teach each other and reason about histopathologic entities. We introduce CONtrastive learning from Captions for Histopathology (CONCH), a visual-language foundation model developed using diverse sources of histopathology images, biomedical text and, notably, over 1.17 million image–caption pairs through task-agnostic pretraining. Evaluated on a suite of 14 diverse benchmarks, CONCH can be transferred to a wide range of downstream tasks involving histopathology images and/or text, achieving state-of-the-art performance on histology image classification, segmentation, captioning, and text-to-image and image-to-text retrieval. CONCH represents a substantial leap over concurrent visual-language pretrained systems for histopathology, with the potential to directly facilitate a wide array of machine learning-based workflows requiring minimal or no further supervised fine-tuning.
+</details>
+
+[📄 Paper](https://www.nature.com/articles/s41591-024-02856-4) | [💻 Code](https://github.com/mahmoodlab/CONCH)
+
+![VLfoundation](images/Others/A%20visual-language%20foundation%20model%20for%20computational%20pathology_NatureMedicine2024.jpg)
+
+### 6. [Nature Medicine' 23] A visual–language foundation model for pathology image analysis using medical Twitter
+**Authors**: Zhi Huang, Federico Bianchi, Mert Yuksekgonul, Thomas J. Montine,  James Zou
+
+<details span><summary><b>Abstract</b></summary>
+The lack of annotated publicly available medical images is a major barrier for computational research and education innovations. At the same time, many de-identified images and much knowledge are shared by clinicians on public forums such as medical Twitter. Here we harness these crowd platforms to curate OpenPath, a large dataset of 208,414 pathology images paired with natural language descriptions. We demonstrate the value of this resource by developing pathology language–image pretraining (PLIP), a multimodal artificial intelligence with both image and text understanding, which is trained on OpenPath. PLIP achieves state-of-the-art performances for classifying new pathology images across four external datasets: for zero-shot classification, PLIP achieves F1 scores of 0.565–0.832 compared to F1 scores of 0.030–0.481 for previous contrastive language–image pretrained model. Training a simple supervised classifier on top of PLIP embeddings also achieves 2.5% improvement in F1 scores compared to using other supervised model embeddings. Moreover, PLIP enables users to retrieve similar cases by either image or natural language search, greatly facilitating knowledge sharing. Our approach demonstrates that publicly shared medical information is a tremendous resource that can be harnessed to develop medical artificial intelligence for enhancing diagnosis, knowledge sharing and education.
+</details>
+
+[📄 Paper](https://www.nature.com/articles/s41591-023-02504-3) | [💻 Code](https://tinyurl.com/webplip)
+
+![VLfoundation-2](images/Others/A%20visual–language%20foundation%20model%20for%20pathology%20image%20analysis%20using%20medical%20Twitter_NatureMedicine2023.jpg)
+
+### 7. [Nature Methods' 23] DeepPrep: an accelerated, scalable and robust pipeline for neuroimaging preprocessing empowered by deep learning
+
+**Authors**: Jianxun Ren, Ning An, Cong Lin, Youjia Zhang, Zhenyu Sun, Wei Zhang, Shiyi Li, Ning Guo, Weigang Cui, Qingyu Hu, Weiwei Wang, Xuehai Wu, Yinyan Wang, Tao Jiang, Theodore D. Satterthwaite, Danhong Wang, Hesheng Liu 
+
+<details span><summary><b>Abstract</b></summary>
+Neuroimaging has entered the era of big data. However, the advancement of preprocessing pipelines falls behind the rapid expansion of data volume, causing substantial computational challenges. Here we present DeepPrep, a pipeline empowered by deep learning and a workflow manager. Evaluated on over 55,000 scans, DeepPrep demonstrates tenfold acceleration, scalability and robustness compared to the state-of-the-art pipeline, thereby meeting the scalability requirements of neuroimaging.
+</details>
+
+[📄 Paper](https://www.nature.com/articles/s41592-025-02599-1) | [💻 Code](https://github.com/pBFSLab/DeepPrep)
+
+![DeepPrep_NatureMethods](images/Others/DeepPrep_NatureMethods.jpg)
+
+### 8. [Nature' 25] Modulated ringdown comb interferometry for sensing of highly complex gases
+**Authors**:  Qizhong Liang, Apoorva Bisht, Andrew Scheck, Peter G. Schunemann, Jun Ye 
+
+<details span><summary><b>Abstract</b></summary>
+Gas samples relevant to health and the environment typically contain many molecular species that span a huge concentration dynamic range. Mid-infrared frequency comb spectroscopy with high-finesse cavity enhancement has allowed the most sensitive multispecies trace-gas detections so far. However, the robust performance of this technique depends critically on ensuring absorption-path-length enhancement over a broad spectral coverage, which is severely limited by comb–cavity frequency mismatch if strongly absorbing compounds are present. Here we introduce modulated ringdown comb interferometry, a technique that resolves the vulnerability of comb–cavity enhancement to strong intracavity absorption or dispersion. This technique works by measuring ringdown dynamics carried by massively parallel comb lines transmitted through a length-modulated cavity, making use of both the periodicity of the field dynamics and the Doppler frequency shifts introduced from a Michelson interferometer. As a demonstration, we measure highly dispersive exhaled human breath samples and ambient air in the mid-infrared with finesse improved to 23,000 and coverage to 1,010 cm−1. Such a product of finesse and spectral coverage is orders of magnitude better than all previous demonstrations, enabling us to simultaneously quantify 20 distinct molecular species at above 1-part-per-trillion sensitivity varying in concentrations by seven orders of magnitude. This technique unlocks next-generation sensing performance for complex and dynamic molecular compositions, with scalable improvement to both finesse and spectral coverage.
+</details>
+
+[📄 Paper](https://www.nature.com/articles/s41586-024-08534-2) 
+
+![MRCI_NATURE2025](images/Others/MRCI_NATURE2025.jpg)
+
+### 9. [Nature Methods' 23] A vision–language foundation model for precision oncology
+**Authors**: Xiyue Wang, Xiaoming Zhang, Yinghua Xi, Feyisope Eweje, Yijiang Chen, Yuchen Li, Colin Bergstrom, Matthew Gopaulchan, Ted Kim, Kun-Hsing Yu, Sierra Willens, Francesca Maria Olguin, Jeffrey J. Nirschl, Joel Neal, Maximilian Diehn, Sen Yang, Ruijiang Li 
+
+<details span><summary><b>Abstract</b></summary>
+Clinical decision-making is driven by multimodal data, including clinical notes and pathological characteristics. Artificial intelligence approaches that can effectively integrate multimodal data hold significant promise in advancing clinical care1,2. However, the scarcity of well-annotated multimodal datasets in clinical settings has hindered the development of useful models. In this study, we developed the Multimodal transformer with Unified maSKed modeling (MUSK), a vision–language foundation model designed to leverage large-scale, unlabelled, unpaired image and text data. MUSK was pretrained on 50 million pathology images from 11,577 patients and one billion pathology-related text tokens using unified masked modelling. It was further pretrained on one million pathology image–text pairs to efficiently align the vision and language features. With minimal or no further training, MUSK was tested in a wide range of applications and demonstrated superior performance across 23 patch-level and slide-level benchmarks, including image-to-text and text-to-image retrieval, visual question answering, image classification and molecular biomarker prediction. Furthermore, MUSK showed strong performance in outcome prediction, including melanoma relapse prediction, pan-cancer prognosis prediction and immunotherapy response prediction in lung and gastro-oesophageal cancers. MUSK effectively combined complementary information from pathology images and clinical reports and could potentially improve diagnosis and precision in cancer therapy.
+</details>
+
+[📄 Paper](https://www.nature.com/articles/s41586-024-08378-w) | [💻 Code](https://github.com/lilab-stanford/MUSK)
+
+![MUSK_NATURE2024](images/Others/MUSK_NATURE2024.jpg)
 
 </details>
