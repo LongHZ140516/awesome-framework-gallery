@@ -9,6 +9,7 @@
 
 
 ## 📢 Latest Updates
+- **Aug-27-2025**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ / 📁 Dataset/  <img style="height: 15px;" src="images/icon/Agent.png"> Agent/ 📑 Others** framework images (number:*24*)
 - **June-03-2025**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/  <img style="height: 15px;" src="images/icon/Agent.png"> Agent/ 📑 Others / 🧬 Nature-Science-Cell** framework images (number:*43*)
 - **Mar-25-2025**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ <img style="height: 15px;" src="images/icon/Agent.png"> Agent/ 📑 Others / 🧬 Nature-Science-Cell** framework images (number:*37*)
 - **Jan-26-2025**: Add **🤖 LLM/ <img style="height: 15px;" src="images/icon/diffusion.png"> Diffusion/ <img style="height: 15px;" src="images/icon/GS.png"> 3DGS/ 🛰️ Remote Sensing/ 🔵 Pointcloud/ 📁 Dataset/ 🕹️ Robotics/ <img style="height: 15px;" src="images/icon/Agent.png"> Agent/ 📑 Others** framework images (number:*41*)
@@ -18,10 +19,10 @@
 
 ## Please share a $\color{orange} STAR$ ⭐ if this project does help
 
-## 🧾 TODO List
+> [!NOTE]  
+> As the content of the repository keeps growing 📈, the current GitHub README can no longer display everything in full. If needed, you may consider cloning the repository locally 💻 to explore all the details. In addition, to make it easier for users to browse the framework images 🖼️, we are planning to build a dedicated web platform 🌐. Stay tuned — exciting updates are on the way! 🚀
 
-- [x] Add flowcharts from 🧬**Nature** 
-- [x] Add flowcharts from 🌍**Science** 
+## 🧾 TODO List
 - [ ] 💻 Create a **dedicated website** for the repository
 
 
@@ -564,6 +565,84 @@ The increasing demand for spatiotemporal data and modeling tasks in geosciences 
 [📄 Paper](https://doi.org/10.1016/j.jag.2025.104456) 
 
 ![GEO-GPT](images/LLM/GEO-GPT.jpg)
+
+### 38. Optimizing Length Compression in Large Reasoning Models
+
+**Authors:** Zhengxiang Cheng, Dongping Chen, Mingyang Fu, Tianyi Zhou
+
+<details span>
+<summary><b>Abstract</b></summary>
+Large Reasoning Models (LRMs) have achieved remarkable success, yet they often suffer from producing unnecessary and verbose reasoning chains. We identify a core aspect of this issue as "invalid thinking" -- models tend to repeatedly double-check their work after having derived the correct answer. To address this specific inefficiency, we move beyond the general principles of Efficacy and Efficiency to propose two new, fine-grained principles: Brevity, which advocates for eliminating redundancy, and Sufficiency, which ensures critical reasoning steps are preserved. Guided by these principles, we introduce LC-R1, a post-training method based on Group Relative Policy Optimization (GRPO). LC-R1 employs a novel combination of a Length Reward for overall conciseness and a Compress Reward that is specifically designed to remove the invalid portion of the thinking process. Extensive experiments on multiple reasoning benchmarks demonstrate that LC-R1 achieves a significant reduction in sequence length (~50%) with only a marginal (~2%) drop in accuracy, achieving a favorable trade-off point on the Pareto frontier that prioritizes high compression. Our analysis further validates the robustness of LC-R1 and provides valuable insights for developing more powerful yet computationally efficient LRMs.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2506.14755) | [💻 Code](https://github.com/zxiangx/LC-R1)
+
+![LC-R1](/images/LLM/LC-R1.jpg)
+
+### 39. Ego-R1: Chain-of-Tool-Thought for Ultra-Long Egocentric Video Reasoning
+
+**Authors:** Shulin Tian, Ruiqi Wang, Hongming Guo, Penghao Wu, Yuhao Dong, Xiuying Wang, Jingkang Yang, Hao Zhang, Hongyuan Zhu, Ziwei Liu
+
+<details span>
+<summary><b>Abstract</b></summary>
+We introduce Ego-R1, a novel framework for reasoning over ultra-long (i.e., in days and weeks) egocentric videos, which leverages a structured Chain-of-Tool-Thought (CoTT) process, orchestrated by an Ego-R1 Agent trained via reinforcement learning (RL). Inspired by human problem-solving strategies, CoTT decomposes complex reasoning into modular steps, with the RL agent invoking specific tools, one per step, to iteratively and collaboratively answer sub-questions tackling such tasks as temporal retrieval and multi-modal understanding. We design a two-stage training paradigm involving supervised finetuning (SFT) of a pretrained language model using CoTT data and RL to enable our agent to dynamically propose step-by-step tools for long-range reasoning. To facilitate training, we construct a dataset called Ego-R1 Data, which consists of Ego-CoTT-25K for SFT and Ego-QA-4.4K for RL. Furthermore, our Ego-R1 agent is evaluated on a newly curated week-long video QA benchmark, Ego-R1 Bench, which contains human-verified QA pairs from hybrid sources. Extensive results demonstrate that the dynamic, tool-augmented chain-of-thought reasoning by our Ego-R1 Agent can effectively tackle the unique challenges of understanding ultra-long egocentric videos, significantly extending the time coverage from few hours to a week.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2506.13654) | [🌐 Project Page](https://egolife-ai.github.io/Ego-R1/) | [💻 Code](https://github.com/egolife-ai/Ego-R1)
+
+![Ego-R1](/images/LLM/Ego-R1.jpg)
+
+### 40. Frankentext: Stitching random text fragments into long-form narratives
+
+**Authors:** Chau Minh Pham, Jenna Russell, Dzung Pham, Mohit Iyyer
+
+<details span>
+<summary><b>Abstract</b></summary>
+We introduce Frankentexts, a new type of long-form narratives produced by LLMs under the extreme constraint that most tokens (e.g., 90%) must be copied verbatim from human writings. This task presents a challenging test of controllable generation, requiring models to satisfy a writing prompt, integrate disparate text fragments, and still produce a coherent narrative. To generate Frankentexts, we instruct the model to produce a draft by selecting and combining human-written passages, then iteratively revise the draft while maintaining a user-specified copy ratio. We evaluate the resulting Frankentexts along three axes: writing quality, instruction adherence, and detectability. Gemini-2.5-Pro performs surprisingly well on this task: 81% of its Frankentexts are coherent and 100% relevant to the prompt. Notably, up to 59% of these outputs are misclassified as human-written by detectors like Pangram, revealing limitations in AI text detectors. Human annotators can sometimes identify Frankentexts through their abrupt tone shifts and inconsistent grammar between segments, especially in longer generations. Beyond presenting a challenging generation task, Frankentexts invite discussion on building effective detectors for this new grey zone of authorship, provide training data for mixed authorship detection, and serve as a sandbox for studying human-AI co-writing processes.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2505.18128)
+
+![Frankentext](/images/LLM/Frankentext.jpg)
+
+### 41. AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning
+
+**Authors:** Zewei Zhou, Tianhui Cai, Seth Z. Zhao, Yun Zhang, Zhiyu Huang, Bolei Zhou, Jiaqi Ma
+
+<details span>
+<summary><b>Abstract</b></summary>
+Recent advancements in Vision-Language-Action (VLA) models have shown promise for end-to-end autonomous driving by leveraging world knowledge and reasoning capabilities. However, current VLA models often struggle with physically infeasible action outputs, complex model structures, or unnecessarily long reasoning. In this paper, we propose AutoVLA, a novel VLA model that unifies reasoning and action generation within a single autoregressive generation model for end-to-end autonomous driving. AutoVLA performs semantic reasoning and trajectory planning directly from raw visual inputs and language instructions. We tokenize continuous trajectories into discrete, feasible actions, enabling direct integration into the language model. For training, we employ supervised fine-tuning to equip the model with dual thinking modes: fast thinking (trajectory-only) and slow thinking (enhanced with chain-of-thought reasoning). To further enhance planning performance and efficiency, we introduce a reinforcement fine-tuning method based on Group Relative Policy Optimization (GRPO), reducing unnecessary reasoning in straightforward scenarios. Extensive experiments across real-world and simulated datasets and benchmarks, including nuPlan, nuScenes, Waymo, and CARLA, demonstrate the competitive performance of AutoVLA in both open-loop and closed-loop settings. Qualitative results showcase the adaptive reasoning and accurate planning capabilities of AutoVLA in diverse scenarios.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2506.13757) | [🌐 Project Page](https://autovla.github.io/) | [💻 Code](https://github.com/ucla-mobility/AutoVLA)
+
+![AutoVLA](/images/LLM/AutoVLA.jpg)
+
+### 42. Spatial Mental Modeling from Limited Views
+
+**Authors:** Baiqiao Yin, Qineng Wang, Pingyue Zhang, Jianshu Zhang, Kangrui Wang, Zihan Wang, Jieyu Zhang, Keshigeyan Chandrasegaran, Han Liu, Ranjay Krishna, Saining Xie, Manling Li, Jiajun Wu, Li Fei-Fei
+
+<details span>
+<summary><b>Abstract</b></summary>
+Can Vision Language Models (VLMs) imagine the full scene from just a few views, like humans do? Humans form spatial mental models, internal representations of unseen space, to reason about layout, perspective, and motion. Our new MindCube benchmark with 21,154 questions across 3,268 images exposes this critical gap, where existing VLMs exhibit near-random performance. Using MindCube, we systematically evaluate how well VLMs build robust spatial mental models through representing positions (cognitive mapping), orientations (perspective-taking), and dynamics (mental simulation for "what-if" movements). We then explore three approaches to help VLMs approximate spatial mental models, including unseen intermediate views, natural language reasoning chains, and cognitive maps. The significant improvement comes from a synergistic approach, "map-then-reason", that jointly trains the model to first generate a cognitive map and then reason upon it. By training models to reason over these internal maps, we boosted accuracy from 37.8% to 60.8% (+23.0%). Adding reinforcement learning pushed performance even further to 70.7% (+32.9%). Our key insight is that such scaffolding of spatial mental models, actively constructing and utilizing internal structured spatial representations with flexible reasoning processes, significantly improves understanding of unobservable space.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2506.21458) | [🌐 Project Page](https://mind-cube.github.io/) | [💻 Code](https://github.com/mll-lab-nu/MindCube)
+
+![MINDCUBE](/images/LLM/MINDCUBE.jpg)
+
+### 43. AI4Research: A Survey of Artificial Intelligence for Scientific Research
+
+**Authors:** Qiguang Chen, Mingda Yang, Libo Qin, Jinhao Liu, Zheng Yan, Jiannan Guan, Dengyun Peng, Yiyan Ji, Hanjing Li, Mengkang Hu, Yimeng Zhang, Yihao Liang, Yuhang Zhou, Jiaqi Wang, Zhi Chen, Wanxiang Che
+
+<details span>
+<summary><b>Abstract</b></summary>
+Recent advancements in artificial intelligence (AI), particularly in large language models (LLMs) such as OpenAI-o1 and DeepSeek-R1, have demonstrated remarkable capabilities in complex domains such as logical reasoning and experimental coding. Motivated by these advancements, numerous studies have explored the application of AI in the innovation process, particularly in the context of scientific research. These AI technologies primarily aim to develop systems that can autonomously conduct research processes across a wide range of scientific disciplines. Despite these significant strides, a comprehensive survey on AI for Research (AI4Research) remains absent, which hampers our understanding and impedes further development in this field. To address this gap, we present a comprehensive survey and offer a unified perspective on AI4Research. Specifically, the main contributions of our work are as follows: (1) Systematic taxonomy: We first introduce a systematic taxonomy to classify five mainstream tasks in AI4Research. (2) New frontiers: Then, we identify key research gaps and highlight promising future directions, focusing on the rigor and scalability of automated experiments, as well as the societal impact. (3) Abundant applications and resources: Finally, we compile a wealth of resources, including relevant multidisciplinary applications, data corpora, and tools. We hope our work will provide the research community with quick access to these resources and stimulate innovative breakthroughs in AI4Research.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2507.01903) | [🌐 Project Page](https://ai-4-research.github.io/) | [💻 Code](https://github.com/LightChen233/Awesome-AI4Research)
+
+![AI4Research](/images/LLM/AI4Research.jpg)
 
 </details>
 
@@ -1178,6 +1257,84 @@ We present UniTEX, a novel two-stage 3D texture generation framework to create h
 [📄 Paper](https://arxiv.org/pdf/2505.23253) | [💻 Code](https://github.com/YixunLiang/UniTEX)
 
 ![UniTEX](images/Diffusion/UniTEX.jpg)
+
+### 47. ImmerseGen: Agent-Guided Immersive World Generation with Alpha-Textured Proxies
+
+**Authors:** Jinyan Yuan, Bangbang Yang, Keke Wang, Panwang Pan, Lin Ma, Xuehai Zhang, Xiao Liu, Zhaopeng Cui, Yuewen Ma
+
+<details span>
+<summary><b>Abstract</b></summary>
+Automatic creation of 3D scenes for immersive VR presence has been a significant research focus for decades. However, existing methods often rely on either high-poly mesh modeling with post-hoc simplification or massive 3D Gaussians, resulting in a complex pipeline or limited visual realism. In this paper, we demonstrate that such exhaustive modeling is unnecessary for achieving compelling immersive experience. We introduce ImmerseGen, a novel agent-guided framework for compact and photorealistic world modeling. ImmerseGen represents scenes as hierarchical compositions of lightweight geometric proxies, i.e., simplified terrain and billboard meshes, and generates photorealistic appearance by synthesizing RGBA textures onto these proxies. Specifically, we propose terrain-conditioned texturing for user-centric base world synthesis, and RGBA asset texturing for midground and foreground this http URL reformulation offers several advantages: (i) it simplifies modeling by enabling agents to guide generative models in producing coherent textures that integrate seamlessly with the scene; (ii) it bypasses complex geometry creation and decimation by directly synthesizing photorealistic textures on proxies, preserving visual quality without degradation; (iii) it enables compact representations suitable for real-time rendering on mobile VR headsets. To automate scene creation from text prompts, we introduce VLM-based modeling agents enhanced with semantic grid-based analysis for improved spatial reasoning and accurate asset placement. ImmerseGen further enriches scenes with dynamic effects and ambient audio to support multisensory immersion. Experiments on scene generation and live VR showcases demonstrate that ImmerseGen achieves superior photorealism, spatial coherence and rendering efficiency compared to prior methods.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2507.13344) | [💻 Code](https://immersegen.github.io/)
+
+![ImmerseGen](/images/Diffusion/ImmerseGen.jpg)
+
+### 48. Diffuman4D: 4D Consistent Human View Synthesis from Sparse-View Videos with Spatio-Temporal Diffusion Models
+
+**Authors:** Yudong Jin, Sida Peng, Xuan Wang, Tao Xie, Zhen Xu, Yifan Yang, Yujun Shen, Hujun Bao, Xiaowei Zhou
+
+<details span>
+<summary><b>Abstract</b></summary>
+This paper addresses the challenge of high-fidelity view synthesis of humans with sparse-view videos as input. Previous methods solve the issue of insufficient observation by leveraging 4D diffusion models to generate videos at novel viewpoints. However, the generated videos from these models often lack spatio-temporal consistency, thus degrading view synthesis quality. In this paper, we propose a novel sliding iterative denoising process to enhance the spatio-temporal consistency of the 4D diffusion model. Specifically, we define a latent grid in which each latent encodes the image, camera pose, and human pose for a certain viewpoint and timestamp, then alternately denoising the latent grid along spatial and temporal dimensions with a sliding window, and finally decode the videos at target viewpoints from the corresponding denoised latents. Through the iterative sliding, information flows sufficiently across the latent grid, allowing the diffusion model to obtain a large receptive field and thus enhance the 4D consistency of the output, while making the GPU memory consumption affordable. The experiments on the DNA-Rendering and ActorsHQ datasets demonstrate that our method is able to synthesize high-quality and consistent novel-view videos and significantly outperforms the existing approaches.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2506.14315) | [🌐 Project Page](https://diffuman4d.github.io/) | [💻 Code](https://github.com/zju3dv/Diffuman4D)
+
+![Diffuman4D](/images/Diffusion/Diffuman4D.jpg)
+
+### 49. SeqTex: Generate Mesh Textures in Video Sequence
+
+**Authors:** Ze Yuan, Xin Yu, Yangtian Sun, Yuan-Chen Guo, Yan-Pei Cao, Ding Liang, Xiaojuan Qi 
+
+<details span>
+<summary><b>Abstract</b></summary>
+Training native 3D texture generative models remains a fundamental yet challenging problem, largely due to the limited availability of large-scale, high-quality 3D texture datasets. This scarcity hinders generalization to real-world scenarios. To address this, most existing methods finetune foundation image generative models to exploit their learned visual priors. However, these approaches typically generate only multi-view images and rely on post-processing to produce UV texture maps -- an essential representation in modern graphics pipelines. Such two-stage pipelines often suffer from error accumulation and spatial inconsistencies across the 3D surface. In this paper, we introduce SeqTex, a novel end-to-end framework that leverages the visual knowledge encoded in pretrained video foundation models to directly generate complete UV texture maps. Unlike previous methods that model the distribution of UV textures in isolation, SeqTex reformulates the task as a sequence generation problem, enabling the model to learn the joint distribution of multi-view renderings and UV textures. This design effectively transfers the consistent image-space priors from video foundation models into the UV domain. To further enhance performance, we propose several architectural innovations: a decoupled multi-view and UV branch design, geometry-informed attention to guide cross-domain feature alignment, and adaptive token resolution to preserve fine texture details while maintaining computational efficiency. Together, these components allow SeqTex to fully utilize pretrained video priors and synthesize high-fidelity UV texture maps without the need for post-processing. Extensive experiments show that SeqTex achieves state-of-the-art performance on both image-conditioned and text-conditioned 3D texture generation tasks, with superior 3D consistency, texture-geometry alignment, and real-world generalization.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2507.04285) | [🌐 Project Page](https://yuanze1024.github.io/SeqTex/)
+
+![SeqTex](/images/Diffusion/SeqTex.jpg)
+
+### 50. LongVie: Multimodal-Guided Controllable Ultra-Long Video Generation
+
+**Authors:** Jianxiong Gao, Zhaoxi Chen, Xian Liu, Jianfeng Feng, Chenyang Si, Yanwei Fu, Yu Qiao, Ziwei Liu
+
+<details span>
+<summary><b>Abstract</b></summary>
+Controllable ultra-long video generation is a fundamental yet challenging task. Although existing methods are effective for short clips, they struggle to scale due to issues such as temporal inconsistency and visual degradation. In this paper, we initially investigate and identify three key factors: separate noise initialization, independent control signal normalization, and the limitations of single-modality guidance. To address these issues, we propose LongVie, an end-to-end autoregressive framework for controllable long video generation. LongVie introduces two core designs to ensure temporal consistency: 1) a unified noise initialization strategy that maintains consistent generation across clips, and 2) global control signal normalization that enforces alignment in the control space throughout the entire video. To mitigate visual degradation, LongVie employs 3) a multi-modal control framework that integrates both dense (e.g., depth maps) and sparse (e.g., keypoints) control signals, complemented by 4) a degradation-aware training strategy that adaptively balances modality contributions over time to preserve visual quality. We also introduce LongVGenBench, a comprehensive benchmark consisting of 100 high-resolution videos spanning diverse real-world and synthetic environments, each lasting over one minute. Extensive experiments show that LongVie achieves state-of-the-art performance in long-range controllability, consistency, and quality.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2508.03694) | [🌐 Project Page](https://vchitect.github.io/LongVie-project/) | [💻 Code](https://github.com/Vchitect/LongVie)
+
+![LongVie](/images/Diffusion/LongVie.jpg)
+
+### 51. 4DNeX: Feed-Forward 4D Generative Modeling Made Easy
+
+**Authors:** Zhaoxi Chen, Tianqi Liu, Long Zhuo, Jiawei Ren, Zeng Tao, He Zhu, Fangzhou Hong, Liang Pan, Ziwei Liu
+
+<details span>
+<summary><b>Abstract</b></summary>
+We present 4DNeX, the first feed-forward framework for generating 4D (i.e., dynamic 3D) scene representations from a single image. In contrast to existing methods that rely on computationally intensive optimization or require multi-frame video inputs, 4DNeX enables efficient, end-to-end image-to-4D generation by fine-tuning a pretrained video diffusion model. Specifically, 1) to alleviate the scarcity of 4D data, we construct 4DNeX-10M, a large-scale dataset with high-quality 4D annotations generated using advanced reconstruction approaches. 2) we introduce a unified 6D video representation that jointly models RGB and XYZ sequences, facilitating structured learning of both appearance and geometry. 3) we propose a set of simple yet effective adaptation strategies to repurpose pretrained video diffusion models for 4D modeling. 4DNeX produces high-quality dynamic point clouds that enable novel-view video synthesis. Extensive experiments demonstrate that 4DNeX outperforms existing 4D generation methods in efficiency and generalizability, offering a scalable solution for image-to-4D modeling and laying the foundation for generative 4D world models that simulate dynamic scene evolution.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2508.13154) | [🌐 Project Page](https://4dnex.github.io/) | [💻 Code](https://github.com/3DTopia/4DNeX)
+
+![4DNeX](/images/Diffusion/4DNeX.jpg)
+
+### 52. ToonComposer: Streamlining Cartoon Production with Generative Post-Keyframing
+
+**Authors:** Lingen Li, Guangzhi Wang, Zhaoyang Zhang, Yaowei Li, Xiaoyu Li, Qi Dou, Jinwei Gu, Tianfan Xue, Ying Shan
+
+<details span>
+<summary><b>Abstract</b></summary>
+Traditional cartoon and anime production involves keyframing, inbetweening, and colorization stages, which require intensive manual effort. Despite recent advances in AI, existing methods often handle these stages separately, leading to error accumulation and artifacts. For instance, inbetweening approaches struggle with large motions, while colorization methods require dense per-frame sketches. To address this, we introduce ToonComposer, a generative model that unifies inbetweening and colorization into a single post-keyframing stage. ToonComposer employs a sparse sketch injection mechanism to provide precise control using keyframe sketches. Additionally, it uses a cartoon adaptation method with the spatial low-rank adapter to tailor a modern video foundation model to the cartoon domain while keeping its temporal prior intact. Requiring as few as a single sketch and a colored reference frame, ToonComposer excels with sparse inputs, while also supporting multiple sketches at any temporal location for more precise motion control. This dual capability reduces manual workload and improves flexibility, empowering artists in real-world scenarios. To evaluate our model, we further created PKBench, a benchmark featuring human-drawn sketches that simulate real-world use cases. Our evaluation demonstrates that ToonComposer outperforms existing methods in visual quality, motion consistency, and production efficiency, offering a superior and more flexible solution for AI-assisted cartoon production.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2508.10881) | [🌐 Project Page](https://lg-li.github.io/project/tooncomposer/) | [💻 Code](https://github.com/TencentARC/ToonComposer)
+
+![ToonComposer](/images/Diffusion/ToonComposer.jpg)
 
 </details>
 
@@ -1903,6 +2060,19 @@ We present SplatCo, a structure-view collaborative Gaussian splatting framework 
 [📄 Paper](https://arxiv.org/pdf/2505.17951) | [💻 Code](https://github.com/SCUT-BIP-Lab/SplatCo)
 
 ![SplatCo](images/3DGS/SplatCo.jpg)
+
+### 49. 4DGT: Learning a 4D Gaussian Transformer Using Real-World Monocular Videos
+
+**Authors:** Zhen Xu, Zhengqin Li, Zhao Dong, Xiaowei Zhou, Richard Newcombe, Zhaoyang Lv
+
+<details span>
+<summary><b>Abstract</b></summary>
+We propose 4DGT, a 4D Gaussian-based Transformer model for dynamic scene reconstruction, trained entirely on real-world monocular posed videos. Using 4D Gaussian as an inductive bias, 4DGT unifies static and dynamic components, enabling the modeling of complex, time-varying environments with varying object lifespans. We proposed a novel density control strategy in training, which enables our 4DGT to handle longer space-time input and remain efficient rendering at runtime. Our model processes 64 consecutive posed frames in a rolling-window fashion, predicting consistent 4D Gaussians in the scene. Unlike optimization-based methods, 4DGT performs purely feed-forward inference, reducing reconstruction time from hours to seconds and scaling effectively to long video sequences. Trained only on large-scale monocular posed video datasets, 4DGT can outperform prior Gaussian-based networks significantly in real-world videos and achieve on-par accuracy with optimization-based methods on cross-domain videos.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2506.08015) | [🌐 Project Page](https://4dgt.github.io/)
+
+![4DGT](/images/3DGS/4DGT.jpg)
 
 </details>
 
@@ -2952,6 +3122,45 @@ Story visualization, which aims to generate a sequence of visually coherent imag
 
 ![GATEOpenING](images/dataset/ViStory.jpg)
 
+### 10. MERIT: Multilingual Semantic Retrieval with Interleaved Multi-Condition Query
+
+**Authors:** Wei Chow, Yuan Gao, Linfeng Li, Xian Wang, Qi Xu, Hang Song, Lingdong Kong, Ran Zhou, Yi Zeng, Yidong Cai, Botian Jiang, Shilin Xu, Jiajun Zhang, Minghui Qiu, Xiangtai Li, Tianshu Yang, Siliang Tang, Juncheng Li
+
+<details span>
+<summary><b>Abstract</b></summary>
+Semantic retrieval is crucial for modern applications yet remains underexplored in current research. Existing datasets are limited to single languages, single images, or singular retrieval conditions, often failing to fully exploit the expressive capacity of visual information as evidenced by maintained performance when images are replaced with captions. However, practical retrieval scenarios frequently involve interleaved multi-condition queries with multiple images. Hence, this paper introduces MERIT, the first multilingual dataset for interleaved multi-condition semantic retrieval, comprising 320,000 queries with 135,000 products in 5 languages, covering 7 distinct product categories. Extensive experiments on MERIT identify existing models's limitation: focusing solely on global semantic information while neglecting specific conditional elements in queries. Consequently, we propose Coral, a novel fine-tuning framework that adapts pre-trained MLLMs by integrating embedding reconstruction to preserve fine-grained conditional elements and contrastive learning to extract comprehensive global semantics. Experiments demonstrate that Coral achieves a 45.9% performance improvement over conventional approaches on MERIT, with strong generalization capabilities validated across 8 established retrieval benchmarks. Collectively, our contributions - a novel dataset, identification of critical limitations in existing approaches, and an innovative fine-tuning framework - establish a foundation for future research in interleaved multi-condition semantic retrieval.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2506.03144) | [🌐 Project Page](https://merit-2025.github.io/)
+
+![MERIT](/images/dataset/MERIT.jpg)
+
+### 11. ViStoryBench: Comprehensive Benchmark Suite for Story Visualization
+
+**Authors:** Cailin Zhuang, Ailin Huang, Wei Cheng, Jingwei Wu, Yaoqi Hu, Jiaqi Liao, Zhewei Huang, Hongyuan Wang, Xinyao Liao, Weiwei Cai, Hengyuan Xu, Xuanyang Zhang, Xianfang Zeng, Gang Yu, Chi Zhang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Story visualization, which aims to generate a sequence of visually coherent images aligning with a given narrative and reference images, has seen significant progress with recent advancements in generative models. To further enhance the performance of story visualization frameworks in real-world scenarios, we introduce a comprehensive evaluation benchmark, ViStoryBench. We collect a diverse dataset encompassing various story types and artistic styles, ensuring models are evaluated across multiple dimensions such as different plots (e.g., comedy, horror) and visual aesthetics (e.g., anime, 3D renderings). ViStoryBench is carefully curated to balance narrative structures and visual elements, featuring stories with single and multiple protagonists to test models' ability to maintain character consistency. Additionally, it includes complex plots and intricate world-building to challenge models in generating accurate visuals. To ensure comprehensive comparisons, our benchmark incorporates a wide range of evaluation metrics assessing critical aspects. This structured and multifaceted framework enables researchers to thoroughly identify both the strengths and weaknesses of different models, fostering targeted improvements.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2505.24862) | [🌐 Project Page](https://vistorybench.github.io/)  | [💻 Code](https://github.com/vistorybench/vistorybench)
+
+![ViStoryBench](/images/dataset/ViStoryBench.jpg)
+
+### 12. LENS: Multi-level Evaluation of Multimodal Reasoning with Large Language Models
+
+**Authors:** Ruilin Yao, Bo Zhang, Jirui Huang, Xinwei Long, Yifang Zhang, Tianyu Zou, Yufei Wu, Shichao Su, Yifan Xu, Wenxi Zeng, Zhaoyu Yang, Guoyou Li, Shilan Zhang, Zichan Li, Yaxiong Chen, Shengwu Xiong, Peng Xu, Jiajun Zhang, Bowen Zhou, David Clifton, Luc Van Gool
+
+<details span>
+<summary><b>Abstract</b></summary>
+Multimodal Large Language Models (MLLMs) have achieved significant advances in integrating visual and linguistic information, yet their ability to reason about complex and real-world scenarios remains limited. The existing benchmarks are usually constructed in the task-oriented manner without guarantee that different task samples come from the same data distribution, thus they often fall short in evaluating the synergistic effects of lower-level perceptual capabilities on higher-order reasoning. To lift this limitation, we contribute Lens, a multi-level benchmark with 3.4K contemporary images and 60K+ human-authored questions covering eight tasks and 12 daily scenarios, forming three progressive task tiers, i.e., perception, understanding, and reasoning. One feature is that each image is equipped with rich annotations for all tasks. Thus, this dataset intrinsically supports to evaluate MLLMs to handle image-invariable prompts, from basic perception to compositional reasoning. In addition, our images are manully collected from the social media, in which 53% were published later than Jan. 2025. We evaluate 15+ frontier MLLMs such as Qwen2.5-VL-72B, InternVL3-78B, GPT-4o and two reasoning models QVQ-72B-preview and Kimi-VL. These models are released later than Dec. 2024, and none of them achieve an accuracy greater than 60% in the reasoning tasks.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2505.15616) | [💻 Code](https://github.com/Lens4MLLMs/lens)
+
+![LENS](/images/dataset/LENS.jpg)
+
 </details>
 
 ## Robotics
@@ -3077,6 +3286,19 @@ Robots' ability to follow language instructions and execute diverse 3D manipulat
 
 ![GravMAD](images/Robotics/GravMAD.jpg)
 
+### 10. ODYSSEY: Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks
+
+**Authors:** Kaijun Wang, Liqin Lu, Mingyu Liu, Jianuo Jiang, Zeju Li, Bolin Zhang, Wancai Zheng, Xinyi Yu, Hao Chen, Chunhua Shen
+
+<details span>
+<summary><b>Abstract</b></summary>
+Language-guided long-horizon mobile manipulation has long been a grand challenge in embodied semantic reasoning, generalizable manipulation, and adaptive locomotion. Three fundamental limitations hinder progress: First, although large language models have improved spatial reasoning and task planning through semantic priors, existing implementations remain confined to tabletop scenarios, failing to address the constrained perception and limited actuation ranges of mobile platforms. Second, current manipulation strategies exhibit insufficient generalization when confronted with the diverse object configurations encountered in open-world environments. Third, while crucial for practical deployment, the dual requirement of maintaining high platform maneuverability alongside precise end-effector control in unstructured settings remains understudied.
+In this work, we present ODYSSEY, a unified mobile manipulation framework for agile quadruped robots equipped with manipulators, which seamlessly integrates high-level task planning with low-level whole-body control. To address the challenge of egocentric perception in language-conditioned tasks, we introduce a hierarchical planner powered by a vision-language model, enabling long-horizon instruction decomposition and precise action execution. At the control level, our novel whole-body policy achieves robust coordination across challenging terrains. We further present the first benchmark for long-horizon mobile manipulation, evaluating diverse indoor and outdoor scenarios. Through successful sim-to-real transfer, we demonstrate the system's generalization and robustness in real-world deployments, underscoring the practicality of legged manipulators in unstructured environments. Our work advances the feasibility of generalized robotic assistants capable of complex, dynamic tasks.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2508.08240) | [🌐 Project Page](https://kaijwang.github.io/odyssey.github.io/)
+
+![ODYSSEY](/images/Robotics/ODYSSEY.jpg)
 
 </details>
 
@@ -3140,6 +3362,19 @@ Vision-Language Models (VLMs) show promise for autonomous driving, yet their str
 [📄 Paper](https://arxiv.org/abs/2505.15298)
 
 ![OPA-DPO](images/Agent/Agentthink.jpg)
+
+### 5. G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems
+
+**Authors:** Guibin Zhang, Muxin Fu, Guancheng Wan, Miao Yu, Kun Wang, Shuicheng Yan
+
+<details span>
+<summary><b>Abstract</b></summary>
+Large language model (LLM)-powered multi-agent systems (MAS) have demonstrated cognitive and execution capabilities that far exceed those of single LLM agents, yet their capacity for self-evolution remains hampered by underdeveloped memory architectures. Upon close inspection, we are alarmed to discover that prevailing MAS memory mechanisms (1) are overly simplistic, completely disregarding the nuanced inter-agent collaboration trajectories, and (2) lack cross-trial and agent-specific customization, in stark contrast to the expressive memory developed for single agents. To bridge this gap, we introduce G-Memory, a hierarchical, agentic memory system for MAS inspired by organizational memory theory, which manages the lengthy MAS interaction via a three-tier graph hierarchy: insight, query, and interaction graphs. Upon receiving a new user query, G-Memory performs bi-directional memory traversal to retrieve both  that enable the system to leverage cross-trial knowledge, and  that compactly encode prior collaboration experiences. Upon task execution, the entire hierarchy evolves by assimilating new collaborative trajectories, nurturing the progressive evolution of agent teams. Extensive experiments across five benchmarks, three LLM backbones, and three popular MAS frameworks demonstrate that G-Memory improves success rates in embodied action and accuracy in knowledge QA by up to  and , respectively, without any modifications to the original frameworks.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2506.07398) | [🌐 Project Page](https://merit-2025.github.io/) | [💻 Code](https://github.com/bingreeky/GMemory)
+
+![G-Memory](/images/agent/G-Memory.jpg)
 
 </details>
 
@@ -3518,6 +3753,96 @@ Modern recommender systems often embed users and items into low-dimensional late
 
 ![Multimodal Local-Global Ranking Fusion](images/Others/Graph-Meta-Network-for-Multi-Behavior-Recommendation.jpg)
 
+### 30. [ICCV' 25] Self-Reinforcing Prototype Evolution with Dual-Knowledge Cooperation for Semi-Supervised Lifelong Person Re-Identification
+
+**Authors:** Kunlun Xu, Fan Zhuo, Jiangmeng Li, Xu Zou, Jiahuan Zhou
+
+<details span>
+<summary><b>Abstract</b></summary>
+Current lifelong person re-identification (LReID) methods predominantly rely on fully labeled data streams. However, in real-world scenarios where annotation resources are limited, a vast amount of unlabeled data coexists with scarce labeled samples, leading to the Semi-Supervised LReID (Semi-LReID) problem where LReID methods suffer severe performance degradation. Existing LReID methods, even when combined with semi-supervised strategies, suffer from limited long-term adaptation performance due to struggling with the noisy knowledge occurring during unlabeled data utilization. In this paper, we pioneer the investigation of Semi-LReID, introducing a novel Self-Reinforcing Prototype Evolution with Dual-Knowledge Cooperation framework (SPRED). Our key innovation lies in establishing a self-reinforcing cycle between dynamic prototype-guided pseudo-label generation and new-old knowledge collaborative purification to enhance the utilization of unlabeled data. Specifically, learnable identity prototypes are introduced to dynamically capture the identity distributions and generate high-quality pseudo-labels. Then, the dual-knowledge cooperation scheme integrates current model specialization and historical model generalization, refining noisy pseudo-labels. Through this cyclic design, reliable pseudo-labels are progressively mined to improve current-stage learning and ensure positive knowledge propagation over long-term learning. Experiments on the established Semi-LReID benchmarks show that our SPRED achieves state-of-the-art performance. 
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2507.01884) | [💻 Code](https://github.com/zhoujiahuan1991/ICCV2025-SPRED)
+
+![SPRED](/images/Others/SPRED.jpg)
+
+### 31. [MM' 25] ViEEG: Hierarchical Neural Coding with Cross-Modal Progressive Enhancement for EEG-Based Visual Decoding
+
+**Authors:** Minxu Liu, Donghai Guan, Chuhang Zheng, Chunwei Tian, Jie Wen, Qi Zhu
+
+<details span>
+<summary><b>Abstract</b></summary>
+Understanding and decoding brain activity into visual representations is a fundamental challenge at the intersection of neuroscience and artificial intelligence. While EEG-based visual decoding has shown promise due to its non-invasive, low-cost nature and millisecond-level temporal resolution, existing methods are limited by their reliance on flat neural representations that overlook the brain's inherent visual hierarchy. In this paper, we introduce ViEEG, a biologically inspired hierarchical EEG decoding framework that aligns with the Hubel-Wiesel theory of visual processing. ViEEG decomposes each visual stimulus into three biologically aligned components-contour, foreground object, and contextual scene-serving as anchors for a three-stream EEG encoder. These EEG features are progressively integrated via cross-attention routing, simulating cortical information flow from V1 to IT to the association cortex. We further adopt hierarchical contrastive learning to align EEG representations with CLIP embeddings, enabling zero-shot object recognition. Extensive experiments on the THINGS-EEG dataset demonstrate that ViEEG achieves state-of-the-art performance, with 40.9% Top-1 accuracy in subject-dependent and 22.9% Top-1 accuracy in cross-subject settings, surpassing existing methods by over 45%. Our framework not only advances the performance frontier but also sets a new paradigm for biologically grounded brain decoding in AI.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2505.12408)
+
+![ViEEG](/images/Others/ViEEG.jpg)
+
+### 32. [AAAI' 25] Target Semantics Clustering via Text Representations for Robust Universal Domain Adaptation
+
+**Authors:** Weinan He, Zilei Wang, Yixin Zhang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Universal Domain Adaptation (UniDA) focuses on transferring source domain knowledge to the target domain under both domain shift and unknown category shift. Its main challenge lies in identifying common class samples and aligning them. Current methods typically obtain target domain semantics centers from an unconstrained continuous image representation space. Due to domain shift and the unknown number of clusters, these centers often result in complex and less robust alignment algorithm. In this paper, based on vision-language models, we search for semantic centers in a semantically meaningful and discrete text representation space. The constrained space ensures almost no domain bias and appropriate semantic granularity for these centers, enabling a simple and robust adaptation algorithm. Specifically, we propose TArget Semantics Clustering (TASC) via Text Representations, which leverages information maximization as a unified objective and involves two stages. First, with the frozen encoders, a greedy search-based framework is used to search for an optimal set of text embeddings to represent target semantics. Second, with the search results fixed, encoders are refined based on gradient descent, simultaneously achieving robust domain alignment and private class clustering. Additionally, we propose Universal Maximum Similarity (UniMS), a scoring function tailored for detecting open-set samples in UniDA. Experimentally, we evaluate the universality of UniDA algorithms under four category shift scenarios. Extensive experiments on four benchmarks demonstrate the effectiveness and robustness of our method, which has achieved state-of-the-art performance.
+</details>
+
+[📄 Paper](https://www.arxiv.org/pdf/2506.03521) | [💻 Code](https://github.com/Sapphire-356/TASC)
+
+![TSCTR](/images/Others/TSCTR.jpg)
+
+### 33. [ICML' 25] TimeFilter: Patch-Specific Spatial-Temporal Graph Filtration for Time Series Forecasting
+
+**Authors:** Yifan Hu, Guibin Zhang, Peiyuan Liu, Disen Lan, Naiqi Li, Dawei Cheng, Tao Dai, Shu-Tao Xia, Shirui Pan
+
+<details span>
+<summary><b>Abstract</b></summary>
+Time series forecasting methods generally fall into two main categories: Channel Independent (CI) and Channel Dependent (CD) strategies. While CI overlooks important covariate relationships, CD captures all dependencies without distinction, introducing noise and reducing generalization. Recent advances in Channel Clustering (CC) aim to refine dependency modeling by grouping channels with similar characteristics and applying tailored modeling techniques. However, coarse-grained clustering struggles to capture complex, time-varying interactions effectively. To address these challenges, we propose TimeFilter, a GNN-based framework for adaptive and fine-grained dependency modeling. After constructing the graph from the input sequence, TimeFilter refines the learned spatial-temporal dependencies by filtering out irrelevant correlations while preserving the most critical ones in a patch-specific manner. Extensive experiments on 13 real-world datasets from diverse application domains demonstrate the state-of-the-art performance of TimeFilter.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2501.13041) | [💻 Code](https://github.com/TROUBADOUR000/TimeFilter)
+
+![TimeFilter](/images/Others/TimeFilter.jpg)
+
+### 34. [AAAI' 25] Unveiling the Threat of Fraud Gangs to Graph Neural Networks: Multi-Target Graph Injection Attacks Against GNN-Based Fraud Detectors
+
+**Authors:** Jinhyeok Choi, Heehyeon Kim, Joyce Jiyoung Whang
+
+<details span>
+<summary><b>Abstract</b></summary>
+Graph neural networks (GNNs) have emerged as an effective tool for fraud detection, identifying fraudulent users, and uncovering malicious behaviors. However, attacks against GNN-based fraud detectors and their risks have rarely been studied, thereby leaving potential threats unaddressed. Recent findings suggest that frauds are increasingly organized as gangs or groups. In this work, we design attack scenarios where fraud gangs aim to make their fraud nodes misclassified as benign by camouflaging their illicit activities in collusion. Based on these scenarios, we study adversarial attacks against GNN-based fraud detectors by simulating attacks of fraud gangs in three real-world fraud cases: spam reviews, fake news, and medical insurance frauds. We define these attacks as multi-target graph injection attacks and propose MonTi, a transformer-based Multi-target one-Time graph injection attack model. MonTi simultaneously generates attributes and edges of all attack nodes with a transformer encoder, capturing interdependencies between attributes and edges more effectively than most existing graph injection attack methods that generate these elements sequentially. Additionally, MonTi adaptively allocates the degree budget for each attack node to explore diverse injection structures involving target, candidate, and attack nodes, unlike existing methods that fix the degree budget across all attack nodes. Experiments show that MonTi outperforms the state-of-the-art graph injection attack methods on five real-world graphs.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2412.18370) | [💻 Code](https://github.com/bdi-lab/monti)
+
+![Monti](/images/Others/Monti.jpg)
+
+### 35. Hi3DEval: Advancing 3D Generation Evaluation with Hierarchical Validity
+
+**Authors:** Yuhan Zhang, Long Zhuo, Ziyang Chu, Tong Wu, Zhibing Li, Liang Pan, Dahua Lin, Ziwei Liu
+
+<details span>
+<summary><b>Abstract</b></summary>
+Large language model (LLM)-powered multi-agent systems (MAS) have demonstrated cognitive and execution capabilities that far exceed those of single LLM agents, yet their capacity for self-evolution remains hampered by underdeveloped memory architectures. Upon close inspection, we are alarmed to discover that prevailing MAS memory mechanisms (1) are overly simplistic, completely disregarding the nuanced inter-agent collaboration trajectories, and (2) lack cross-trial and agent-specific customization, in stark contrast to the expressive memory developed for single agents. To bridge this gap, we introduce G-Memory, a hierarchical, agentic memory system for MAS inspired by organizational memory theory, which manages the lengthy MAS interaction via a three-tier graph hierarchy: insight, query, and interaction graphs. Upon receiving a new user query, G-Memory performs bi-directional memory traversal to retrieve both  that enable the system to leverage cross-trial knowledge, and  that compactly encode prior collaboration experiences. Upon task execution, the entire hierarchy evolves by assimilating new collaborative trajectories, nurturing the progressive evolution of agent teams. Extensive experiments across five benchmarks, three LLM backbones, and three popular MAS frameworks demonstrate that G-Memory improves success rates in embodied action and accuracy in knowledge QA by up to  and , respectively, without any modifications to the original frameworks.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2508.05609) | [🌐 Project Page](https://zyh482.github.io/Hi3DEval/)
+
+![Hi3DEval](/images/Others/Hi3DEval.jpg)
+
+### 36. ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning
+
+**Authors:** Juyuan Wang, Rongchen Zhao, Wei Wei, Yufeng Wang, Mo Yu, Jie Zhou, Jin Xu, Liyan Xu
+
+<details span>
+<summary><b>Abstract</b></summary>
+Narrative comprehension on long stories and novels has been a challenging domain attributed to their intricate plotlines and entangled, often evolving relations among characters and entities. Given the LLM's diminished reasoning over extended context and high computational cost, retrieval-based approaches remain a pivotal role in practice. However, traditional RAG methods can fall short due to their stateless, single-step retrieval process, which often overlooks the dynamic nature of capturing interconnected relations within long-range context. In this work, we propose ComoRAG, holding the principle that narrative reasoning is not a one-shot process, but a dynamic, evolving interplay between new evidence acquisition and past knowledge consolidation, analogous to human cognition when reasoning with memory-related signals in the brain. Specifically, when encountering a reasoning impasse, ComoRAG undergoes iterative reasoning cycles while interacting with a dynamic memory workspace. In each cycle, it generates probing queries to devise new exploratory paths, then integrates the retrieved evidence of new aspects into a global memory pool, thereby supporting the emergence of a coherent context for the query resolution. Across four challenging long-context narrative benchmarks (200K+ tokens), ComoRAG outperforms strong RAG baselines with consistent relative gains up to 11% compared to the strongest baseline. Further analysis reveals that ComoRAG is particularly advantageous for complex queries requiring global comprehension, offering a principled, cognitively motivated paradigm for retrieval-based long context comprehension towards stateful reasoning.
+</details>
+
+[📄 Paper](https://arxiv.org/pdf/2508.10419) | [💻 Code](https://github.com/EternityJune25/ComoRAG)
+
+![ComoRAG](/images/Others/ComoRAG.jpg)
 
 </details >
 
@@ -3635,3 +3960,5 @@ Cities constitute vast and intricate systems in which diverse entities (e.g., pe
 [📄 Paper](https://doi.org/10.1016/j.xinn.2024.100672)
 
 ![MUSK_NATURE2024](images/Others/Toward-equitable-transparent-and-collaborative-human-mobility-computing-for-smart-cities.jpg)
+
+</details >
